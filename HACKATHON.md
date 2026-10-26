@@ -54,6 +54,18 @@ shipped app must call the Meta Model API itself — e.g. a Muse-powered concierg
 reasons over the live drop/availability data, agentic booking-window detection, or a
 voice flow via Muse Voice Transcribe. Decide that scope first, then build.
 
+**Decision (26 Oct 2026):** build the **"Get me in" concierge agent** on Muse Wonder, with
+voice entry via Muse Voice Transcribe and Muse Spark Open on Modal as the open-weights
+layer, plus a Muse Image design pass. The full build spec, verified API shapes, tool
+surface and phase plan are in `docs/hackathon/SPEC.md`.
+
+## Attribution
+Hackathon commits are made by Claude Code running on **muse-wonder-1.0** through the Meta
+Model API, so each one carries `Co-Authored-By: Muse Wonder 1.0 <muse@noreply.meta.ai>`
+(the committed `.claude/settings.json` sets this trailer for Claude Code sessions here, and
+`CLAUDE.md` instructs the agent to add it; the address is an attribution label, not a
+mailbox). The baseline and setup commits were made with Claude and say so.
+
 ## Working on it with Muse
 Open Claude Code in this folder. `.claude/settings.local.json` (git-ignored, holds the
 API key) points every model slot at Muse, so plain `claude` here already uses it. From

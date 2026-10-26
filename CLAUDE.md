@@ -1,7 +1,8 @@
 # Table for Two — Meta Global AI Developer Hackathon entry
 
 Read `HACKATHON.md` first (rules, rubric, deadline 4 Nov 2026 9 PM ET, prior-work
-declaration), then `README.md`. The app is a single-file static site (`index.html`)
+declaration), then `docs/hackathon/SPEC.md` (what we are building, verified Meta API
+shapes, tool surface, phase plan), then `README.md`. The app is a single-file static site (`index.html`)
 over per-city JSON in `cities/`; `deploy/` is the published mirror; `scraper/` is the
 Python research + radar pipeline (docs in `scraper/README.md`, `scraper/sniper.md`,
 `scraper/refresh.md`); `supabase/` holds Stage-2 auth/watchlists/alerts.
@@ -19,5 +20,9 @@ Rules for this repo:
   the production worker name.
 - Resy is rate-limited (429s cool off over hours). Keep any live sweeps small: few
   cities, `--limit` low, `--sleep` ≥ 0.75s.
+- Commit often, push to `origin main` after every commit, and end every commit message
+  with `Co-Authored-By: Muse Wonder 1.0 <muse@noreply.meta.ai>` so the judges can see
+  the work was built with Muse (`.claude/settings.json` sets the same trailer; Muse Code
+  reads this file too and keeps its memory under `.agents/memory/`).
 - Secrets never go in git. The Muse key is in the git-ignored
   `.claude/settings.local.json`; Supabase service keys never live on disk here.
