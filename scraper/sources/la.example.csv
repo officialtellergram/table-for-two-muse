@@ -1,0 +1,5 @@
+id,name,platform,platformUrl,website,difficulty,priceRange,releaseSchedule,releaseTime,releaseDay,bookingWindowDays,walkIns,walkInDoors,walkInAdvice,neighborhood,cuisine,phoneNumber,signatureDish,tips,address,lat,lng
+# EXAMPLE seed. Replace these rows. Leave neighborhood/cuisine/price/lat/lng BLANK to let curate.py auto-fill them. You MUST verify releaseSchedule/releaseTime yourself — those are not scrapeable. Comment rows start with #.,,,,,,,,,,,,,,,,,,,,,
+bestia,Bestia,Resy,https://resy.com/cities/los-angeles-ca/venues/bestia,https://bestiala.com,4,$$$,daily,10:00 AM ET,,30,true,,Bar seats walk-in,,,,,VERIFY release time before trusting the countdown,"2121 E 7th Pl, Los Angeles, CA",,
+n-naka,n/naka,Tock,https://www.exploretock.com/n-naka,https://www.n-naka.com,5,$$$$,calendar-month,12:00 AM ET,1st of previous month,,false,,,,,,,Books out in seconds on the 1st; VERIFY drop time,"3455 S Overland Ave, Los Angeles, CA",,
+funke,Funke,Resy,https://resy.com/cities/los-angeles-ca/venues/funke,https://www.funkela.com,5,$$$$,daily,10:00 AM ET,,30,true,,Walk-in bar,,,,,VERIFY release time,"9388 S Santa Monica Blvd, Beverly Hills, CA",,

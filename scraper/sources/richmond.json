@@ -1,0 +1,976 @@
+[
+  {
+    "id": "celladora-wines",
+    "name": "Celladora Wines",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/celladora",
+    "website": "https://www.celladorawines.com/",
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "releaseSchedule": "none",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": false,
+    "neighborhood": "The Fan",
+    "cuisine": "Seasonal small plates / natural wine",
+    "address": "111B N Lombardy St, Richmond, VA 23220",
+    "signatureDish": "",
+    "tips": [
+      "Tiny room, only a handful of tables",
+      "Reservations by text/phone/Instagram DM only - not a standard online platform",
+      "VERIFY release time",
+      "Confirm whether a Resy page is currently active or if it's text-only"
+    ],
+    "evidence": "Tier: genuinely hard. ~4 tables, intimate; Richmond Mag 25 Best calls it 'reservations by phone call or text only.' Scarcity from tiny capacity.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025 (listed as Celladora)"
+      }
+    ]
+  },
+  {
+    "id": "restaurant-adarra",
+    "name": "Restaurant Adarra",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/restaurant-adarra-richmond",
+    "website": "https://restaurantadarra.com/",
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Oregon Hill",
+    "cuisine": "Basque-inspired / contemporary tasting",
+    "address": "501 S Pine St, Richmond, VA 23220",
+    "signatureDish": "Wood-fired seasonal Basque dishes",
+    "tips": [
+      "Reservations open on a rolling 30-day basis (rolling=daily)",
+      "Limited bar seating held for walk-ins",
+      "VERIFY release time",
+      "Confirm exact street address (some listings show 618 N 1st St)"
+    ],
+    "evidence": "Tier: genuinely hard. Richmond Mag named it 'date-night destination No. 1'; reopened with wood-fired tasting focus; small room, rolling 30-day Tock window.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "the-roosevelt",
+    "name": "The Roosevelt",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/the-roosevelt",
+    "website": "https://rooseveltrva.com/",
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Church Hill",
+    "cuisine": "Modern Southern / Appalachian",
+    "address": "623 N 25th St, Richmond, VA 23223",
+    "signatureDish": "Seasonal Appalachian-Southern small plates",
+    "tips": [
+      "Online booking limited to parties of 6 or fewer",
+      "Call 3-7 PM for larger parties",
+      "VERIFY release time (assumed Resy midnight default)"
+    ],
+    "evidence": "Tier: genuinely hard. Chef Leah Branch is a 2026 James Beard semifinalist (Best Chef: Mid-Atlantic) - Richmond's only one; small Church Hill room, demand spiked post-nomination.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Semifinalist 2026",
+        "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "note": "Executive chef Leah Branch, Best Chef: Mid-Atlantic semifinalist 2026"
+      }
+    ]
+  },
+  {
+    "id": "lillian",
+    "name": "Lillian",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/lillian",
+    "website": "https://www.lillianoysterhall.com/",
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Scott's Addition",
+    "cuisine": "Ecuadorian-inspired raw bar / seafood",
+    "address": "3001 W Leigh St, Richmond, VA 23230",
+    "signatureDish": "Buck-a-shuck oysters; raw bar towers",
+    "tips": [
+      "Reservations limited to a single banquette table; most seating is counter/walk-in",
+      "Patio first-come, first-served",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/buzzy. New (2024-25) hot opening on Richmond Mag 25 Best; bookable seats are extremely scarce because only one banquette is reservable on Resy.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "omakase-at-nami",
+    "name": "Omakase at Nami",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric",
+    "website": "https://www.yelp.com/biz/nami-japanese-restaurant-richmond",
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": false,
+    "neighborhood": "Downtown / Shockoe Slip",
+    "cuisine": "Japanese omakase",
+    "address": "218 E Main St, Richmond, VA 23219",
+    "signatureDish": "13-course seated omakase (~$85)",
+    "tips": [
+      "Only a 6-seat omakase bar, upstairs and separate from main restaurant",
+      "~80-minute seatings",
+      "VERIFY release time and exact booking window"
+    ],
+    "evidence": "Tier: genuinely hard (capacity). Richmond's first dedicated omakase; only 6 seats per seating, so scarcity is structural even though buzz is moderate.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/omakase-sushi-nami/",
+        "note": "'In Good Hands' — feature on chef-owner Tao Chen's omakase counter at Nami"
+      }
+    ]
+  },
+  {
+    "id": "shagbark",
+    "name": "Shagbark",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/ric/shagbark",
+    "website": "https://www.shagbarkrva.com/",
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 60,
+    "walkIns": true,
+    "neighborhood": "Libbie Mill / Midtown",
+    "cuisine": "Hunter-fisher-waterman / refined Virginia",
+    "address": "4901 Libbie Mill East Blvd, Suite 175, Richmond, VA 23230",
+    "signatureDish": "Virginia-sourced wild game & seafood",
+    "tips": [
+      "Booked up to 60 days in advance via Resy",
+      "Also takes phone reservations after 3 PM on open days",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. Long-running upscale Richmond Mag 25 Best fixture; 60-day Resy window and weekend prime times go fast.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "grisette",
+    "name": "Grisette",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/grisette",
+    "website": "https://grisetterva.com/",
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Church Hill",
+    "cuisine": "French bouchon / Lyonnais",
+    "address": "3119 E Marshall St, Richmond, VA 23223",
+    "signatureDish": "Steak frites",
+    "tips": [
+      "Reservations available 30 days out, parties of 6 or fewer online",
+      "Sister spots Jardin & Beaucoup nearby for overflow",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/competitive. Small French bouchon on Richmond Mag 25 Best; tight room, strong word-of-mouth, prime weekend slots scarce.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "metzger-bar-and-butchery",
+    "name": "Metzger Bar & Butchery",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/metzger-bar-and-butchery",
+    "website": "http://www.metzgerbarandbutchery.com/",
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Union Hill",
+    "cuisine": "German / meat-focused",
+    "address": "801 N 23rd St, Richmond, VA 23223",
+    "signatureDish": "Schnitzel; charcuterie",
+    "tips": [
+      "Bar seating reserved for walk-ins",
+      "Small dining room - book ahead",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. 11-year Union Hill institution on Richmond Mag 25 Best; small room with limited reservable tables keeps weekends tight.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "dinamo",
+    "name": "Dinamo",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/dinamo-richmond",
+    "website": "https://dinamorichmond.com/",
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "The Fan",
+    "cuisine": "Jewish-Italian",
+    "address": "821 W Cary St, Richmond, VA 23220",
+    "signatureDish": "Seasonal pasta",
+    "tips": [
+      "Historically walk-in heavy with text-waitlist; confirm whether OpenTable bookings are live",
+      "VERIFY release time",
+      "VERIFY current reservation policy (has fluctuated)"
+    ],
+    "evidence": "Tier: very-popular/competitive. Beloved Fan trattoria on Richmond Mag 25 Best; 'nothing is guaranteed' small seasonal menu, long-running walk-in demand.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "lehja",
+    "name": "Lehja",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/lehja",
+    "website": "http://www.lehja.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Short Pump",
+    "cuisine": "Modern Punjabi / Indian",
+    "address": "11800 W Broad St, Richmond, VA 23233",
+    "signatureDish": "Chaat; modern Indian tasting plates",
+    "tips": [
+      "Also listed on OpenTable - confirm primary platform",
+      "Larger room than Fan/Church Hill spots, so easier midweek",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. 15-year award-winning Indian on Richmond Mag 25 Best; high demand but larger Short Pump room eases availability.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Semifinalist 2020",
+        "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+        "note": "Chef-owner Sandeep 'Sunny' Baweja, Best Chef: Mid-Atlantic semifinalist 2020 (second consecutive nod)"
+      }
+    ]
+  },
+  {
+    "id": "alewife",
+    "name": "Alewife",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/alewife",
+    "website": "https://www.alewiferva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Church Hill",
+    "cuisine": "Chesapeake / Mid-Atlantic seafood",
+    "address": "3120 E Marshall St, Richmond, VA 23223",
+    "signatureDish": "Offbeat local catch; oysters",
+    "tips": [
+      "Parties over 6 must call",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. 8-year Church Hill seafood spot on Richmond Mag 25 Best; steady demand, weekend prime slots fill but availability generally findable.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      },
+      {
+        "name": "Bon Appétit",
+        "tier": "Feature",
+        "url": "https://www.bonappetit.com/gallery/best-restaurants-in-richmond-virginia",
+        "note": "Named among Bon Appétit's best restaurants in Richmond, Virginia (2019)"
+      }
+    ]
+  },
+  {
+    "id": "slack-tide-fish-co",
+    "name": "Slack Tide Fish Co.",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/slack-tide",
+    "website": "https://slacktiderva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Scott's Addition",
+    "cuisine": "Global coastal seafood",
+    "address": "1320 Summit Ave, Richmond, VA 23230",
+    "signatureDish": "Mid-Atlantic seafood plates",
+    "tips": [
+      "New June-2025 opening; buzz may inflate near-term demand",
+      "Closed Sundays",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/new buzz. Newest entry on Richmond Mag 25 Best (June debut); opening-season demand high but a sizable room keeps it bookable.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "lost-letter",
+    "name": "Lost Letter",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/lost-letter",
+    "website": "https://www.lostletterrva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Scott's Addition",
+    "cuisine": "Northern Italian",
+    "address": "2939 W Clay St, Richmond, VA 23230",
+    "signatureDish": "Beef tartare; cavatelli",
+    "tips": [
+      "From the Longoven team; took over Longoven's old space",
+      "Romantic, low-lit small room - date nights book first",
+      "VERIFY platform (confirm Resy vs in-house 'Reserve Table')",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. From the acclaimed Longoven team on Richmond Mag 25 Best; intimate romantic room makes weekend tables competitive.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "pennys-wine-shop",
+    "name": "Penny's Wine Shop",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/pennyswineshop",
+    "website": "https://pennysrva.com/",
+    "difficulty": 3,
+    "priceRange": "$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": false,
+    "neighborhood": "Jackson Ward",
+    "cuisine": "Natural wine bar / small plates",
+    "address": "405 Brook Rd, Richmond, VA 23220",
+    "signatureDish": "Seasonal small plates; natural wine",
+    "tips": [
+      "Entire room (bar + communal table) is reservation-based via Tock",
+      "Full menu Wed-Sat from 5 PM",
+      "VERIFY release time and booking window"
+    ],
+    "evidence": "Tier: very-popular/competitive. Small Jackson Ward natural-wine bar on Richmond Mag 25 Best; whole room is reservation-only, so limited seats book quickly.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "birdies",
+    "name": "Birdie's",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/birdiesva",
+    "website": "https://www.birdiesva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": true,
+    "neighborhood": "Arts District / Broad St",
+    "cuisine": "Cafe / oyster bar / wine cellar",
+    "address": "305 W Broad St, Richmond, VA 23220",
+    "signatureDish": "East Coast oysters; seafood towers; lobster roll",
+    "tips": [
+      "Only ~28 seats",
+      "Parties of 6+ must call",
+      "VERIFY release time and booking window"
+    ],
+    "evidence": "Tier: very-popular/competitive. Buzzy 28-seat Arts District oyster-and-wine cafe; small capacity on Tock makes prime evenings tight.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Best Martini 2025",
+        "url": "https://richmondmagazine.com/best-of-richmond/best-and-worst/best-worst-2025-food-drink/",
+        "note": "Best & Worst 2025 winner, Best Martini"
+      },
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/opening-soon-birdies-at-common-house/",
+        "note": "Feature on the Arts District cafe and oyster saloon at Common House"
+      }
+    ]
+  },
+  {
+    "id": "blue-atlas",
+    "name": "Blue Atlas",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/blue-atlas-richmond",
+    "website": "https://www.blueatlasrva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": true,
+    "neighborhood": "Fulton / East End",
+    "cuisine": "Global small plates / vegetable-forward",
+    "address": "1000 Carlisle Ave, Richmond, VA 23231",
+    "signatureDish": "Rotating global small plates",
+    "tips": [
+      "Reservations Wed-Sat from 3 PM, Sun from 5 PM via Tock; breakfast/lunch walk-in only",
+      "Vegan takeover dinners book out",
+      "VERIFY release time and window"
+    ],
+    "evidence": "Tier: very-popular/competitive. Richmond Mag 25 Best; special vegan-takeover events sell out, regular dinner generally bookable.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "conejo",
+    "name": "Conejo",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/conejo",
+    "website": "https://conejococina.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Far West End / Patterson",
+    "cuisine": "Modern Mexican",
+    "address": "5820 Patterson Ave, Richmond, VA 23226",
+    "signatureDish": "House-milled heirloom-corn tortillas; ceviche; frozen margaritas",
+    "tips": [
+      "Some tables held for walk-ins",
+      "Reservations recommended per Richmond Mag",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/competitive. Richmond Mag 25 Best ('reservations are recommended'); strong cocktail/taco draw, weekends fill.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      }
+    ]
+  },
+  {
+    "id": "ml-steak-modern-chophouse",
+    "name": "ML Steak Modern Chophouse",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/mlsteak",
+    "website": "https://www.mlsteakrva.com/",
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": false,
+    "neighborhood": "Downtown",
+    "cuisine": "Modern steakhouse",
+    "address": "328 E Broad St, Richmond, VA 23219",
+    "signatureDish": "Dry-aged steaks",
+    "tips": [
+      "Parties of 8+ require $10/person deposit on Tock",
+      "Open Wed-Sat only - compressed week tightens prime slots",
+      "VERIFY release time and booking window"
+    ],
+    "evidence": "Tier: very-popular/competitive. Popular downtown special-occasion steakhouse; limited Wed-Sat operation concentrates demand into few nights.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/spotlight-mike-lindsey/",
+        "note": "Chef spotlight on owner Mike Lindsey (Lindsey Food Group), covering ML Steak"
+      }
+    ]
+  },
+  {
+    "id": "lemaire-at-the-jefferson-hotel",
+    "name": "Lemaire at The Jefferson Hotel",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/lemaire-at-the-jefferson-hotel",
+    "website": "https://www.jeffersonhotel.com/dine/overview",
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": false,
+    "neighborhood": "Downtown / Franklin St",
+    "cuisine": "Refined New American / Virginia",
+    "address": "101 W Franklin St, Richmond, VA 23220",
+    "signatureDish": "Seasonal Virginia tasting plates; afternoon tea",
+    "tips": [
+      "Bar, lounge, conservatory and patio are first-come, first-served (dining room only is reservable)",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: acclaimed/competitive. Flagship Jefferson Hotel restaurant, named a top US hotel restaurant; special occasions/holidays book out, otherwise bookable.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Best Fine Dining 2025",
+        "url": "https://richmondmagazine.com/best-of-richmond/best-and-worst/best-worst-2025-food-drink/",
+        "note": "Best & Worst 2025 winner, Best Fine Dining"
+      }
+    ]
+  },
+  {
+    "id": "mama-js-kitchen",
+    "name": "Mama J's Kitchen",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/mama-js-kitchen",
+    "website": "https://www.facebook.com/MamaJsRVA/",
+    "difficulty": 3,
+    "priceRange": "$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Jackson Ward",
+    "cuisine": "Southern / soul food",
+    "address": "415 N 1st St, Richmond, VA 23219",
+    "signatureDish": "Fried catfish; fried chicken",
+    "tips": [
+      "Heavy walk-in / takeout volume; long waits common",
+      "Confirm whether OpenTable booking is live or phone-only (804-225-7449)",
+      "VERIFY release time and platform"
+    ],
+    "evidence": "Tier: acclaimed/very-popular. James Beard-recognized Jackson Ward soul-food institution; enormous demand and long walk-in waits, limited reservable capacity.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025 (listed as Mama J's)"
+      }
+    ]
+  },
+  {
+    "id": "stellas",
+    "name": "Stella's",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/stellas-restaurant-richmond",
+    "website": "https://stellasrichmond.com/",
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Museum District / Lafayette",
+    "cuisine": "Greek",
+    "address": "1012 Lafayette St, Richmond, VA 23221",
+    "signatureDish": "Greek meze; spanakopita",
+    "tips": [
+      "Very popular neighborhood spot - reservations highly recommended",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/competitive. Beloved 40-year Greek institution on Richmond Mag 25 Best; weekend demand high but large operation keeps tables available.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025; also Best Restaurant, Best & Worst 2025"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "Feature",
+        "url": "https://www.nytimes.com/interactive/2016/09/17/travel/what-to-do-36-hours-in-richmond-virginia.html",
+        "note": "Included in the NYT's '36 Hours in Richmond, Va.' (2016)"
+      }
+    ]
+  },
+  {
+    "id": "sabai",
+    "name": "Sabai",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/sabai",
+    "website": "https://www.sabairichmond.com/",
+    "difficulty": 2,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Scott's Addition",
+    "cuisine": "Thai",
+    "address": "2727 W Broad St, Richmond, VA 23220",
+    "signatureDish": "Modern Thai plates; cocktails",
+    "tips": [
+      "Parties of 8+ email directly",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular. Well-liked Scott's Addition Thai/cocktail spot; busy weekends but generally bookable - included to round out the competitive tier."
+  },
+  {
+    "id": "acacia-midtown",
+    "name": "Acacia Midtown",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/acacia",
+    "website": "https://www.acaciarestaurant.com/",
+    "difficulty": 2,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Libbie Mill / Midtown",
+    "cuisine": "Modern coastal seafood",
+    "address": "2363 Roux St, Suite 105, Richmond, VA 23230",
+    "signatureDish": "Fresh-catch seafood by Chef Dale Reitzer",
+    "tips": [
+      "Walk-ins welcome; weekends recommended",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular. Long-respected chef (Dale Reitzer) at Libbie Mill; weekend reservations recommended but availability usually open midweek.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/the-third-time-around/",
+        "note": "'The Third Time Around' — on Acacia's revival at Libbie Mill by Dale and Aline Reitzer"
+      },
+      {
+        "name": "Style Weekly",
+        "tier": "Feature",
+        "url": "https://www.styleweekly.com/after-being-named-one-of-americas-best-new-chefs-by-food-wine-acacias-dale-reitzer-is-working-harder-than-ever/",
+        "note": "Profile of chef Dale Reitzer after Food & Wine named him one of America's Best New Chefs (1999)"
+      }
+    ]
+  },
+  {
+    "id": "bar-solita",
+    "name": "Bar Solita",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/bar-solita-richmond",
+    "website": "https://barsolita.com/",
+    "difficulty": 2,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Arts District / Broad St",
+    "cuisine": "Mediterranean / Italian",
+    "address": "123 W Broad St, Richmond, VA 23220",
+    "signatureDish": "Pasta; Mediterranean small plates",
+    "tips": [
+      "Reservations recommended on weekends and theater nights",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular. Busy Arts District Mediterranean spot; spikes on theater nights but broadly available - rounds out the competitive tier."
+  },
+  {
+    "id": "fall-line-kitchen-and-bar",
+    "name": "Fall Line Kitchen & Bar",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/fall-line-kitchen-and-bar-richmond",
+    "website": "https://www.falllinerestaurant.com/",
+    "difficulty": 2,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Downtown",
+    "cuisine": "New American / ingredient-focused comfort",
+    "address": "500 E Broad St, Richmond, VA 23219",
+    "signatureDish": "Regional comfort plates",
+    "tips": [
+      "Inside the Richmond Marriott - large capacity eases booking",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: very-popular/new buzz. Well-reviewed newer downtown opening generating buzz; hotel-scale room keeps it bookable - included for breadth."
+  },
+  {
+    "id": "edos-squid",
+    "name": "Edo's Squid",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/edos-squid",
+    "website": "https://edossquidrva.com/",
+    "difficulty": 2,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "VCU / Harrison St",
+    "cuisine": "Italian",
+    "address": "411 N Harrison St, Richmond, VA 23220",
+    "signatureDish": "Calamari; pasta",
+    "tips": [
+      "Primarily phone reservations (call 3-5 PM); confirm whether OpenTable booking is live",
+      "Tight tables, steep stairs - 'a Richmond rite of passage'",
+      "VERIFY release time and platform"
+    ],
+    "evidence": "Tier: very-popular/institution. Cult Italian since 2002 on Richmond Mag 25 Best; cramped room and phone-first booking make it quirky-hard, but availability findable."
+  },
+  {
+    "id": "tarrants-downtown",
+    "name": "Tarrant's Downtown",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/tarrants-cafe-richmond",
+    "website": "https://www.tarrantsdowntown.com/",
+    "difficulty": 2,
+    "priceRange": "$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": true,
+    "neighborhood": "Downtown / Broad St",
+    "cuisine": "New American / diner-cafe",
+    "address": "1 W Broad St, Richmond, VA 23220",
+    "signatureDish": "Pizza; pasta; seafood",
+    "tips": [
+      "High volume but large room - easy to book midweek",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: popular (lower). Long-running downtown favorite; included to reach the candidate pool, but generally easy to book - clearly bottom-tier difficulty."
+  },
+  {
+    "id": "l-opossum",
+    "name": "L'Opossum",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/lopossum",
+    "website": "https://www.lopossum.com/",
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": false,
+    "neighborhood": "Oregon Hill",
+    "cuisine": "French haute / playful",
+    "address": "626 China St, Richmond, VA 23220",
+    "signatureDish": "Theatrical French tasting plates",
+    "tips": [
+      "Primary booking is PHONE: call (804) 918-6028, 3-11 PM daily; OpenTable listing exists but phone is the real path",
+      "Same-day cancellation calls are the trick for tables",
+      "Reservations required for parties of 6+",
+      "Max party size 6; Tue-Sat dinner only",
+      "VERIFY whether OpenTable booking is actually live or listing-only",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: genuinely hard + acclaimed. James Beard-recognized chef David Shannon; sole Richmond entry on OpenTable's Top 100 (2025). Richmond Mag: 'call the same day in hopes of a cancellation.' Phone-first, small room - one of the hardest tables in the city.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "The Restaurant List 2025",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+        "note": "Named one of Richmond magazine's 25 top tables for 2025"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Semifinalist 2016",
+        "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+        "note": "Chef David Shannon, Best Chef: Mid-Atlantic semifinalist 2016"
+      },
+      {
+        "name": "Style Weekly",
+        "tier": "Feature",
+        "url": "https://www.styleweekly.com/lopossums-david-shannon-named-as-semifinalist-in-the-james-beard-awards/",
+        "note": "Coverage of David Shannon's James Beard semifinalist recognition"
+      }
+    ]
+  },
+  {
+    "id": "lafayette-tavern",
+    "name": "Lafayette Tavern",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/lafayette-tavern-richmond",
+    "website": "https://www.lafayettetavern.com/",
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "releaseSchedule": "",
+    "releaseTime": "",
+    "releaseDay": "",
+    "bookingWindowDays": null,
+    "walkIns": false,
+    "neighborhood": "Malvern Gardens (Near West End)",
+    "cuisine": "American chophouse with Italian influences",
+    "address": "1011 Lafayette St, Richmond, VA 23221",
+    "signatureDish": "Buffalo octopus; bone-in veal Parmesan; Tavern burger with Cooper's Sharp White cheese",
+    "tips": [
+      "Reservations release for the entire following month at midnight on the 1st of each month - book the moment they drop",
+      "Richmond's hottest reservation - booked solid since its January 2026 opening",
+      "Giavos family restaurant (Constantine Giavos); chef Bobo Catoe",
+      "Release time confirmed midnight ET on the 1st per Axios Richmond",
+      "Rolling availability on OpenTable — check the next few days directly (not a monthly drop)"
+    ],
+    "evidence": "Tier: genuinely hard. Richmond's hottest reservation (Jan 2026 opening); confirmed calendar-month drop at midnight ET on the 1st (Axios Richmond).",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/lafayette-tavern-opening/",
+        "note": "'A Legacy Continued' — opening feature on the Giavos family (Stella's) tavern in Malvern Gardens"
+      }
+    ]
+  },
+  {
+    "id": "the-brooklyn",
+    "name": "The Brooklyn",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/richmond-va/venues/the-brooklyn",
+    "website": "https://www.thebrooklynrva.com/",
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "releaseSchedule": "daily",
+    "releaseTime": "12:00 AM ET",
+    "releaseDay": "",
+    "bookingWindowDays": 30,
+    "walkIns": false,
+    "neighborhood": "Scott's Addition",
+    "cuisine": "Wood-fired American / wine & cocktail bar",
+    "address": "1616 Summit Ave, Richmond, VA 23230",
+    "signatureDish": "Wood-fired grilled ribeye; whole branzino",
+    "tips": [
+      "Opened November 2025 from the owners of Lost Letter and Lillian - currently among the city's buzziest hard tables",
+      "Book the moment your weekend date is in the window",
+      "VERIFY release time"
+    ],
+    "evidence": "Tier: genuinely hard. Nov 2025 opening from the Lost Letter/Lillian team; 'the city's buzziest hard table'.",
+    "sources": [
+      {
+        "name": "Richmond Magazine",
+        "tier": "Feature",
+        "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/the-brooklyn/",
+        "note": "'United by Fire' — feature on the wood-fired Scott's Addition restaurant from the Longoven/Lost Letter/Lillian team"
+      },
+      {
+        "name": "Style Weekly",
+        "tier": "Review",
+        "url": "https://www.styleweekly.com/gold-rush-2/",
+        "note": "'Gold Rush' — review of The Brooklyn's wood-fired cooking"
+      }
+    ]
+  }
+]

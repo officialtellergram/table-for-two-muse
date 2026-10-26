@@ -1,0 +1,33 @@
+scraper/.geocache.json
+scraper/.radar.log
+scraper/.notify.json*
+scraper/watchlist.json
+**/__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Note: scraper/.sniper_state.json IS tracked on purpose — so the diff state
+# persists run-to-run (the local scheduled task commits it each sweep).
+scraper/.ot_profile/
+scraper/.sniper.lock
+
+# Stage 2 / Supabase — secrets never get committed. The service_role key,
+# INGEST_SECRET, and RESEND_API_KEY live in Supabase function secrets + local
+# env, never on disk in the repo. These ignore the files the CLI can produce.
+supabase/.env
+supabase/.env.*
+supabase/.temp/
+supabase/.branches/
+scraper/.detect.log
+scraper/.detect.lock
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Muse hackathon: the API key lives in the local Claude Code settings, never in git.
+.claude/settings.local.json

@@ -1,0 +1,290 @@
+{
+  "$comment": "City manifest. To ADD a city: (1) drop a cities/<key>.json dataset, (2) add an entry below with source {type:'json', url:'cities/<key>.json'}. To use the live NYC API, type 'hardtobook'. type 'soon' = greyed-out 'coming soon'. Nothing else to edit. See README.md.",
+  "cities": [
+    {
+      "key": "nyc",
+      "label": "New York City",
+      "short": "NYC",
+      "center": [
+        40.792,
+        -74.0475
+      ],
+      "zoom": 12,
+      "source": {
+        "type": "json",
+        "url": "cities/nyc.json"
+      },
+      "timezone": "America/New_York"
+    },
+    {
+      "key": "la",
+      "label": "Los Angeles",
+      "short": "LA",
+      "center": [
+        34.05,
+        -118.24
+      ],
+      "zoom": 11,
+      "source": {
+        "type": "json",
+        "url": "cities/la.json"
+      },
+      "timezone": "America/Los_Angeles"
+    },
+    {
+      "key": "sf",
+      "label": "San Francisco",
+      "short": "SF",
+      "center": [
+        37.77,
+        -122.42
+      ],
+      "zoom": 12,
+      "source": {
+        "type": "json",
+        "url": "cities/sf.json"
+      },
+      "timezone": "America/Los_Angeles"
+    },
+    {
+      "key": "chi",
+      "label": "Chicago",
+      "short": "CHI",
+      "center": [
+        41.88,
+        -87.63
+      ],
+      "zoom": 12,
+      "source": {
+        "type": "json",
+        "url": "cities/chi.json"
+      },
+      "timezone": "America/Chicago"
+    },
+    {
+      "key": "dc",
+      "label": "Washington, DC",
+      "short": "DC",
+      "center": [
+        38.8999,
+        -77.0227
+      ],
+      "zoom": 12,
+      "source": {
+        "type": "json",
+        "url": "cities/dc.json"
+      },
+      "timezone": "America/New_York"
+    },
+    {
+      "key": "richmond",
+      "label": "Richmond, VA",
+      "short": "RVA",
+      "center": [
+        37.5552,
+        -77.4585
+      ],
+      "zoom": 12,
+      "source": {
+        "type": "json",
+        "url": "cities/richmond.json"
+      },
+      "timezone": "America/New_York"
+    },
+    {
+      "key": "boston",
+      "label": "Boston, MA",
+      "short": "BOS",
+      "center": [
+        42.3537,
+        -71.077
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/boston.json"
+      }
+    },
+    {
+      "key": "houston",
+      "label": "Houston, TX",
+      "short": "HOU",
+      "center": [
+        29.77,
+        -95.3797
+      ],
+      "zoom": 12,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/houston.json"
+      }
+    },
+    {
+      "key": "atlanta",
+      "label": "Atlanta",
+      "short": "ATL",
+      "center": [
+        33.749,
+        -84.388
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/atlanta.json"
+      }
+    },
+    {
+      "key": "austin",
+      "label": "Austin",
+      "short": "ATX",
+      "center": [
+        30.2672,
+        -97.7431
+      ],
+      "zoom": 12,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/austin.json"
+      }
+    },
+    {
+      "key": "denver",
+      "label": "Denver",
+      "short": "DEN",
+      "center": [
+        39.7392,
+        -104.9903
+      ],
+      "zoom": 12,
+      "timezone": "America/Denver",
+      "source": {
+        "type": "json",
+        "url": "cities/denver.json"
+      }
+    },
+    {
+      "key": "honolulu",
+      "label": "Honolulu",
+      "short": "HNL",
+      "center": [
+        21.3069,
+        -157.8583
+      ],
+      "zoom": 12,
+      "timezone": "Pacific/Honolulu",
+      "source": {
+        "type": "json",
+        "url": "cities/honolulu.json"
+      }
+    },
+    {
+      "key": "miami",
+      "label": "Miami",
+      "short": "MIA",
+      "center": [
+        25.7743,
+        -80.1937
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/miami.json"
+      }
+    },
+    {
+      "key": "new-orleans",
+      "label": "New Orleans",
+      "short": "NOLA",
+      "center": [
+        29.9538,
+        -90.0715
+      ],
+      "zoom": 13,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/new-orleans.json"
+      }
+    },
+    {
+      "key": "philly",
+      "label": "Philadelphia",
+      "short": "PHL",
+      "center": [
+        39.9526,
+        -75.1652
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/philly.json"
+      }
+    },
+    {
+      "key": "seattle",
+      "label": "Seattle",
+      "short": "SEA",
+      "center": [
+        47.6062,
+        -122.3321
+      ],
+      "zoom": 12,
+      "timezone": "America/Los_Angeles",
+      "source": {
+        "type": "json",
+        "url": "cities/seattle.json"
+      }
+    },
+    {
+      "key": "vegas",
+      "label": "Las Vegas",
+      "short": "LV",
+      "center": [
+        36.1147,
+        -115.1728
+      ],
+      "zoom": 12,
+      "timezone": "America/Los_Angeles",
+      "source": {
+        "type": "json",
+        "url": "cities/vegas.json"
+      }
+    },
+    {
+      "key": "charlottesville",
+      "label": "Charlottesville, VA",
+      "short": "CVL",
+      "center": [
+        38.0293,
+        -78.4767
+      ],
+      "zoom": 13,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/charlottesville.json"
+      }
+    },
+    {
+      "key": "louisville",
+      "label": "Louisville, KY",
+      "short": "LOU",
+      "center": [
+        38.2527,
+        -85.7585
+      ],
+      "zoom": 12,
+      "timezone": "America/Kentucky/Louisville",
+      "source": {
+        "type": "json",
+        "url": "cities/louisville.json"
+      }
+    }
+  ]
+}

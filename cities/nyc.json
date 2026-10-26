@@ -1,0 +1,5332 @@
+{
+  "meta": {
+    "source": "curate.py",
+    "city": "New York City",
+    "count": 96,
+    "generated": "2026-06-25",
+    "disclaimer": "Always confirm release times with the restaurant."
+  },
+  "spots": [
+    {
+      "id": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7554192,
+        "lng": -73.9930152
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/carbone",
+      "website": "https://carbonenewyork.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Be logged into Resy at 9:59 AM",
+        "Refresh at exactly 10:00:00 - seconds matter",
+        "No walk-ins accepted, ever",
+        "Set Resy notifications for cancellations"
+      ],
+      "signatureDish": "Spicy Rigatoni Vodka",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 1,
+        "open": true,
+        "dates": [
+          "2026-06-25"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/6194/eb7e0572c600c2a164a0f9018ea443900c178841/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "don-angie",
+      "name": "Don Angie",
+      "neighborhood": "West Village",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 40.7378039,
+        "lng": -74.0019928
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/don-angie-new-york",
+      "website": "https://donangie.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "SWITCHED TO OPENTABLE MAY 2025 - no longer on Resy",
+        "Reservations release 7 days in advance at 9 AM",
+        "Bar seats available for walk-ins",
+        "The Lasagna For Two is worth the effort"
+      ],
+      "signatureDish": "Lasagna For Two",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://images.getbento.com/GiUwZKATSEeII7KhlCqP_DonAngie01.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+      "photoAttr": "donangie.com"
+    },
+    {
+      "id": "torrisi",
+      "name": "Torrisi",
+      "neighborhood": "Nolita",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.724217,
+        "lng": -73.9954001
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/torrisi",
+      "website": "https://torrisinyc.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Same release as Carbone (Major Food Group)",
+        "Lunch reservations are easier to get",
+        "Bar is first-come, first-served"
+      ],
+      "signatureDish": "Tortellini Pomodoro",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/64593/685479397bc2ab48ab2da9957c3d3b8f17231949/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "4-charles",
+      "name": "4 Charles Prime Rib",
+      "neighborhood": "West Village",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 40.7351585,
+        "lng": -74.0006431
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/4-charles-prime-rib",
+      "website": "https://nycprimerib.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "$5/person reservation fee charged at booking",
+        "Very intimate brownstone setting",
+        "No high chairs or strollers",
+        "Reservations sell/trade on secondary market (against policy)"
+      ],
+      "signatureDish": "Prime Rib (English, Charles, or King Cut)",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/834/de1c1b56fe8c7f56b0e78aeba5a681cde01e1b21/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "polo-bar",
+      "name": "The Polo Bar",
+      "neighborhood": "Midtown",
+      "cuisine": "American",
+      "coordinates": {
+        "lat": 40.7615247,
+        "lng": -73.9743066
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-polo-bar",
+      "website": "https://www.ralphlauren.com/global-polo-bar",
+      "phoneNumber": "212-207-8562",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "Matching calendar date (Sept 30 for Oct 30)",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Phone reservations ONLY - no online booking for prime times",
+        "Expect 30-60 minute hold times",
+        "Amex Platinum concierge can help",
+        "Try calling at 4 PM day-of for cancellations",
+        "Pre/post theater times available on OpenTable"
+      ],
+      "signatureDish": "Polo Bar Burger",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/6439/548499a0950920f327cf7f221e26043f709039b2/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "atomix",
+      "name": "Atomix",
+      "neighborhood": "NoMad",
+      "cuisine": "Korean Tasting Menu",
+      "coordinates": null,
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/atomixnyc",
+      "website": "https://atomixnyc.com",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "3:00 PM ET",
+      "releaseDay": "1st of each month (entire month releases at once)",
+      "bookingWindow": "1 month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 14 seats at the counter",
+        "$395-420/person prepaid at booking",
+        "Two Michelin stars, #8 World's 50 Best",
+        "Set calendar reminder for 1st of month at 2:55 PM"
+      ],
+      "signatureDish": "Multi-course Korean Tasting Menu",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        },
+        {
+          "name": "World's 50 Best",
+          "tier": "No. 12",
+          "url": "https://www.theworlds50best.com/list/1-50",
+          "note": "The World's 50 Best Restaurants 2025 (No. 12); No. 1 on North America's 50 Best 2025"
+        }
+      ],
+      "photo": "https://static1.squarespace.com/static/5ac3bec4aa49a18caab02bf4/t/5acdce6ef950b79e5852270e/1523437169269/Artboard+1.png?format=1500w",
+      "photoAttr": "atomixnyc.com"
+    },
+    {
+      "id": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7330983,
+        "lng": -74.003691
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/via-carota",
+      "website": "https://viacarota.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Walk-ins are the primary way to dine here",
+        "Sunday at 5 PM is a good time to try",
+        "Taylor Swift's favorite spot",
+        "The cacio e pepe is legendary"
+      ],
+      "signatureDish": "Cacio e Pepe",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/2567/d621c0c30932eba8c8c37eb919aced19bd260580/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7176165,
+        "lng": -73.9524013
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/lilia",
+      "website": "https://www.lilianewyork.com",
+      "phoneNumber": "718-576-3095",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Call between 10 AM - 4 PM to speak to reservationist",
+        "Weekend reservations book within hours",
+        "Check Resy around 2 PM day-of for cancellations",
+        "Walk-in waits: 30 min to 3 hours"
+      ],
+      "signatureDish": "Mafaldini with Pink Peppercorn",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/418/354912dad100159dc78d1653b69f7caac10434e8/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "raos",
+      "name": "Rao's",
+      "neighborhood": "East Harlem",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7939234,
+        "lng": -73.9342665
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Invitation Only",
+      "platformUrl": "",
+      "website": "https://raossince1896.com",
+      "phoneNumber": "212-722-6709",
+      "releaseSchedule": "none",
+      "releaseTime": "N/A",
+      "releaseDay": "",
+      "bookingWindow": "N/A",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Tables are 'owned' by regulars and passed down through generations",
+        "Only 10 tables total (4 available to non-regulars)",
+        "Try the bar - it's your only realistic shot",
+        "Cash only if you somehow get in",
+        "Call the phone number listed on website for best chance"
+      ],
+      "signatureDish": "Meatballs",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://raossince1896.com/wp-content/uploads/2023/12/raos-founders-history.png",
+      "photoAttr": "raossince1896.com"
+    },
+    {
+      "id": "corner-store",
+      "name": "The Corner Store",
+      "neighborhood": "SoHo",
+      "cuisine": "American",
+      "coordinates": {
+        "lat": 40.7266398,
+        "lng": -73.9999617
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.thecornerstoresoho.com/#/form-reservations",
+      "website": "https://www.thecornerstoresoho.com",
+      "phoneNumber": "212-271-9240",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Taylor Swift effect - exploded in popularity late 2024",
+        "Smart elegant dress code required",
+        "No parties larger than 4",
+        "Reservations disappear within seconds of release",
+        "Be ready at 9:55 AM on Resy"
+      ],
+      "signatureDish": "Sour Cream & Onion Martini",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://images.getbento.com/accounts/5e037eb25397ed769b1a0e435e95d19a/media/images/18459TCSLVnew.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
+      "photoAttr": "thecornerstoresoho.com"
+    },
+    {
+      "id": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
+      "coordinates": {
+        "lat": 40.5763418,
+        "lng": -73.9712571
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/tatiana",
+      "website": "https://tatiananyc.com",
+      "phoneNumber": "212-875-5222",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "26 days",
+      "bookingWindowDays": 26,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "#1 Restaurant in NYC (NYT 2024)",
+        "Prime 5-7 PM slots gone in minutes",
+        "700-2000 people on notify list daily",
+        "Try the 7:30-8 PM gap between seatings",
+        "Refresh Resy throughout day for cancellations"
+      ],
+      "signatureDish": "Curried Goat Patties",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 1,
+        "open": true,
+        "dates": [
+          "2026-06-26"
+        ]
+      },
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/65452/57aab7e0f7922b4936da73644ad13eb3f3e112c5/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/cote-nyc",
+      "website": "https://www.cotekoreansteakhouse.com",
+      "phoneNumber": "212-401-7886",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Better luck with parties of 4-6 (table setup)",
+        "Two-tops only available at first/last seating",
+        "Michelin starred",
+        "Phone reservationists available 11 AM - 10 PM daily"
+      ],
+      "signatureDish": "Butcher's Feast",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 3,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/72271/5793778dffe05ad869d514ddcfe796f4672be5a1/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "le-bernardin",
+      "name": "Le Bernardin",
+      "neighborhood": "Midtown West",
+      "cuisine": "French Seafood",
+      "coordinates": {
+        "lat": 40.7613945,
+        "lng": -73.981691
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/ny/le-bernardin",
+      "website": "https://le-bernardin.com",
+      "phoneNumber": "212-554-1515",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Three Michelin stars",
+        "NOT on OpenTable - use Resy or call directly",
+        "Weekend dinner slots fill within hours",
+        "Lunch reservations much easier to get",
+        "Jacket required for men"
+      ],
+      "signatureDish": "Barely Cooked Salmon",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        },
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/1387/447498c50f59a420c0ef32d918773e3954059e37/jpg/1:1/800",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "le-veau-dor",
+      "name": "Le Veau d'Or",
+      "neighborhood": "Upper East Side",
+      "cuisine": "French Bistro",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/le-veau-dor-new-york",
+      "website": "https://lvdnyc.com",
+      "phoneNumber": "646-386-7608",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reopened July 2024 by Frenchette team",
+        "Only seats up to 4 per table in main dining room",
+        "Prix fixe $135/person dinner, $85 lunch",
+        "$50/seat fee if party size decreases after booking",
+        "James Beard Outstanding Restaurateur 2025"
+      ],
+      "signatureDish": "Poulet à l'Estragon",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://images.getbento.com/accounts/e48b11156381696ddfda9a75f0f8ac8d/media/images/82140240716_LE_VEAU_DOR_BAR_008.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
+      "photoAttr": "lvdnyc.com"
+    },
+    {
+      "id": "four-horsemen",
+      "name": "The Four Horsemen",
+      "neighborhood": "Williamsburg",
+      "cuisine": "New American / Wine Bar",
+      "coordinates": {
+        "lat": 40.7130756,
+        "lng": -73.9572969
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-four-horsemen",
+      "website": "https://fourhorsemenbk.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Co-owned by LCD Soundsystem's James Murphy",
+        "Exceptional natural wine program",
+        "Small plates meant for sharing",
+        "Early morning release time - set alarm for 6:55 AM"
+      ],
+      "signatureDish": "Seasonal Tasting Menu",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        },
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/2492/006acece51b272ffa6f55ad99a89eefd644d84b1/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "has-snack-bar",
+      "name": "Ha's Snack Bar",
+      "neighborhood": "East Village",
+      "cuisine": "French-Vietnamese",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/has-snack-bar",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Midnight release time is unusual - set alarm",
+        "Very limited Resy availability - walk-in is often easier",
+        "Sister restaurant Bistrot Ha opened Dec 2025 at 137 Eldridge St",
+        "Very small space - 18 seats"
+      ],
+      "signatureDish": "Boudin Noir",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "intimate",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://image.resy.com/3/003/2/85855/4d4ffce94ff36d89419c709556ec898fb7dbd560/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "aquavit",
+      "name": "Aquavit",
+      "neighborhood": "Midtown East",
+      "cuisine": "Nordic",
+      "coordinates": {
+        "lat": 40.7607818,
+        "lng": -73.9721848
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/aquavit/",
+      "website": "https://www.aquavit.org",
+      "phoneNumber": "212-307-7311",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "3:00 PM ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations for the Dining Room drop on the 1st of each month at 3:00 PM ET via Tock — be logged in and ready.",
+        "The Bar Room (prix-fixe or à la carte) is far easier to book and also takes walk-ins; good fallback if the Dining Room is sold out.",
+        "Two Michelin stars since 2017; the Chef's Tasting (longer) is the premium experience.",
+        "Arctic Bird's Nest dessert — goat cheese parfait with sea-buckthorn 'yolk' — is the signature finisher; don't skip it.",
+        "Parties over 6 must call directly; online Tock only serves up to 6 guests."
+      ],
+      "signatureDish": "Arctic Bird's Nest (goat cheese parfait, sea-buckthorn yolk)",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/3d08f48cc3007db20925f2f9151014e1.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "aska",
+      "name": "Aska",
+      "neighborhood": "Williamsburg, Brooklyn",
+      "cuisine": "Nordic Tasting",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/aska-brooklyn",
+      "website": "https://www.askanyc.com",
+      "phoneNumber": "(929) 337-6792",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations for next month open on the 1st at noon ET sharp — set an alarm and use the direct OpenTable link, not the Aska website redirect.",
+        "All sales are final; no cancellations or reschedules, so only book a date you are certain about.",
+        "Closed Monday and Tuesday; Wednesday is the easiest night to land.",
+        "The wine pairing leans heavily Nordic and natural — ask for the non-alcoholic pairing if you want an equally thoughtful alternative.",
+        "Chef Fredrik Berselius sources from his own farm in the Hudson Valley; the menu shifts with harvest cycles, so dishes on social media may not reflect your actual meal."
+      ],
+      "signatureDish": "Aged duck with fermented berries and pine",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://static.wixstatic.com/media/c7e2f3_16e01760ec9940b4a48d9a7357d84258%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/c7e2f3_16e01760ec9940b4a48d9a7357d84258%7Emv2.jpg",
+      "photoAttr": "askanyc.com"
+    },
+    {
+      "id": "atera",
+      "name": "Atera",
+      "neighborhood": "Tribeca",
+      "cuisine": "New American Tasting",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/atera",
+      "website": "https://ateranyc.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "~28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Release batches drop in the early morning ET; set a Tock alert for your preferred date.",
+        "The $298 all-inclusive tasting menu covers even caviar and truffles — no supplement surprises.",
+        "Chef Ronny Emborg runs a 20-course Scandinavian-influenced menu that changes seasonally; go without dietary restrictions for the full experience.",
+        "Cancellations require one week's notice — plan accordingly.",
+        "Multiple seating types (chef's counter, formal dining, high-top) go live at different times; check all three pages on Tock for better odds."
+      ],
+      "signatureDish": "Osetra caviar with pistachio",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/fb67fd74-350a-40f7-8fd1-579c05977326.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "atoboy",
+      "name": "Atoboy",
+      "neighborhood": "NoMad",
+      "cuisine": "Korean",
+      "coordinates": {
+        "lat": 40.7436985,
+        "lng": -73.9845074
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/atoboy",
+      "website": "https://www.atoboynyc.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Resy drop at midnight ET, 29 days in advance — book the moment the window opens.",
+        "Prix-fixe format: each guest picks 3 dishes shared family-style; the menu rotates seasonally.",
+        "Cancellations surface fairly often — check Resy 1–2 days before your target date.",
+        "Easier than its sibling Atomix upstairs, but still competitive on weekend prime-time slots.",
+        "Book online up to 6 guests; larger parties need to contact the restaurant directly."
+      ],
+      "signatureDish": "Aged Beef with Fermented Black Bean",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/587/a0bf7c21d766f6fc3ad5cb34b7ac227cdeedb5dc/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "au-cheval",
+      "name": "Au Cheval",
+      "neighborhood": "Tribeca",
+      "cuisine": "American Diner",
+      "coordinates": {
+        "lat": 40.7180421,
+        "lng": -74.0019638
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/au-cheval-nyc",
+      "website": "https://www.auchevaldiner.com/nyc",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at 9 AM, 21 days out on Resy; a $2.50/person reservation fee applies (holiday fees may vary).",
+        "The bar and downstairs bar are walk-in only with the full menu — arrive before 6 PM on weeknights.",
+        "Online reservations limited to parties of 1–6; larger groups call ahead.",
+        "Located on Cortlandt Alley — a hidden cobblestone passage; GPS to 33 Cortlandt Alley.",
+        "The double cheeseburger with fried egg is non-negotiable; the bone marrow and crispy frites are equally essential."
+      ],
+      "signatureDish": "Double Cheeseburger",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://image.resy.com/3/003/2/5769/1d38a9f391774599ecb4c82ef40d1bb51ea9b41c/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "balthazar",
+      "name": "Balthazar",
+      "neighborhood": "SoHo",
+      "cuisine": "French Brasserie",
+      "coordinates": {
+        "lat": 40.7226578,
+        "lng": -73.9981644
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/balthazar-nyc",
+      "website": "https://balthazarny.com/",
+      "phoneNumber": "+12129651414",
+      "releaseSchedule": "weekly",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "Saturday midnight",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at midnight ET every Saturday for dates 30 days out — one of the only NYC Resy drops still at midnight; set an alarm.",
+        "Breakfast at Balthazar (starting 7:30 AM weekdays, 8:00 AM weekends) is the city's best walk-in meal — croissants, steak frites, and the full brasserie menu without the reservation battle.",
+        "The raw bar (oysters, plateau de fruits de mer) is the move for groups — order the large plateau before anything else.",
+        "Keith McNally's front-of-house staff are trained to seat regulars first in the prime center section; if you're a first-timer, confirm you want a table, not a banquette corner.",
+        "Late supper (after 11 PM) is underrated and nearly always walkable — same kitchen, less noise, the city crowd thins out."
+      ],
+      "signatureDish": "Steak frites — bavette with Balthazar butter, pommes frites; also the plateau de fruits de mer for groups",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/50227/65dfa683bb5b18ad4ee13a16b201bcac568baf75/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "bird-dog",
+      "name": "Bird Dog",
+      "neighborhood": "West Village",
+      "cuisine": "Italian-Southern",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/bird-dog-ny",
+      "website": "https://www.birddognyc.com",
+      "phoneNumber": "(917) 261-4221",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "14-day Resy window with 9 AM drops — one of the more civilized release times in NYC, easier to hit than midnight spots.",
+        "Three menu paths: Family Style Chef's Tasting, Three Course Prix Fixe, or Fried Chicken Dinner — decide before you sit, the table commits together.",
+        "Pasta happy hour (4–6 PM) is walk-in bar only; half-price housemade pasta is a genuine steal.",
+        "Cancellation policy charges $20 per person within 6 hours — cancel early or you'll be charged.",
+        "Note: the chunk listed NoHo as the neighborhood, but the restaurant is at 525 Hudson St, firmly in the West Village."
+      ],
+      "signatureDish": "Fried chicken dinner",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "cozy",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/55553/f47e57e796170637c3d1a17f20d65da50183f667/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "bonnies",
+      "name": "Bonnie's",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Cantonese-American",
+      "coordinates": {
+        "lat": 40.7178242,
+        "lng": -73.9465104
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/bonnies",
+      "website": "https://www.bonniesbrooklyn.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Releases daily at 10 AM ET, 13 days out — from the restaurant's own policy page; be on Resy at 10:00 AM sharp.",
+        "Chef Calvin Eng named the restaurant after his mother — the menu is deeply personal Hong Kong-American nostalgia with NYC swagger; don't skip the McSorley's dark float dessert.",
+        "398 Manhattan Ave, Williamsburg — not easy walking from the L train; plan the G or a cab.",
+        "The char siu and har gow are required orders; the egg tart is a dessert that books out fast — ask your server to hold one.",
+        "Michelin Bib Gourmand — one of the better-value hard bookings in the city, with plates topping out around $40."
+      ],
+      "signatureDish": "Char siu (Cantonese BBQ pork)",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/54591/27bdd87ca99c9a9fda97546b3ba1e1ee80266cff/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "buvette",
+      "name": "Buvette",
+      "neighborhood": "West Village",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 40.7327006,
+        "lng": -74.0043588
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/buvette-nyc",
+      "website": "https://ilovebuvette.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open 14 days out at 10am ET on Resy — not as competitive as harder spots but weekend evenings still move fast.",
+        "Walk-ins are a legitimate strategy; the room turns quickly and off-peak (before 6:30 PM or after 9 PM) is your best bet.",
+        "Located at 42 Grove Street in the West Village — the tight Parisian-style interior is part of the charm; expect cozy.",
+        "All-day service: excellent for brunch or a late glass of wine with charcuterie, not just dinner.",
+        "The croque-madame and avocado toast are brunch staples; at dinner, the braised meats and natural wine list are the focus."
+      ],
+      "signatureDish": "Croque-madame",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "cozy",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/4241/7e4b770488ef049c2e3e68534184479313e66b3e/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "charlie-bird",
+      "name": "Charlie Bird",
+      "neighborhood": "SoHo",
+      "cuisine": "Italian-American",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/charlie-bird",
+      "website": "https://www.charliebirdnyc.com",
+      "phoneNumber": "(212) 235-7133",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "30-day Resy window with midnight drops — straightforward compared to other NYC hardcores, but weekend primetime still fills fast.",
+        "Bar and walk-in counter seats are your safety valve; arrive at 5 PM opening.",
+        "The farro with duck liver and the cacio e pepe are menu constants worth ordering.",
+        "Private events fill the back room frequently — if the Resy page shows limited slots, check if a buyout is blocking full availability.",
+        "For groups of 8+ a prix-fixe is required; contact info@charliebirdnyc.com in advance."
+      ],
+      "signatureDish": "Farro with duck liver, radish, and herbs",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "intimate",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://image.resy.com/3/003/2/5/7afcfc5e75db588ee277f951f2962e05ef6b97a7/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "ci-siamo",
+      "name": "Ci Siamo",
+      "neighborhood": "Hudson Yards",
+      "cuisine": "Italian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/cisiamo",
+      "website": "https://www.cisiamo.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Primary booking platform is SevenRooms (sevenrooms.com/reservations/cisiamo), not Resy — book there directly for best availability.",
+        "Reservations open at noon ET, 28 days in advance — be on SevenRooms at 12:00 PM sharp with date and party size selected.",
+        "Bar and lounge are entirely walk-in; 13 bar stools and ~20 lounge seats available throughout the evening.",
+        "1 Michelin Star; live-fire Italian cooking from Chef Hillary Sterling — the wood-grilled dishes are the move.",
+        "If dining room is sold out, check the bar seating or set a cancellation alert via SevenRooms."
+      ],
+      "signatureDish": "Wood-roasted chicken with salsa verde",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv94hAOrtqkHjZ9Kpv16xJkfzBqlU0XglgoL228SWUlA1BGzGN7V4E2fbP-eu84-E-JgoJuF1mZguU3PHWci8PDVy3-A9toBTmpZ1InOKCeiKYPOrRfMCb8D2tlzlOU1Bg2Vk3coAtYxPUeZdbDG2QtlHrjOoNAZKC1nLVnw3gGurXpeSFrg7qtjciRtOgpuehKnDxRye_7MOle1Q06sWnUPALml2IfmYI7pZnhIES_Xt_L7v2RBZRkfXHyAHO9waeIFQhC3PmkBCdEWa34GM6U3VQ9qT3jQyysMPlXN_tV2HsP0Ag3E",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "claud",
+      "name": "Claud",
+      "neighborhood": "East Village",
+      "cuisine": "European",
+      "coordinates": {
+        "lat": 40.7308697,
+        "lng": -73.9896752
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/claud",
+      "website": "https://www.claudnyc.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open 14 days in advance at 9 AM ET on Resy — one of the shorter windows in NYC so the crush is intense.",
+        "Michelin-starred wine bar from Chase Sinzer and Joshua Pinsky (both Momofuku Ko alums); the wine program is world-class.",
+        "The roasted chicken and pork chop with smoked onion jus are the main event proteins — order one.",
+        "Cancellations under 24 hours incur a $50/person fee; treat as a confirmed commitment.",
+        "Parties of 1–6; 2 hours allotted for most tables. Shows up on secondary market sites but prices are steep."
+      ],
+      "signatureDish": "Roasted chicken",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/62659/5903952539bb8fc288a53514a0a081fe101411f7/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "coqodaq",
+      "name": "COQODAQ",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean Fried Chicken",
+      "coordinates": {
+        "lat": 40.749991,
+        "lng": -73.8450723
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/coqodaq",
+      "website": "https://www.coqodaq.com/",
+      "phoneNumber": "(212) 390-0082",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "13-day window drops at 10 AM ET daily — be logged in and ready; Dining Hall, Dining Room, Patio, and Bar are all separate inventory pools, so check all seat types.",
+        "Gracious Hospitality Management (Simon Kim) concept — the room is a Rockwell Group cathedral; reserve a Dining Hall booth for the full theater.",
+        "Order the whole fried chicken (serves 2–3) plus the caviar service and the soju cocktails — the fried chicken alone is worth the hunt.",
+        "Lunch is significantly easier to book than dinner and the menu is largely identical — a good path in if evening slots are gone.",
+        "Michelin one star as of 2025; the wine list is built around high-acid whites that pair well with fried chicken — let the sommelier guide you."
+      ],
+      "signatureDish": "Whole Korean fried chicken with caviar",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively",
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://image.resy.com/3/003/2/76033/2ac85c19123b671ff89444cb47859eb848bf1091/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "corner-bar",
+      "name": "Corner Bar",
+      "neighborhood": "Lower East Side",
+      "cuisine": "American",
+      "coordinates": {
+        "lat": 40.74692,
+        "lng": -73.8962524
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/corner-bar-new-york",
+      "website": "https://cornerbarnyc.com/",
+      "phoneNumber": "+16468699310",
+      "releaseSchedule": "daily",
+      "releaseTime": "5:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "VERIFY access restricted: hotel guests and Aman members only as of July 2026",
+        "Despite a Resy page appearing in search, bookings are on OpenTable — use OpenTable directly.",
+        "Releases 30 days in advance at 5 AM ET on OpenTable; set an alarm.",
+        "The bar is walk-in and serves the full menu — a real option if you miss the online drop.",
+        "Inspired by classic European bistros; the steak frites and wine list punch above the price point.",
+        "Parties of 7–16 require email booking via info@cornerbarnyc.com."
+      ],
+      "signatureDish": "Steak Frites",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://cornerbarnyc.com/cdn/shop/files/CornerBarPhotosDay2-1026_1800x900_crop_center.jpg?v=1658197567",
+      "photoAttr": "cornerbarnyc.com"
+    },
+    {
+      "id": "cosme",
+      "name": "Cosme",
+      "neighborhood": "Flatiron",
+      "cuisine": "Mexican",
+      "coordinates": {
+        "lat": 40.7395503,
+        "lng": -73.9883884
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/cosme",
+      "website": "https://cosmenyc.com/",
+      "phoneNumber": "(212) 913-9659",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "28-day rolling window on Resy; no fixed public release time — check early in the day and activate Notify immediately if your slot is gone.",
+        "Bar seats are not on Resy — walk in or call; the bar menu is full-restaurant, not a limited version.",
+        "Corn husk meringue dessert always sells out — mention it to your server at the start of the meal to reserve one.",
+        "Weekday dinner seatings at 5:30–6 PM are the easiest to land; Friday/Saturday 7–9 PM is nearly impossible without a head start.",
+        "Chef Enrique Olvera and chef de cuisine Daniela Soto-Innes have both won James Beard awards — this is one of the most acclaimed Mexican restaurants outside Mexico City."
+      ],
+      "signatureDish": "Corn husk meringue with corn mousse",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/35675/564fc29ca6a62e190d9effa58fbc96fa081f6106/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "crown-shy",
+      "name": "Crown Shy",
+      "neighborhood": "Financial District",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.706227,
+        "lng": -74.0075097
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/crown-shy",
+      "website": "https://www.crownshy.nyc/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop daily at noon, 28 days in advance — set a phone alarm and book exactly at 12:00 PM ET.",
+        "Bar and outdoor seating are walk-in only; arriving right at 5pm opening is your best shot.",
+        "Enable Resy Notify for your target date as a backup; cancellations move quickly.",
+        "The dining room is inside a landmark 1932 Art Deco skyscraper — request a window table overlooking the lobby when booking.",
+        "1 Michelin Star; tasting menu and à la carte both available — the chicken dish is a consistent highlight."
+      ],
+      "signatureDish": "Roasted chicken for two",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/10726/311f3d7a03129ac6383f79da91bea8d3f252dcd2/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "dame",
+      "name": "Dame",
+      "neighborhood": "West Village",
+      "cuisine": "British Seafood",
+      "coordinates": {
+        "lat": 40.7290052,
+        "lng": -74.0014767
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/dame-new-york",
+      "website": "https://www.damenewyork.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop daily at noon, 21 days out — set a calendar reminder and book the moment they open.",
+        "Cancellations within 12 hours incur a $50 per person fee; take any Notify hit seriously.",
+        "Maximum party size is 6; groups of 7+ require a full restaurant buyout (up to 27 guests).",
+        "The fish and chips and the dressed crab are the signatures — don't over-order starters or you won't make it to the mains.",
+        "Monday is closed; Tuesday is the easiest booking night."
+      ],
+      "signatureDish": "Fish and chips",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/34341/bf3ac5e3fcc0bc2393980ff8fd23b18fc1d95c64/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "neighborhood": "Upper East Side",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 40.7667776,
+        "lng": -73.9675711
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/daniel",
+      "website": "https://www.danielnyc.com",
+      "phoneNumber": "(212) 288-0033",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open exactly 60 days out on Resy — set a calendar reminder and hit it at 10 AM ET.",
+        "The bar and lounge take walk-ins with the full menu; arrive at 5:30 PM for best odds.",
+        "Ask for a table in the main dining room rotunda, not the side alcove — the room itself is part of the experience.",
+        "The prix-fixe is required at dinner; order the foie gras torchon if it's on the menu.",
+        "Cancellations often surface 1–3 days before; check Resy app in the evenings."
+      ],
+      "signatureDish": "Foie Gras Torchon",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025",
+          "note": "Held two stars historically; the current guide lists Daniel at one star"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/29947/f759d92bfe4e301e8c4cba58830e076b45c1875c/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "dhamaka",
+      "name": "Dhamaka",
+      "neighborhood": "Lower East Side",
+      "cuisine": "Indian",
+      "coordinates": {
+        "lat": 40.718235,
+        "lng": -73.9880781
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/dhamakanyc/reservations/create/search/",
+      "website": "https://www.dhamaka.nyc/",
+      "phoneNumber": "+12122048616",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Releases on SevenRooms 14 days in advance at 9 AM ET — be logged in and refreshing before 9.",
+        "Parties of 7+ must contact for private dining; online booking caps at 6.",
+        "One of the hardest reservations in NYC — check cancellations on SevenRooms at off-peak hours.",
+        "The menu focuses on regional Indian cooking rarely found in the US; whole roasted meats and offal are the point.",
+        "Go with a group of 4–6 to cover the most of the menu."
+      ],
+      "signatureDish": "Whole Roasted Goat (Champaran Mutton)",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv95nUGA2EelRW_ZIsoaQu1CAk64Gb-9B8chJugydSZFArDwXGJ7jYE6IfyztUYp6HeiaKP5A5awoYTp0q2PY1Ahyiyrg0zDNH58L0s7y1GtZYDHj2DwXJjxQeUgVL3fwQK_vTqooiZOPNJTLBWEh3uxP_O4nKUjevske4e11Q9ryVgBSbmtlsdAgWHngkiSvSArwVO7P",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "eleven-madison-park",
+      "name": "Eleven Madison Park",
+      "neighborhood": "Flatiron",
+      "cuisine": "Contemporary American / Plant-Forward Tasting",
+      "coordinates": {
+        "lat": 40.7415982,
+        "lng": -73.9871904
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/eleven-madison-park",
+      "website": "https://www.elevenmadisonpark.com",
+      "phoneNumber": "212-889-0905",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "35 days",
+      "bookingWindowDays": 35,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open on the 1st of the prior month at 10 AM ET sharp — have Resy loaded and ready at 9:55 AM.",
+        "The menu is no longer exclusively vegan; at booking you can select a fully plant-based or hybrid menu that includes duck, scallops, or lobster.",
+        "Join the Resy waitlist immediately if your date is full — cancellations are common and the system notifies you instantly.",
+        "Bar seats at Clemente Bar (downstairs) are easier to snag and do not require the full tasting menu commitment.",
+        "Tasting menu is ~$365 per person before drinks; gratuity is included."
+      ],
+      "signatureDish": "Three-day beet prepared in clay pot",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/70928/b9129eddbbdd1f7905e7c3443fb6f749f1909c87/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "estela",
+      "name": "Estela",
+      "neighborhood": "Nolita",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.7246217,
+        "lng": -73.9947736
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://estelanyc.com/",
+      "website": "https://estelanyc.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Resy drop is daily at 9 AM ET, 28 days out — use the app with notifications on.",
+        "Bar seats are walk-in only and worth pursuing; the full menu is served there.",
+        "Lunch on Fri–Sun is dramatically easier to book than dinner — same kitchen, far fewer people chasing it.",
+        "One Michelin star; the menu is share-focused, order 3–4 plates for two.",
+        "Cancellations surface throughout the week — check Resy daily if you missed the drop.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Beef Tartare with Sunchoke",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://estelanyc.com/cdn/shop/files/12062022_Estela_events_055_1800x900_crop_center.jpg?v=1736978864",
+      "photoAttr": "estelanyc.com"
+    },
+    {
+      "id": "foxface-natural",
+      "name": "Foxface Natural",
+      "neighborhood": "East Village",
+      "cuisine": "Seafood",
+      "coordinates": {
+        "lat": 40.7289642,
+        "lng": -73.9816112
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/foxface-natural",
+      "website": "https://foxface.nyc/",
+      "phoneNumber": "(646) 270-1449",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "VERIFY temporarily closed for renovations as of July 2026 — confirm reopening date before booking",
+        "No reservations by phone or email — Resy only; the restaurant will text/email only for existing booking help.",
+        "Counter seats (1-3 people) are the easiest walk-in option; show up within the first 30 minutes of service.",
+        "Menu driven by wild fish, game, and seasonal forage from a wood-burning kitchen — the menu changes frequently.",
+        "Set a Resy Notify alert; this is a small room and cancellations do come up.",
+        "They will offer your seats to the waitlist 15 minutes after your reservation time — do not be late."
+      ],
+      "signatureDish": "Wood-roasted whole fish",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "intimate"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://image.resy.com/3/003/2/71434/92dc132700d8570867f5f39d1b0307704b223ab6/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "frenchette",
+      "name": "Frenchette",
+      "neighborhood": "Tribeca",
+      "cuisine": "French Brasserie",
+      "coordinates": {
+        "lat": 40.7196471,
+        "lng": -74.0057569
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.frenchettenyc.com",
+      "website": "https://www.frenchettenyc.com",
+      "phoneNumber": "(212) 334-3883",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop 30 days out at midnight; about 80% of the room releases then, with a second trickle a couple days before the date.",
+        "600–800 people are on the Notify List on a given night — enable Resy Notify immediately after midnight misses.",
+        "The bar seats are first-come first-served and are genuinely great for the full menu.",
+        "Order the foie gras torchon and the rotisserie duck — both are consistent anchors regardless of season.",
+        "If you email reservations@frenchettenyc.com for a specific occasion you sometimes surface cancelled tables not on Resy.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Rotisserie duck",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://images.getbento.com/accounts/f23fb9e2c830c13b7fe4fcee4ce8f64f/media/images/44583Copy_of_Interiors_details_186.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
+      "photoAttr": "frenchettenyc.com"
+    },
+    {
+      "id": "frevo",
+      "name": "Frevo",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "French Tasting",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/frevo/",
+      "website": "https://frevonyc.com",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "2:00 PM ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations for next month open on the 1st at 2 PM ET on Tock — the 16-seat counter sells out in minutes.",
+        "The art gallery entrance at 48 W 8th St is easy to miss; confirm the address before your visit.",
+        "Menu, gallery exhibition, and wine pairings rotate every four months — check Instagram to see the current chapter before booking.",
+        "No shorts or flip-flops; elegant casual is enforced at the door.",
+        "A deposit is required at booking — Tock charges the full ticket price upfront, not just a hold."
+      ],
+      "signatureDish": "Sauce-led tasting course (rotating)",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/fad06de8-08d0-4070-8cd3-3d990b670701.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "gabriel-kreuther",
+      "name": "Gabriel Kreuther",
+      "neighborhood": "Midtown",
+      "cuisine": "French Alsatian",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/gabrielkreuther/",
+      "website": "https://www.gknyc.com/",
+      "phoneNumber": "+12122575826",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book exactly 28 days out on Tock at 10 AM ET — the main dining room fills within minutes of the drop.",
+        "Resy also lists Gabriel Kreuther but the primary/preferred platform is Tock; use Tock for best availability.",
+        "If dinner is sold out, the Bar Room has a separate, less competitive reservation track — still on Tock.",
+        "The champagne and caviar service (Tue–Sat 4–9 PM) has more availability and is a worthy standalone experience.",
+        "Two Michelin stars; jacket preferred for the main dining room."
+      ],
+      "signatureDish": "Smoked Sturgeon & Balik Salmon Tart",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://video.squarespace-cdn.com/content/v1/5b81a4e59f8770d7938eeefb/f2016577-f7bf-49a5-900c-ec92d2ed4ce3/thumbnail",
+      "photoAttr": "gknyc.com"
+    },
+    {
+      "id": "gramercy-tavern",
+      "name": "Gramercy Tavern",
+      "neighborhood": "Gramercy",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.7383894,
+        "lng": -73.988414
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.gramercytavern.com/",
+      "website": "https://www.gramercytavern.com/",
+      "phoneNumber": "+12124771234",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Dining Room reservations open at noon ET exactly 28 days in advance — set a Resy alert for your target date and be ready at 11:58 AM.",
+        "The Tavern (front room) is walk-in only and easier to access; quality and kitchen are identical — not a consolation prize.",
+        "Tasting menu in the Dining Room is prix-fixe only; the Tavern menu is à la carte and more casual.",
+        "Cancellations surface frequently on Resy — enable Notify and check back a few days before your target date.",
+        "One of the few fine-dining rooms that's genuinely family-friendly; no hard dress code enforced.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Smoked duck breast with celery root and foie gras torchon",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://images.getbento.com/accounts/c96fa153fcd99197529b15a71ab913e4/media/images/1619719318314.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
+      "photoAttr": "gramercytavern.com"
+    },
+    {
+      "id": "i-sodi",
+      "name": "i Sodi",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7334026,
+        "lng": -74.0048765
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/i-sodi",
+      "website": "https://www.isodinyc.com/",
+      "phoneNumber": "(212) 414-5774",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Midnight ET release, 13 days out — one of the very few NYC spots still dropping at midnight; be on Resy at exactly 12:00 AM, not 12:01.",
+        "Inventory clears in 1–2 seconds for prime slots; have party size, date, and credit card pre-loaded before the clock ticks over.",
+        "Rita Sodi's Tuscan cucina povera is the whole point — order the pappardelle al cinghiale, ribollita if on the menu, and the tiramisu.",
+        "The restaurant is physically small (~40 seats); any no-show or cancellation resurfaces quickly — check Resy at 10 AM and 5 PM on your target date.",
+        "Sister restaurant Buvette (next door, French) books much more easily and shares a similar sensibility — a real fallback."
+      ],
+      "signatureDish": "Pappardelle al cinghiale (wild boar ragu)",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 1,
+        "open": true,
+        "dates": [
+          "2026-06-25"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/443/69496bc71f26ba5608c1324308b0c6155e0b03ca/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "indian-accent",
+      "name": "Indian Accent",
+      "neighborhood": "Midtown West",
+      "cuisine": "Indian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/indian-accent",
+      "website": "https://www.indianaccent.com/newyork",
+      "phoneNumber": "212-842-8070",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Parties of 4 or fewer book online via OpenTable; groups of 5+ must call 212-842-8070.",
+        "The tasting menu is the way to go — the blue cheese naan and makhan malai are standout courses.",
+        "Sister to the Delhi original; same creative Indian fine dining DNA with seasonal NYC produce.",
+        "Walk-ins are welcome if space allows — lunch is easier than dinner for drop-ins.",
+        "Located at 123 W 56th St steps from Carnegie Hall; convenient for pre-show dining."
+      ],
+      "signatureDish": "Blue cheese naan with makhan malai",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
+    },
+    {
+      "id": "ito",
+      "name": "Ito",
+      "neighborhood": "Tribeca",
+      "cuisine": "Sushi Tasting / Omakase",
+      "coordinates": {
+        "lat": 40.7130439,
+        "lng": -74.01008
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/ito",
+      "website": "https://www.ito-omakase.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at 12 PM ET exactly 21 days out on Resy — noon is unusual, so most competitors miss it.",
+        "The restaurant is in Tribeca (75 Barclay St), not Williamsburg — the data hint was wrong.",
+        "Two seatings per night, Tuesday–Saturday: 6:00 PM and 8:45 PM at a 16-seat counter.",
+        "$295 per person; cancellations within 48 hours are fully non-refundable.",
+        "Chefs Masashi Ito and Kevin Kim blend Japanese technique with Korean and American influences — a genuinely distinct omakase voice in the city."
+      ],
+      "signatureDish": "Seasonal omakase counter with Japanese-Korean technique",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/54504/47c99d5dfbc34700f79f7d36b5af94be7d7bac3d/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "jean-georges",
+      "name": "Jean-Georges",
+      "neighborhood": "Columbus Circle",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 40.7689698,
+        "lng": -73.9816665
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/jeangeorges/",
+      "website": "https://www.jean-georgesrestaurant.com/jean-georges/",
+      "phoneNumber": "(212) 299-3900",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Tock is the primary platform; also mirrored on Resy and OpenTable — book via Tock for widest availability.",
+        "Tue–Sat only; lunch is significantly easier to book than dinner and offers better value on the three-course prix-fixe ($138 vs. $218 tasting).",
+        "Two Michelin stars as of 2025 — not the hardest reservation in the city, so 2–3 weeks out is often enough with flexibility on time.",
+        "Request a window table overlooking Central Park when booking — stock phrase in the notes field on Tock.",
+        "Jackets suggested; t-shirts, shorts, and sportswear are declined — dress code is lightly enforced but real."
+      ],
+      "signatureDish": "Egg caviar (scrambled egg with caviar in a shell)",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/c848fed5da71151a384b8f1f289cd4ee.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "jua",
+      "name": "Jua",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean Tasting",
+      "coordinates": {
+        "lat": 40.7397337,
+        "lng": -73.9878018
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/jua",
+      "website": "https://juanyc.com",
+      "phoneNumber": "(646) 590-1598",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "21-day Resy window, midnight drops — two seatings per night (6 PM and 8:30 PM), Tuesday through Sunday only.",
+        "Seven-course tasting menu at $150 per person — one of the better-value Michelin tasting menus in the city.",
+        "The kitchen cannot accommodate vegan, vegetarian, dairy-free, gluten-free, no-seafood, no-sesame, or no-allium diets — check before booking.",
+        "Phone calls only answered 2–6 PM; for fastest response email info@juanyc.com.",
+        "Late arrivals of 15+ minutes risk losing the table — allow extra transit time."
+      ],
+      "signatureDish": "Wood-fired Korean tasting menu",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 3,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/8266/532f667e244f3e726f3c52f828ea88b29a804f67/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "keens-steakhouse",
+      "name": "Keens Steakhouse",
+      "neighborhood": "Midtown",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 40.750773,
+        "lng": -73.9864091
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/keens-steakhouse",
+      "website": "https://www.keens.com/",
+      "phoneNumber": "+12129473636",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "The mutton chop (technically lamb saddle) is the non-negotiable order — it's the dish that made Keens famous since 1885.",
+        "The Pipe Club room and the Lincoln Room are the best private dining spaces; request specifically when booking groups.",
+        "Resy releases at 10 AM ET 30 days in advance; weekend prime time (6:30–8 PM) books out fast, but Tuesday–Thursday stays bookable days out.",
+        "The clay pipe collection covering the ceiling is legitimate history — arrive early and look up; each pipe belonged to a historical member (Babe Ruth, Teddy Roosevelt, etc.).",
+        "Single diners at the bar get full menu access and often chat with regulars who know the older servers by name — one of the better solo dining experiences in the city."
+      ],
+      "signatureDish": "Mutton chop — slow-roasted lamb saddle chop, served whole, for one",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://image.resy.com/3/003/2/3413/f246ce349b8735693914f7597ac2859dc484395f/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "kono",
+      "name": "Kono",
+      "neighborhood": "Chinatown",
+      "cuisine": "Yakitori Omakase",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/kono",
+      "website": "https://www.yakitorikono.com",
+      "phoneNumber": "(646) 524-6838",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "14-seat counter in Canal Arcade (between Bowery and Elizabeth St) — it's a hidden passage, so know the entrance before you go.",
+        "Closed Sundays; runs six nights per week with a 16-course binchotan-grilled omakase ($185/pp).",
+        "Cancellations must be made 48 hours in advance — no-shows are noticed in a 14-seat room.",
+        "Holds three Michelin stars; despite the difficulty hint of 3, this is one of NYC's most decorated spots — book as early as the window allows.",
+        "Check Resy at midnight when the new day opens; also monitor for cancellations mid-week."
+      ],
+      "signatureDish": "Sasami (Chicken Tender) Yakitori",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/58459/60f9b7baf145d2442f18668fd7d950eb3c085048/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "kosaka",
+      "name": "Kosaka",
+      "neighborhood": "West Village",
+      "cuisine": "Sushi Omakase",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/kosaka",
+      "website": "https://www.kosakanyc.com/",
+      "phoneNumber": "(212) 727-1709",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Tock is the only booking channel — no Resy or OpenTable; Maki Kosaka (sister spot) is on Resy and is a lower-stakes fallback.",
+        "Sushi bar ($295 pp) seats you in front of Chef Soma; dining table ($270 pp) is slightly more relaxed — both are full Edomae omakase.",
+        "18-seat room means any night can feel fully booked weeks out; lunch has no service, so dinner only — target Sunday or Monday for slightly softer demand.",
+        "Fish is flown daily from Toyosu Market in Tokyo; the menu changes entirely with season and market — ask the chef about the day's sourcing.",
+        "Cancellation penalty of $150/pp kicks in inside 48 hours — set a reminder to reschedule early if plans change."
+      ],
+      "signatureDish": "Hokkaido uni with bafun and murasaki",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/3475302d-3012-44b3-b049-08b62d79e369.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "labeille",
+      "name": "l'abeille",
+      "neighborhood": "Tribeca",
+      "cuisine": "French-Japanese Tasting",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/labielle",
+      "website": "https://www.labeille.nyc",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at midnight 21 days out on Resy — set a phone alarm.",
+        "The six-course chef's tasting menu is the main event; the bar offers à la carte seasonal dishes if you can't get a table.",
+        "Chef Mitsunobu Nagae trained in Tokyo and Paris — Japanese technique in French form; expect subtle, precise flavors.",
+        "The sister wine bar l'abeille à côté next door is far easier to walk into and shares the same kitchen sensibility.",
+        "Closed Sunday and Monday."
+      ],
+      "signatureDish": "Six-course chef's tasting menu with French-Japanese seasonal compositions",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/59006/41c9d2cfd53b95e7c11205729004b42217ed3064/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "lartusi",
+      "name": "L'Artusi",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/lartusi-ny",
+      "website": "https://www.lartusi.com/",
+      "phoneNumber": "(212) 255-5757",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "14-day rolling window drops at 9 AM ET every morning — be logged into Resy with card on file before 9 AM.",
+        "228 W 10th St is the West Village's most sought-after Italian; prime Fri/Sat 7–8 PM slots go in under a minute.",
+        "Bar stools along the open kitchen are not on Resy — walk in or call after 2 PM the same day.",
+        "The cacio e pepe and black truffle tagliatelle are the non-negotiable orders; the wine list skews natural Italian at fair markups.",
+        "Larger parties (6–8) must call; Resy only handles up to 5 online — email info@lartusi.com with dates for groups."
+      ],
+      "signatureDish": "Black truffle tagliatelle",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/25973/e8b7ae06cba2ff045741083ca3007c3135a0749b/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "laser-wolf",
+      "name": "Laser Wolf",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Israeli",
+      "coordinates": {
+        "lat": 42.7135342,
+        "lng": -73.8137213
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/laser-wolf-brooklyn",
+      "website": "https://www.laserwolfbrooklyn.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Resy drop at 10 AM ET, 21 days in advance — tables sell out in minutes; be in the app right at 10.",
+        "Rooftop on The Hoxton, Williamsburg — ask for an outdoor table when booking for Manhattan skyline views.",
+        "The salatim (salad spread) arrives automatically to start; the whole-roasted chicken is the anchor entrée.",
+        "Michael Solomonov's flagship NYC outpost; the coal-fired pita with hummus is mandatory.",
+        "Cancellations are frequent — check Resy the day before and the morning of your desired date."
+      ],
+      "signatureDish": "Coal-Roasted Chicken with Tehina",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/58848/5d3b0a842ad5c5f3c76ee04c8301e1fb1b7ce31f/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "le-coucou",
+      "name": "Le Coucou",
+      "neighborhood": "SoHo",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 40.7190849,
+        "lng": -74.0001395
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-coucou",
+      "website": "https://lecoucou.com/",
+      "phoneNumber": "(212) 271-4252",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Midnight ET release — one of the few high-end NYC spots that still drops at 12 AM; be on Resy at exactly midnight.",
+        "28-day rolling window; mark your calendar 28 days before your target date.",
+        "Cancellations surface regularly — set Resy Notify and check mid-week around 5–7 PM ET when people cancel prior-week bookings.",
+        "Counter seats by the open kitchen are held back and release the day-of — worth checking Resy after 10 AM.",
+        "One Michelin star; chef Daniel Rose's classic French repertoire makes this a destination meal — order the moules marinières and any whole fish."
+      ],
+      "signatureDish": "Moules marinières",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/8303/fa0cab8d1acf5b4a3182089a2f9ca15881e1c0b6/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "le-jardinier",
+      "name": "Le Jardinier",
+      "neighborhood": "Midtown East",
+      "cuisine": "French Vegetable-Forward",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/lejardiniernyc/reservations/create/search",
+      "website": "https://www.lejardinier-nyc.com",
+      "phoneNumber": "(212) 451-9211",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Books via SevenRooms (primary) and OpenTable; the restaurant site links SevenRooms directly.",
+        "Chef Alain Verzeroli's vegetable-forward Michelin-starred menu changes seasonally — check the current menu before going.",
+        "Lunch is easier to book than dinner and offers good value with the prix-fixe.",
+        "Located in the SELENE skyscraper on Lexington Ave — entrance on 58th St.",
+        "If dinner is full, call directly at (212) 451-9211; they occasionally hold tables for phone reservations."
+      ],
+      "signatureDish": "Garden Vegetables Tart",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv95w3-OqWTjpSRaSaKBzLSrjqWsM8rs7iNs8uvSfb6ZEkQsrnoPjDORa8sivGYR5StaW-D0cZjzABUf7xvTeihDWWkFlOGMoKXlB4ruCz_7KgK6JNRPssDYRo23C4goEZF3m2ZvUXecYvez3kQpfNZHW1DxjDgYt5pbrMpVroOs4mO5VcFVvrpgctpZ9OxgeztRBIg5TimP07oA4Slbd4RLTs0joUDvoqLL_Gi-K7R-3XK7cOo4YYcFwQSV7ZrwK_e08dxKIXxwZkGqE4Lyz-XmmCDK0LIurG2POwBFYZzgRnm56OqP1LA2wEHKGZdVLMLogXvu7E2v0XCuKIz6dSGIGRXZETu_YY8nWtAJWzbs75VkzJlWRqRlhlzAnhc5hpR48R6v5K2jDhOX94C6_qusMa8NulKYMOy3ZHLapY59RtntieIs",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "le-pavillon",
+      "name": "Le Pavillon",
+      "neighborhood": "Midtown East",
+      "cuisine": "French",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-pavillon",
+      "website": "https://www.lepavillonnyc.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Releases 60 days in advance at midnight ET on Resy — set an alarm and book the moment the window opens.",
+        "Bar walk-ins are a genuine option here; the full menu is available at the bar.",
+        "Daniel Boulud's vegetable- and seafood-focused menu changes seasonally — the tasting menu is the move.",
+        "Located on the 24th floor of One Vanderbilt with views of Grand Central; ask for a window seat when booking.",
+        "Closed Sundays; lunch service runs weekdays only."
+      ],
+      "signatureDish": "Roasted Beet & Citrus with Whipped Goat Cheese",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/50955/7fcd427be5984da2cd67664a96a6697c4e44215b/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "le-rock",
+      "name": "Le Rock",
+      "neighborhood": "Rockefeller Center",
+      "cuisine": "French Brasserie",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-rock",
+      "website": "https://www.lerocknyc.com",
+      "phoneNumber": "332-258-8734",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open 30 days in advance on Resy — check at 9 AM ET for new slots.",
+        "From chefs Lee Hanson and Riad Nasr (Frenchette); the bison au poivre and escargot are must-orders.",
+        "Lunch (Mon–Fri) is dramatically easier to book than dinner; nearly the full menu is available.",
+        "The profiterole with caramel ice cream and warm chocolate sauce is a signature dessert worth saving room for.",
+        "Closed Sundays; Saturday is dinner only from 4 PM."
+      ],
+      "signatureDish": "Bison au poivre",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/60459/ee6a8e3ba6fcdb8950d2e92b2647834a1c8eac1c/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "manhatta",
+      "name": "Manhatta",
+      "neighborhood": "Financial District",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.7078151,
+        "lng": -74.0086882
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/manhatta/reservations/create/search",
+      "website": "https://www.manhattarestaurant.com",
+      "phoneNumber": "(212) 230-5500",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at noon exactly 28 days out via SevenRooms — the restaurant also appears on Resy but SevenRooms is the primary platform.",
+        "60th-floor views are the main draw; request a window table when booking or call ahead.",
+        "Weekday lunch is far easier to book than weekend dinner.",
+        "The bar menu is available all day — if dinner is full, grab a drink and snack with the same view.",
+        "Late slots (9:30 PM+) often open up same-day on the app."
+      ],
+      "signatureDish": "Dry-Aged Duck",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://images.getbento.com/accounts/1cf2b7830837af2c4dafd105dc16b240/media/images/2218497721HighResBlue.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=DBCCB9&pad=100",
+      "photoAttr": "manhattarestaurant.com"
+    },
+    {
+      "id": "marea",
+      "name": "Marea",
+      "neighborhood": "Central Park South",
+      "cuisine": "Italian Seafood",
+      "coordinates": {
+        "lat": 40.7675041,
+        "lng": -73.9811088
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/marea",
+      "website": "https://www.marearestaurant.com/new-york",
+      "phoneNumber": "212-582-5100",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book exactly 30 days out at 9 AM on Resy — weekend dinner slots disappear within minutes.",
+        "The lunch service is significantly easier to book and offers the same kitchen quality at lower prices.",
+        "Sit at the bar for a more relaxed pace; the pasta bar area books separately on Resy.",
+        "The fusilli with red wine-braised octopus and bone marrow is the must-order; don't skip the crudo to start.",
+        "Valet parking is available on Central Park South — confirm when booking if needed."
+      ],
+      "signatureDish": "Fusilli with red wine-braised octopus and bone marrow",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/10719/6881807156b7ec99b6d409fc382dab1af9c6fdd6/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "mari",
+      "name": "Mari",
+      "neighborhood": "Hell's Kitchen",
+      "cuisine": "Korean Tasting / Handroll Omakase",
+      "coordinates": {
+        "lat": 40.7615248,
+        "lng": -73.9906111
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://marinyc.com",
+      "website": "https://marinyc.com",
+      "phoneNumber": "646-649-3545",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at midnight 30 days out on Resy — set a phone alarm and be ready.",
+        "$145 per person seasonal tasting menu; handrolls feature uni, wagyu, toro, and caviar.",
+        "From the team behind Kochi — serious Korean fine dining pedigree, not a gimmick spot.",
+        "The sister concept Mari.ne Handroll (also on Resy) is a slightly easier get and shares the same culinary DNA.",
+        "Michelin-starred; book well in advance for Friday and Saturday evenings.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Korean handroll omakase with wagyu, uni, and caviar",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://marinyc.com/wp-content/uploads/2021/12/mainbanner02.jpg",
+      "photoAttr": "marinyc.com"
+    },
+    {
+      "id": "masa",
+      "name": "Masa",
+      "neighborhood": "Columbus Circle",
+      "cuisine": "Sushi Tasting",
+      "coordinates": {
+        "lat": 40.7685324,
+        "lng": -73.9827663
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/masa/",
+      "website": "https://www.masanyc.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop on Tock on the 1st of each month for the following month — be on the page at 9am ET sharp.",
+        "Two experiences: standard omakase ($750pp) and Hinoki Counter ($950pp); the counter faces Chef Masa directly.",
+        "Lunch omakase is abbreviated and slightly easier to book than dinner.",
+        "Cancellations occasionally surface mid-month; set a Tock alert and check weekly.",
+        "Dress the occasion — this is a 3-Michelin-star room; no shorts or sneakers."
+      ],
+      "signatureDish": "Toro with caviar",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://cdn.prod.website-files.com/695e6c9005edb41b639257ed/695e6e59fa58cad7d18dde9b_Masa%20Graph%20Image.png",
+      "photoAttr": "masanyc.com"
+    },
+    {
+      "id": "minetta-tavern",
+      "name": "Minetta Tavern",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "French Bistro",
+      "coordinates": {
+        "lat": 40.7299655,
+        "lng": -74.0006297
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/minetta-tavern",
+      "website": "https://www.minettatavernny.com",
+      "phoneNumber": "212-475-3850",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at midnight on Resy exactly 30 days out — slots for Friday/Saturday vanish in seconds.",
+        "Bar seats are walk-in only; arrive right at 5 PM opening for the best chance, especially weeknights.",
+        "The Black Label Burger (dry-aged blend, caramelized onions, brioche) is the most-discussed dish — always order it.",
+        "Michelin one-star; the room is gorgeous and the bone marrow is a required starter alongside the burger.",
+        "Lunch (Wed–Fri) and weekend brunch are easier to book than dinner; same kitchen, less competition."
+      ],
+      "signatureDish": "Black Label Burger",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/9846/8b30f09558a5080195ddbf30ec865ad772c901db/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "misi",
+      "name": "Misi",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7134168,
+        "lng": -73.9671916
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/misi",
+      "website": "https://www.misinewyork.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Resy drop is daily at 10 AM ET, 27 days out — not the often-cited 28; act precisely at 10.",
+        "Bar walk-ins at opening are a reliable backup — arrive by 5:15 PM.",
+        "Missy Robbins' pasta-focused menu; order the aged ricotta with honey as a starter.",
+        "Cancellations are common the week of — check Resy at noon and again at 7 PM.",
+        "Located on the Williamsburg waterfront; outdoor seating in warm months has more walk-in flexibility."
+      ],
+      "signatureDish": "Rigatoni with Lamb Neck Ragù",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/3015/5abaeb1f4b80c06f94aa9599ed24cc7694d18b1c/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "nakaji",
+      "name": "Nakaji",
+      "neighborhood": "Chinatown",
+      "cuisine": "Edomae Sushi Omakase",
+      "coordinates": {
+        "lat": 40.7157979,
+        "lng": -73.9968327
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/nakaji",
+      "website": "https://www.nakajinyc.com",
+      "phoneNumber": "(646) 478-8282",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 10 counter seats; seatings at 5:30 PM and 8 PM — pick your seating when booking on Resy.",
+        "Reservations open 14 days out at midnight on Resy; set an alarm and be ready at 12:00 AM.",
+        "Phone reservations available Tue–Sun if Resy slots are gone: (646) 478-8282.",
+        "Omakase runs approximately 2.5 hours; plan the night around it.",
+        "Also listed on Tock but Resy is the active platform — use Resy."
+      ],
+      "signatureDish": "Otoro Nigiri",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://image.resy.com/3/003/2/10163/222e8509de0560c4b221fe190aafd312a900c139/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "naks",
+      "name": "Naks",
+      "neighborhood": "East Village",
+      "cuisine": "Filipino",
+      "coordinates": {
+        "lat": 40.7302931,
+        "lng": -73.9835696
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/naks/reservations/create/search/",
+      "website": "https://www.naks.nyc",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Books via SevenRooms (not Resy) — 7 days in advance at 9 AM ET. The hint lists Resy but SevenRooms is the live platform.",
+        "18-course kamayan tasting menu by chef Eric Valdez (Unapologetic Foods); this is a full-commitment dinner.",
+        "The ginataang alimango (Dungeness crab in coconut milk, chile, ginger, shrimp paste) is the standout course.",
+        "Closed Mondays; Tue–Fri dinner only, Sat–Sun brunch + dinner. Cancellations under 24 hours = $40/person fee.",
+        "A la carte is also available as an alternative to the tasting menu — good if the full kamayan feels like too much."
+      ],
+      "signatureDish": "Ginataang alimango (Dungeness crab in coconut-chile broth)",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv958rU-3zH7xek4g2On5tT5lq0pkP85FHuEg0rQISsW7Wtu4ddOOrwkS6mLNXtTWb9YiBYvRkju0OfmtVSZVUcM0KMet74oLrp8ytQcCke_J7hTgk8t3d4I82aWaw6jZgVe85DQtKQ0cumz3lEtMH9I4S--v39sG9GRcT0YWO_RvnlxV_-GrjHNRounESBLDMtIwbjA_",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "noda",
+      "name": "Noda",
+      "neighborhood": "NoMad",
+      "cuisine": "Sushi Omakase",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/noda-nyc",
+      "website": "https://www.noda.nyc",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "3:00 PM ET",
+      "releaseDay": "21st of previous month",
+      "bookingWindow": "monthly batch release",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release in batches on Tock — recent drops have been around the 21st of the month at 3 PM ET; check Tock for the exact next release date.",
+        "Fully prepaid at $400 per person; Tock charges at booking, no refunds.",
+        "Parties of 1 to 6 all seated at the single counter — every seat faces the chef.",
+        "The Japanese whiskey collection is one of the most extensive in NYC; budget extra for pours.",
+        "Chef Tsunoda trained in edomae in Ginza — the pacing is unhurried, plan 2.5–3 hours."
+      ],
+      "signatureDish": "20-course edomae seasonal tasting",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/2214/8ba8cf39d86d77843709ddab01119d25.png?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "noz-17",
+      "name": "Noz 17",
+      "neighborhood": "Chelsea",
+      "cuisine": "Sushi Omakase",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/noz17/reservations/create/search/",
+      "website": "https://www.noz.global/experience/noz-17",
+      "phoneNumber": "+19173381792",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Platform is SevenRooms — not Tock; book via noz.global/reserve-seats or the link in their Instagram bio.",
+        "Only 7 counter seats; two seatings nightly at 6 PM and 9 PM, Monday–Saturday — availability is extremely thin.",
+        "Email oshinobi@noz17.com directly for cancellation list; the team responds and occasionally releases single seats this way.",
+        "The 20–25 course Edomae-style menu is fully chef-driven with no substitutions; dietary restrictions must be disclosed well in advance.",
+        "Sushi Noz (UES) and Noz Market are sister restaurants on the same SevenRooms system — if Noz 17 is sold out, check noz.global for group availability."
+      ],
+      "signatureDish": "Chef's seasonal Edomae nigiri progression — aged hirame and otoro are recurring highlights",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv97qp0wZnr8SrE9skdijv3wdT250IR_MXhZch8xFOIrL5Gsj60wMXl7zH5yfWOp4WT2KlBndudDay02yxmxQ3c3VaLgtk5PxVqoFoo0h_Ctu95HwOcEfvU2EOf1pkECtXm4QpdO59QZ7l8Q8YuoWTziprkspS1IfTmhxYh25MZ67vXuKJ1QemnGkl8YBR3QWTKALI6Qs",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "odo",
+      "name": "Odo",
+      "neighborhood": "Flatiron",
+      "cuisine": "Sushi Tasting",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/odo-new-york/",
+      "website": "https://www.odo.nyc/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "mid-month for following month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release monthly via Tock in batches — check the Tock page for the exact drop date (typically mid-month for the following month).",
+        "2 Michelin Stars; hyper-seasonal Japanese kaiseki-influenced tasting menu by Chef Hiroki Odo.",
+        "Cannot accommodate vegan, vegetarian, gluten-free, or guests who cannot eat seafood/seaweed — confirm dietary restrictions before booking.",
+        "Odo Lounge next door has a cocktail program and a more accessible entry point; also on Tock.",
+        "Two dinner seatings: 6:00 PM and 8:30 PM — the earlier seating is marginally easier to book."
+      ],
+      "signatureDish": "Uni hand roll",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/1119f61c1b95b879ded00566efa9da4c.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "oiji-mi",
+      "name": "Oiji Mi",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean",
+      "coordinates": {
+        "lat": 40.7396655,
+        "lng": -73.9924935
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/oiji-mi",
+      "website": "https://www.oijimi.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Dining room releases 30 days in advance at midnight ET on Resy; 5-course prix-fixe at $150/person.",
+        "Bar/lounge is mostly walk-in (FCFS) with à la carte — great for a spontaneous meal without the tasting menu commitment.",
+        "Michelin one-star; chef Brian Kim's chili lobster ramyun is the dish everyone talks about.",
+        "Striped jack hwe (crudo) with seaweed scallion vinaigrette is an underrated opener — order it in the dining room.",
+        "Lounge reservations are also available on Resy with less competition than the dining room."
+      ],
+      "signatureDish": "Chili lobster ramyun",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/58543/f74f91d37b1875ab29b284746f848965847a7093/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "one-white-street",
+      "name": "One White Street",
+      "neighborhood": "Tribeca",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.719282,
+        "lng": -74.0059677
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/one-white-street",
+      "website": "https://onewhitestreetnyc.com/",
+      "phoneNumber": "+16463987679",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Two distinct spaces: walk-in wine bar on the ground floor, ticketed 8-course tasting menu ($185 pp) on the upper floors — book the tasting menu via Resy, wine bar is first-come.",
+        "Friday and Sunday lunch (recently added) is dramatically easier to book than dinner — same kitchen, same produce, lower competition.",
+        "The restaurant sources from its own rooftop farm in Tribeca; menu shifts weekly based on harvest — check their Instagram before going to see what's in.",
+        "Chef Austin Johnson's wine list is one of the best in NYC natural wine; lean on the sommelier for pairings rather than doing the add-on pairing package.",
+        "The townhouse has a residential feel — show up a few minutes early and take in the ground floor before heading upstairs."
+      ],
+      "signatureDish": "Dry-aged beef with rooftop farm vegetables — the preparation shifts seasonally but anchors the menu",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/49137/dc40b33cc38f937d8df19c6dacc28dde1337895b/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "oxomoco",
+      "name": "Oxomoco",
+      "neighborhood": "Greenpoint, Brooklyn",
+      "cuisine": "Mexican",
+      "coordinates": {
+        "lat": 40.72977,
+        "lng": -73.9554604
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/oxomoco",
+      "website": "https://www.oxomoconyc.com",
+      "phoneNumber": "(646) 688-4180",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Resy is the booking platform; weekend dinner reservations are highly competitive — book the day the 30-day window opens.",
+        "Currently running a seasonal seafood pop-up concept 'Playa Oxomoco' — the menu is more seafood-forward than usual; confirm the current format before visiting.",
+        "The wood-fired cooking is the soul of the menu — the smoked beet tostada and any wood-roasted protein are the moves.",
+        "Brunch and lunch are meaningfully easier to book than dinner; great for a first visit.",
+        "Groups of 8+ must email hola@oxomoconyc.com — Resy won't surface large-party slots."
+      ],
+      "signatureDish": "Wood-fired beet tostada",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/2601/75e2c084fce0f41134155655cd69c798653ffc42/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "pasquale-jones",
+      "name": "Pasquale Jones",
+      "neighborhood": "Nolita",
+      "cuisine": "Italian / Wood-fired Pizza",
+      "coordinates": {
+        "lat": 40.7210814,
+        "lng": -73.9967486
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/pasquale-jones",
+      "website": "https://www.pasqualejones.com",
+      "phoneNumber": "917-596-0716",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Booking window is 45 days — longer than most assume; book five to six weeks out for weekend nights.",
+        "The wood-fired clam pie with lardo is the must-order; don't overlook the pastas.",
+        "Walk-in bar seating is genuinely available on weeknights — arrive at opening or after 8:30 PM when the first wave clears.",
+        "Lunch and brunch (Wed–Sun) are dramatically easier to walk into than dinner.",
+        "From the Delicious Hospitality Group (also Charlie Bird, Pasquale Slice) — the team knows hospitality."
+      ],
+      "signatureDish": "Wood-fired clam pie with lardo",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/440/6163aa6cd04121e7b8b7f06efd115d5a45e57f46/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "pastis",
+      "name": "Pastis",
+      "neighborhood": "Meatpacking District",
+      "cuisine": "French Brasserie",
+      "coordinates": {
+        "lat": 40.7392357,
+        "lng": -74.0069542
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/pastis",
+      "website": "https://pastisnyc.com/",
+      "phoneNumber": "(212) 929-4844",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "28-day rolling window on Resy; Starr Restaurants property — not the hardest in the city but Saturday dinner and Sunday brunch are legitimately difficult.",
+        "Breakfast (Mon–Fri 8–11 AM) and weekday lunch are easy walk-ins — the zinc bar vibe is best experienced without the reservation chase anyway.",
+        "Outdoor terrace tables on Gansevoort Street release the same window but move faster in summer — check 'Outdoor' seat type separately on Resy.",
+        "Classic brasserie menu: order the steak frites (black angus), croque madame at lunch, and profiteroles to finish.",
+        "The late-night bar scene (Fri/Sat past 11 PM) is effectively walk-in territory — the restaurant stops seating new dinner parties but the bar stays open."
+      ],
+      "signatureDish": "Steak frites",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://image.resy.com/3/003/2/6484/bb020b74547a6ee779684a0813971f1c935680bd/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "per-se",
+      "name": "Per Se",
+      "neighborhood": "Columbus Circle",
+      "cuisine": "French Tasting",
+      "coordinates": {
+        "lat": 40.7682549,
+        "lng": -73.9828519
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/perse",
+      "website": "https://thomaskeller.com/perseny/",
+      "phoneNumber": "+12128239335",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "2:00 PM ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "calendar month",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop on the 1st of each month at 2:00 PM ET for the following month — be logged in to Tock and ready at 1:58 PM.",
+        "Both the 9-course chef's tasting ($425 pp) and the vegetable tasting menu must be prepaid in full at booking; cancellations are strictly enforced.",
+        "Request a window table overlooking Central Park when booking — specify in the notes field; it makes a material difference.",
+        "If the 1st is sold out, check back on Tock daily — cancellations surface in real time and the 30-day window still applies.",
+        "Dress code is business casual enforced; jackets recommended for men."
+      ],
+      "signatureDish": "Oysters and Pearls — sabayon of pearl tapioca with Island Creek oysters and caviar",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/696/e6b147f6100fc838be6ce5b466d15c9f.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "peter-luger",
+      "name": "Peter Luger",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 40.7098661,
+        "lng": -73.9625564
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/peter-luger-steak-house",
+      "website": "https://peterluger.com",
+      "phoneNumber": "718-387-7400",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Lunch walk-ins are viable on weekdays; arrive as soon as they open at noon for the best shot.",
+        "Peter Luger does NOT accept credit cards — bring cash, a US debit card, or the Luger house card.",
+        "Order the porterhouse for two minimum; the extra thick bacon appetizer and sliced tomato with onion are non-negotiable starters.",
+        "Phone reservations are also accepted at 718-387-7400 — sometimes easier than Resy for large parties.",
+        "Stick to the classics; the menu rarely changes and the staff prefers it that way."
+      ],
+      "signatureDish": "Dry-aged porterhouse for two",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/4287/9f850c4275c12a39119e509bb7583a33a9b8af41/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "rafs",
+      "name": "Raf's",
+      "neighborhood": "Nolita",
+      "cuisine": "French-Italian",
+      "coordinates": {
+        "lat": 40.7246991,
+        "lng": -73.9932247
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/rafs",
+      "website": "https://www.rafsnewyork.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at 9 AM sharp, 14 days out on Resy — set an alarm and move fast for weekends.",
+        "The bar walk-in is a legitimate strategy and often the better seat — you see the room and the pasta comes out the same.",
+        "All-day bakery (open from 9 AM) for croissants and pastries requires no reservation.",
+        "From the Musket Room team; the French-Italian pastas and roast chicken are the anchors of the menu.",
+        "Closed Monday."
+      ],
+      "signatureDish": "French-Italian seasonal pasta and whole roasted chicken",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/65679/e7276b093224d54ebd595b5e4bf06e96bde520ad/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "raouls",
+      "name": "Raoul's",
+      "neighborhood": "SoHo",
+      "cuisine": "French Bistro",
+      "coordinates": {
+        "lat": 40.7262443,
+        "lng": -74.002053
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/raoulsrestaurant",
+      "website": "http://www.raouls.com",
+      "phoneNumber": "(212) 966-3518",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at 8 AM sharp, 30 days out on Resy — set an alarm.",
+        "The bar is walk-in and worth it; shows up around 5–5:30 PM for a stool before the rush.",
+        "Open since 1975 — a genuine NYC institution, not a trend restaurant. Order the steak au poivre.",
+        "Weekend brunch (11 AM–2:30 PM) has a separate and slightly easier booking track.",
+        "Cancellations appear frequently on Resy the week of; check 2–3 days ahead in the evenings."
+      ],
+      "signatureDish": "Steak au Poivre",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/7241/65fb7c58eb0f4c25db0e9941c84ef407839a35a7/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "rezdora",
+      "name": "Rezdôra",
+      "neighborhood": "Flatiron",
+      "cuisine": "Italian (Emilia-Romagna)",
+      "coordinates": {
+        "lat": 40.7390943,
+        "lng": -73.9893691
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.rezdora.nyc",
+      "website": "https://www.rezdora.nyc",
+      "phoneNumber": "(646) 692-9090",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "29 days",
+      "bookingWindowDays": 29,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at midnight exactly 29 days out — set an alarm; they go within minutes.",
+        "Resy allows bookings for up to 4 guests; larger groups need to call directly.",
+        "Bar seats walk-in only — show up at 5 PM sharp on a weeknight for the best odds.",
+        "The hand-rolled pasta is the whole point: order the tortellini in brodo and the tagliatelle al ragù.",
+        "Watch Resy cancellations at 4 PM the day before — confirmations go out and dropped slots reappear.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Tortellini in Brodo",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://images.getbento.com/accounts/cb4d07e36683bc851c470d0fe557ce5f/media/images/11056Rezdora_AlexStaniloff_062625-070.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
+      "photoAttr": "rezdora.nyc"
+    },
+    {
+      "id": "rubirosa",
+      "name": "Rubirosa",
+      "neighborhood": "Nolita",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7227225,
+        "lng": -73.9961142
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/rubirosa",
+      "website": "https://www.rubirosanyc.com",
+      "phoneNumber": "212-965-0500",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Resy opens 7 days in advance at midnight ET sharp — weekend prime times vanish in seconds, so be ready at 11:59 PM.",
+        "A secondary dump of cancellations typically hits 25–26 hours before service time; worth checking the app.",
+        "The thin-crust Pappalardo family pizza is the draw; the vodka sauce and clam pie are the top orders.",
+        "Parties of 2 get 75 minutes; parties of 4–7 get 90 minutes — don't be late.",
+        "Walk-in bar seats are viable on weekday lunches; evenings and weekends require patience."
+      ],
+      "signatureDish": "Thin-crust tomato pie (Pappalardo family recipe)",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "cozy",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "photo": "https://image.resy.com/3/003/2/466/609f26a632b111dc92705fd281cd43e6fab0c0c5/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "saga",
+      "name": "Saga",
+      "neighborhood": "Financial District",
+      "cuisine": "New American Tasting",
+      "coordinates": {
+        "lat": 42.9293563,
+        "lng": -78.7548407
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/saga-ny",
+      "website": "https://www.saga-nyc.com/",
+      "phoneNumber": "+12123393963",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "1st of previous month",
+      "bookingWindow": "34 days",
+      "bookingWindowDays": 34,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop on the 1st of each month for the following month on Resy — platform switched from Tock in 2024, confirm current platform before booking.",
+        "$100 per-person deposit required at booking; non-refundable within 48 hours of the reservation.",
+        "Located on the 63rd floor of 70 Pine — arrive 10 minutes early to clear building security and reach the elevator bank.",
+        "Wednesday–Thursday seatings are significantly easier to land than Friday–Saturday; the 4-course menu at $198 pp (Sun–Thu) offers better value than the 7-course.",
+        "The Terrace has a separate Resy listing (saga-the-lounge-and-terraces) and is easier to book if you want a taste of the space."
+      ],
+      "signatureDish": "Dry-aged duck — preparations change seasonally but the duck has anchored the tasting menu since opening",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/52855/190201d511bbeb6c90038e00fd7495e649284aeb/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "sailor",
+      "name": "Sailor",
+      "neighborhood": "Fort Greene",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.6893919,
+        "lng": -73.9703166
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sailor-brooklyn",
+      "website": "https://www.sailor.nyc/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "11:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Official reservation platform is OpenTable — released at 11am, 14 days in advance (not Resy despite appearing there).",
+        "More than half the restaurant is walk-in only; showing up at 4:30–4:45 PM before the 5 PM open is a reliable strategy.",
+        "Prime 6–8 PM slots vanish within 90 minutes of the 11am drop — book immediately or go walk-in.",
+        "Outdoor seats released same-day based on weather forecast — check OpenTable the morning of.",
+        "Chef April Bloomfield helms the kitchen; the smash burger and roast chicken are must-orders."
+      ],
+      "signatureDish": "Smash burger",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://images.getbento.com/accounts/5139d0a5c72252f412f37fccad767d87/media/images/73880hosp-5_copy.png?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5|resize(786)",
+      "photoAttr": "sailor.nyc"
+    },
+    {
+      "id": "saint-theos",
+      "name": "Saint Theo's",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/saint-theos",
+      "website": "https://www.sainttheos.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at 10 AM, 21 days in advance on Resy — no phone or email bookings accepted.",
+        "Best cancellation window: check Resy at 4 PM the day before, when the restaurant texts to reconfirm and dropped slots resurface.",
+        "Located at 340 Bleecker St in the West Village — note the chunk_3 hint said Williamsburg, but the restaurant is in the West Village.",
+        "Fresh seafood, handmade pasta, and artisan pizza; order the wood-fired dishes for the full experience.",
+        "Weekend brunch (11 AM–3 PM) books out nearly as fast as dinner; same 21-day window applies."
+      ],
+      "signatureDish": "Wood-Fired Margherita Pizza",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28"
+        ]
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photoChecked": "2026-07-29"
+    },
+    {
+      "id": "sartianos",
+      "name": "Sartiano's",
+      "neighborhood": "SoHo",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 40.7248056,
+        "lng": -73.998682
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.sartianos.com/reservations/",
+      "website": "https://www.sartianos.com/",
+      "phoneNumber": "+12126581155",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Dinner reservations are primarily handled by phone or email — call (212) 658-1155 between 10 AM–5 PM, or email reservations@sartianos.com.",
+        "A Resy page exists but dinner isn't reliably bookable there; use the phone/email channel.",
+        "Located inside The Mercer hotel at 99 Prince St; celebrity-magnet SoHo scene, dress accordingly.",
+        "Culinary direction by three-time James Beard winner Alfred Portale — the pasta and Dover sole are signatures.",
+        "One month advance is the practical window; call the morning you're 30 days out for prime slots."
+      ],
+      "signatureDish": "Dover Sole Meunière",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://images.getbento.com/accounts/12f33f106c57efbc141a7887d82c3b9b/media/images/44522SARTIANO_S_Bar_Photo_Credit__Teddy_Wolff.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
+      "photoAttr": "sartianos.com"
+    },
+    {
+      "id": "scarpetta",
+      "name": "Scarpetta",
+      "neighborhood": "NoMad",
+      "cuisine": "Italian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/scarpetta-nyc",
+      "website": "https://www.scarpettarestaurants.com/location/scarpetta-new-york-city/",
+      "phoneNumber": "+12126910555",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Located inside Hotel Seville at 88 Madison Ave (NoMad) — neighborhood is technically NoMad, not Flatiron, despite some listings.",
+        "Resy drop is at 9 AM ET 30 days in advance; weekend prime-time slots (7–8 PM Friday/Saturday) go within minutes.",
+        "The spaghetti al pomodoro and tagliatelle with Bolognese are the two dishes to order regardless of anything else on the menu.",
+        "Pasta is handmade daily — the kitchen is at its most engaged Tuesday–Thursday; weekends can feel like a volume operation.",
+        "SevenRooms widget also exists on their site but Resy is the primary channel for dining room reservations."
+      ],
+      "signatureDish": "Spaghetti al pomodoro — the defining dish; simple, precise, irreproducible at home",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "romantic",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "photo": "https://image.resy.com/3/003/2/35688/ebb25d10b0db736c14a4f995ecf524fa68bedcdd/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "semma",
+      "name": "Semma",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "South Indian",
+      "coordinates": {
+        "lat": 40.7360072,
+        "lng": -74.0005291
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/semma/reservations/create/search/",
+      "website": "https://www.semma.nyc/",
+      "phoneNumber": "(212) 373-8900",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "14-day window releases daily at 9 AM ET on SevenRooms — most slots clear within 10–35 seconds; have your party size and preferred dates pre-loaded.",
+        "Wednesday 3-top at 9 PM has historically been the slowest-selling slot (~145 sec) — most other combos vanish in under 30 seconds.",
+        "Walk-in bar seats are a real path in; arrive by 4 PM and ask to be on the walk-in list — weeknights give better odds than weekends.",
+        "Chef Vijay Kumar's menu is Tamil Nadu-rooted: order the gunpowder dosa, wild boar curry, and any daily special fish preparation.",
+        "Unapologetic Foods group (Dhamaka, Adda) — if Semma is full, Dhamaka on Resy is slightly easier and equally exciting."
+      ],
+      "signatureDish": "Gunpowder dosa",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv94pUQRBAln-pq0aFRARKPBYTxTOofO4aV5_-fOKGCuimWVtdS2ggKHgSYRAKdO4xDx6Tbw2Dq3H_YY0u8S57TM1KkbP942WgHxtDq2g0K242y0_b7tCQr1ftxBrPXumU1-VoZmSMuCSICrhqJCzNz_-l7IHGzL0ChqVqAG_Gmjt4p9LO72li7rL7GE3ZeQzZv358T0C",
+      "photoAttr": "SevenRooms"
+    },
+    {
+      "id": "shukette",
+      "name": "Shukette",
+      "neighborhood": "Chelsea",
+      "cuisine": "Middle Eastern",
+      "coordinates": {
+        "lat": 40.7471473,
+        "lng": -74.0005212
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/shukette",
+      "website": "https://shukette.org",
+      "phoneNumber": "212-242-1803",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at 10 AM ET daily on Resy — 30-day window, prime evening slots gone in seconds.",
+        "Counter walk-in is genuinely a good strategy: line up 30–45 min before opening and you'll get in at first seating.",
+        "Order the Frena bread and Not Your Average Hummus immediately — the bread is the signature item.",
+        "Chef Ayesha Nurdjaja's charcoal-grilled skewers are the main event; the cauliflower and lamb chops are standouts.",
+        "From the Cookshop/Shuka group; similar food DNA to Shuka but louder, more casual, and harder to book."
+      ],
+      "signatureDish": "Frena bread with house dips",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "intimate",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "photo": "https://image.resy.com/3/003/2/8579/3fef9e1c28ec480d7753adfc83180fa37fcb7c62/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "st-anselm",
+      "name": "St. Anselm",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 40.7142668,
+        "lng": -73.9560449
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/st-anselm",
+      "website": "https://www.stanselm.net/",
+      "phoneNumber": "(718) 384-5054",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at midnight ET on Resy, 28 days in advance — set an alarm for 12:00 AM if you want a weekend prime-time slot.",
+        "11-seat bar and ~25% of dining room tables are walk-in; arrive before 5:30 PM for the best shot on weekends.",
+        "Call ahead to check walk-in availability — the staff is responsive at (718) 384-5054.",
+        "Menu is wood-fire focused — the hanger steak and bone-in chicken are the signatures; go with whichever the server emphasizes that night.",
+        "Max party size is 8 in the dining room; larger groups should inquire about private dining."
+      ],
+      "signatureDish": "Hanger steak",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "photo": "https://image.resy.com/3/003/2/32467/c681400e1688eb08160ac93fc054d82152eb59fe/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "sushi-nakazawa",
+      "name": "Sushi Nakazawa",
+      "neighborhood": "West Village",
+      "cuisine": "Sushi Omakase",
+      "coordinates": {
+        "lat": 40.7317406,
+        "lng": -74.0045409
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/sushi-nakazawa",
+      "website": "https://www.sushinakazawa.com/new-york",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Dinner reservations open 30 days in advance; lunch opens 14 days out — lunch is dramatically easier to land.",
+        "Dinner seating is parties of 2 only; lunch accommodates 1–4 guests.",
+        "Three dinner seatings: 5 PM, 7:15 PM, 9:30 PM — the 9:30 seating is the last to fill.",
+        "The 20-course omakase is fully scripted by Chef Nakazawa; do not attempt to substitute or modify.",
+        "Book via Resy only — no OpenTable, no phone reservations."
+      ],
+      "signatureDish": "20-course nigiri omakase",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://image.resy.com/3/003/2/5589/79a1e7fc18242cdbd1fc0f2c997e44ddfc6c5e6e/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "sushi-noz",
+      "name": "Sushi Noz",
+      "neighborhood": "Upper East Side",
+      "cuisine": "Sushi Tasting",
+      "coordinates": {
+        "lat": 40.7738874,
+        "lng": -73.9581318
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sushinoz",
+      "website": "https://www.noz.global",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "~42 days (approx 6 weeks)",
+      "bookingWindowDays": 42,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release approximately six weeks out on Tock; set a calendar alert and check every morning near the six-week mark.",
+        "Four seatings per night across two counters (6-seat at 5:45 PM / 8:45 PM, 8-seat at 6:00 PM / 9:00 PM) — the 6-seat counter is the more intimate experience.",
+        "No cancellations or rescheduling within 72 hours; full deposit forfeiture. Know your schedule before booking.",
+        "The omakase is hyper-seasonal Edomae-style — trust the chef's progression and avoid requests.",
+        "Sister spots Noz 17 and Noz Market are accessible fallbacks if Sushi Noz is sold out."
+      ],
+      "signatureDish": "Edomae-style seasonal omakase nigiri",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://cdn.prod.website-files.com/610c65665b03394834f11913/610c69d3105906308f15a4d2_Screen%20Shot%202021-08-05%20at%206.42.24%20PM-p-1600.png",
+      "photoAttr": "noz.global"
+    },
+    {
+      "id": "tempura-matsui",
+      "name": "Tempura Matsui",
+      "neighborhood": "Murray Hill",
+      "cuisine": "Tempura Omakase",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/tempuramatsui/",
+      "website": "https://www.tempuramatsui.com",
+      "phoneNumber": "212-986-8885",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "America's only Michelin-starred tempura counter — reservations are mandatory, zero walk-ins.",
+        "Book via Tock up to 30 days out; the counter is tiny (under 10 seats) so dinner slots disappear fast.",
+        "Dinner omakase is $295/person; lunch (Fri–Sat only) is $168/person — lunch is easier to book.",
+        "Request counter seats when booking to watch the chef work; the bar-side view is the full experience.",
+        "Cancellation policy: full charge applies for cancellations after June 2026 cutoffs — treat this like a ticketed event."
+      ],
+      "signatureDish": "Anago (saltwater eel) tempura",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/6e59fc1179c5db9b27304508f5dd6478.jpg?auto=format&ixlib=java-2.3.2",
+      "photoAttr": "Tock"
+    },
+    {
+      "id": "the-grill",
+      "name": "The Grill",
+      "neighborhood": "Midtown East",
+      "cuisine": "American Chophouse",
+      "coordinates": {
+        "lat": 40.64285,
+        "lng": -73.783303
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-grill-ny",
+      "website": "https://thegrillnewyork.com",
+      "phoneNumber": "(212) 254-3000",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open at 10 AM sharp, 30 days in advance on Resy.",
+        "Dress code is enforced: no shorts, open-toed shoes, tank tops, athletic wear, or baseball caps.",
+        "The room — Mies van der Rohe's Seagram Building — is as important as the food; ask for the main dining room, not the bar.",
+        "Cancellation deadline for dinner is noon on the day of the reservation.",
+        "Lunch on weekdays is dramatically easier to book than weekend dinner."
+      ],
+      "signatureDish": "Grill Trolley Dover Sole",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      },
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/10389/fd49f6ddb8a3a948663852a7b677c8a536bed2ea/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "the-modern",
+      "name": "The Modern",
+      "neighborhood": "Midtown",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 40.7616124,
+        "lng": -73.9774992
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.themodernnyc.com/",
+      "website": "https://www.themodernnyc.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Dining Room reservations open 28 days out at noon ET on Resy — the Bar Room is also reservable and easier to snag.",
+        "The Bar Room is à la carte and walk-in friendly; an excellent alternative if the Dining Room is full.",
+        "2 Michelin Stars as of 2025; request a table overlooking MoMA's Abby Aldrich Rockefeller Sculpture Garden.",
+        "The Kitchen Table (up to 4 guests) offers a front-row kitchen experience — book separately through the restaurant directly.",
+        "Lunch tasting menu is harder to find guidance on but releases on the same 28-day window.",
+        "Not bookable on Resy — reserve via the website or by phone"
+      ],
+      "signatureDish": "Langoustine with brown butter",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://images.getbento.com/accounts/24a4eb5e9d52fd8be0301c47f96ceec4/media/images/42974The_Modern_March_2026-16.jpg?w=1800&fit=max&auto=compress,format&cs=origin&h=1800",
+      "photoAttr": "themodernnyc.com"
+    },
+    {
+      "id": "yoshino",
+      "name": "Yoshino",
+      "neighborhood": "NoHo",
+      "cuisine": "Sushi Tasting",
+      "coordinates": {
+        "lat": 40.7262002,
+        "lng": -73.9921115
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/yoshinonewyork",
+      "website": "https://www.yoshinonewyork.com/",
+      "phoneNumber": "+19174441988",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM (Noon) ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop at noon ET exactly 30 days out on Tock — prepayment required in full at booking, so have your card ready.",
+        "Two seatings: 5:30 PM and 8:00 PM, Monday–Saturday; the later seating often lingers slightly longer and the 8 PM slot is marginally easier to snag.",
+        "Add yourself to the Tock waitlist the moment your target date sells out — single-seat cancellations appear regularly.",
+        "At ~$648 all-in (meal + service + tax), it's one of NYC's pricier omakases — the price reflects Chef Yoshida's Edo-mae training under a Tokyo master.",
+        "Located at 342 Bowery — the entrance is understated; look for the small placard street-level."
+      ],
+      "signatureDish": "Seasonal 20-course Edomae omakase — the kohada (gizzard shad) cured in-house is a recurring standout",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+        }
+      ],
+      "photo": "https://static1.squarespace.com/static/5d12d182eb96b60001c03233/t/61525f1f295c1543ff76ebb1/1632788255930/Asset+5.png?format=1500w",
+      "photoAttr": "yoshinonewyork.com"
+    },
+    {
+      "id": "adda",
+      "name": "Adda",
+      "neighborhood": "East Village",
+      "cuisine": "Indian",
+      "coordinates": {
+        "lat": 40.7268139,
+        "lng": -73.9861401
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/addanyc",
+      "website": "https://www.addanyc.com",
+      "phoneNumber": "718-433-3888",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Unapologetic Foods group (Dhamaka, Semma, Adda) — books fast and rewards persistence.",
+        "Moved from Long Island City to the East Village (107 1st Ave); confirm the address.",
+        "Set an alarm for 8:55 AM — SevenRooms releases 7 days out at 9 AM and prime slots vanish.",
+        "Order the Butter Chicken Experience; the goat is the sleeper hit."
+      ],
+      "signatureDish": "Butter Chicken Experience",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Eater NY",
+          "tier": "Essential 38",
+          "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+        }
+      ],
+      "photo": "https://static1.squarespace.com/static/5b4e1a8a89c1729b0352d908/t/68079f7254a62b2eaf5fd544/1745330034738/Adda_Secondary_Mark_KO_RGB.png?format=1500w",
+      "photoAttr": "addanyc.com"
+    },
+    {
+      "id": "ramen-by-ra",
+      "name": "Ramen by Ra",
+      "neighborhood": "East Village",
+      "cuisine": "Ramen",
+      "coordinates": null,
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/new-york-ny/venues/ramen-by-ra",
+      "website": "https://www.ramenbyra.com",
+      "phoneNumber": "",
+      "releaseSchedule": "twice-monthly",
+      "releaseTime": "12:00 AM (Midnight) ET",
+      "releaseDay": "1st & 15th",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Drops twice a month — 1st and 15th at 9 AM ET. Set both alarms.",
+        "Counter omakase-style; you pick your bowl at booking. No walk-ins for the counter.",
+        "Relocated to a new East Village space in late 2025 — confirm the address on Resy.",
+        "Miss the drop? Takeaway broth cups and breakfast bao at the walk-up window until sold out."
+      ],
+      "signatureDish": "Tori Paitan Ramen",
+      "lastVerified": "2026-09-15",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/79848/61bb0e7ef47a1b43cea83e5e05b1dda19c4dd40f/jpg/640x360",
+      "photoAttr": "Resy"
+    },
+    {
+      "id": "oresh",
+      "name": "Or'esh",
+      "neighborhood": "SoHo",
+      "cuisine": "Mediterranean",
+      "coordinates": null,
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/450wbroadway/reservations/create/search/",
+      "website": "https://www.oresh.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "The hardest table in NYC in early 2026 — books out within seconds.",
+        "Reservations on SevenRooms (the DoorDash dining app) 7 days out at 10 AM ET.",
+        "Smart-elegant dress code enforced.",
+        "Michelin-starred chef Nadav Greenberg; go for the coal-fired seafood."
+      ],
+      "signatureDish": "Coal-fired whole fish",
+      "lastVerified": "2026-09-15",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://www.sevenrooms.com/.h/download/AMIfv96B8NaBdCRkOs7q-BpV6YBadY7bdSB27GhN-k0oM6CyA2vXASE02vI6UTJUzOgIYN3cCuen9O8ZlXZqi4PsblJopBFvdLskZEFS0aLmiTnQn-Yuly7kRDZdAm2Q-QbtZ-PhO9OXSgglv1SSeS2PYLfjRKjqnyAILkvCVp_WGoKrC4ujspruvb4QL1JvNERh4CLIR07v",
+      "photoAttr": "SevenRooms"
+    }
+  ]
+}

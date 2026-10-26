@@ -1,0 +1,3536 @@
+[
+  {
+    "id": "carbone",
+    "name": "Carbone",
+    "neighborhood": "Greenwich Village",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7281,
+      "lng": -74.0006
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/carbone",
+    "website": "https://carbonenewyork.com",
+    "instagram": "carbonenewyork",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Be logged into Resy at 9:59 AM",
+      "Refresh at exactly 10:00:00 - seconds matter",
+      "No walk-ins accepted, ever",
+      "Set Resy notifications for cancellations"
+    ],
+    "signatureDish": "Spicy Rigatoni Vodka",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "don-angie",
+    "name": "Don Angie",
+    "neighborhood": "West Village",
+    "cuisine": "Italian-American",
+    "coordinates": {
+      "lat": 40.7378,
+      "lng": -74.0027
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/don-angie-new-york",
+    "website": "https://donangie.com",
+    "instagram": "donangienyc",
+    "bookingWindow": "7 days",
+    "bookingWindowDays": 7,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "4:30 PM",
+      "advice": "Walk-in list opens at 4:30 PM sharp; arrive early, put your name down, then explore the neighborhood. Bar seats are available for walk-ins."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "SWITCHED TO OPENTABLE MAY 2025 - no longer on Resy",
+      "Reservations release 7 days in advance at 9 AM",
+      "Bar seats available for walk-ins",
+      "The Lasagna For Two is worth the effort"
+    ],
+    "signatureDish": "Lasagna For Two",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "torrisi",
+    "name": "Torrisi",
+    "neighborhood": "Nolita",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7237,
+      "lng": -73.9953
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/torrisi",
+    "website": "https://torrisinyc.com",
+    "instagram": "torrisi.nyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:15 PM",
+      "advice": "12-seat bar for walk-ins (parties of 1-2 only); show up at 4:15 PM for the 5 PM seating. Weeknight waits can be 4+ hours."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Same release as Carbone (Major Food Group)",
+      "Lunch reservations are easier to get",
+      "Bar is first-come, first-served"
+    ],
+    "signatureDish": "Tortellini Pomodoro",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "4-charles",
+    "name": "4 Charles Prime Rib",
+    "neighborhood": "West Village",
+    "cuisine": "Steakhouse",
+    "coordinates": {
+      "lat": 40.7346,
+      "lng": -74.0011
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/4-charles-prime-rib",
+    "website": "https://nycprimerib.com",
+    "instagram": "4charlesprimrib",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar area is available for walk-ins."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "$5/person reservation fee charged at booking",
+      "Very intimate brownstone setting",
+      "No high chairs or strollers",
+      "Reservations sell/trade on secondary market (against policy)"
+    ],
+    "signatureDish": "Prime Rib (English, Charles, or King Cut)",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "polo-bar",
+    "name": "The Polo Bar",
+    "neighborhood": "Midtown",
+    "cuisine": "American",
+    "coordinates": {
+      "lat": 40.7615,
+      "lng": -73.9745
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-polo-bar",
+    "website": "https://www.ralphlauren.com/global-polo-bar",
+    "instagram": "thepolobar",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "releaseDay": "Matching calendar date (Sept 30 for Oct 30)",
+    "walkIns": false,
+    "phoneNumber": "212-207-8562",
+    "tips": [
+      "Phone reservations ONLY - no online booking for prime times",
+      "Expect 30-60 minute hold times",
+      "Amex Platinum concierge can help",
+      "Try calling at 4 PM day-of for cancellations",
+      "Pre/post theater times available on OpenTable"
+    ],
+    "signatureDish": "Polo Bar Burger",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "atomix",
+    "name": "Atomix",
+    "neighborhood": "NoMad",
+    "cuisine": "Korean Tasting Menu",
+    "coordinates": {
+      "lat": 40.7445,
+      "lng": -73.9836
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/atomixnyc",
+    "website": "https://atomixnyc.com",
+    "instagram": "atomixnyc",
+    "bookingWindow": "1 month",
+    "bookingWindowDays": null,
+    "releaseTime": "3:00 PM ET",
+    "releaseSchedule": "monthly",
+    "releaseDay": "1st of each month (entire month releases at once)",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Only 14 seats at the counter",
+      "$395-420/person prepaid at booking",
+      "Two Michelin stars, #8 World's 50 Best",
+      "Set calendar reminder for 1st of month at 2:55 PM"
+    ],
+    "signatureDish": "Multi-course Korean Tasting Menu",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      },
+      {
+        "name": "World's 50 Best",
+        "tier": "No. 12",
+        "url": "https://www.theworlds50best.com/list/1-50",
+        "note": "The World's 50 Best Restaurants 2025 (No. 12); No. 1 on North America's 50 Best 2025"
+      }
+    ]
+  },
+  {
+    "id": "via-carota",
+    "name": "Via Carota",
+    "neighborhood": "West Village",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.733,
+      "lng": -74.0036
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/via-carota",
+    "website": "https://viacarota.com",
+    "instagram": "viacarota",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "advice": "Most tables are walk-in; arrive early (before 5 PM). Wait at Bar Pizzalino next door (same owners) and they'll text you."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Walk-ins are the primary way to dine here",
+      "Sunday at 5 PM is a good time to try",
+      "Taylor Swift's favorite spot",
+      "The cacio e pepe is legendary"
+    ],
+    "signatureDish": "Cacio e Pepe",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "lilia",
+    "name": "Lilia",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7174,
+      "lng": -73.951
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/lilia",
+    "website": "https://www.lilianewyork.com",
+    "instagram": "lilianewyork",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "4:00 PM",
+      "advice": "Bar, patio, and piazza seats are held for walk-ins; arrive right at 4 PM when they open and put your name down for a later slot. Walk-in waits run 30 min to 3 hours."
+    },
+    "phoneNumber": "718-576-3095",
+    "tips": [
+      "Call between 10 AM - 4 PM to speak to reservationist",
+      "Weekend reservations book within hours",
+      "Check Resy around 2 PM day-of for cancellations",
+      "Walk-in waits: 30 min to 3 hours"
+    ],
+    "signatureDish": "Mafaldini with Pink Peppercorn",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "raos",
+    "name": "Rao's",
+    "neighborhood": "East Harlem",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7943,
+      "lng": -73.9337
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Invitation Only",
+    "platformUrl": null,
+    "website": "https://raossince1896.com",
+    "instagram": "raosrestaurants",
+    "bookingWindow": "N/A",
+    "bookingWindowDays": null,
+    "releaseTime": "N/A",
+    "releaseSchedule": "none",
+    "walkIns": false,
+    "phoneNumber": "212-722-6709",
+    "tips": [
+      "Tables are 'owned' by regulars and passed down through generations",
+      "Only 10 tables total (4 available to non-regulars)",
+      "Try the bar - it's your only realistic shot",
+      "Cash only if you somehow get in",
+      "Call the phone number listed on website for best chance"
+    ],
+    "signatureDish": "Meatballs",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "corner-store",
+    "name": "The Corner Store",
+    "neighborhood": "SoHo",
+    "cuisine": "American",
+    "coordinates": {
+      "lat": 40.724,
+      "lng": -74
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.thecornerstoresoho.com/#/form-reservations",
+    "website": "https://www.thecornerstoresoho.com",
+    "instagram": "thecornerstore",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "13-seat bar is first-come, first-served; arrive before opening for the best chance. Wait times run 1-4 hours."
+    },
+    "phoneNumber": "212-271-9240",
+    "tips": [
+      "Taylor Swift effect - exploded in popularity late 2024",
+      "Smart elegant dress code required",
+      "No parties larger than 4",
+      "Reservations disappear within seconds of release",
+      "Be ready at 9:55 AM on Resy"
+    ],
+    "signatureDish": "Sour Cream & Onion Martini",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "tatiana",
+    "name": "Tatiana",
+    "neighborhood": "Upper West Side",
+    "cuisine": "Afro-Caribbean",
+    "coordinates": {
+      "lat": 40.7725,
+      "lng": -73.9835
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/tatiana",
+    "website": "https://tatiananyc.com",
+    "instagram": "tatianabychefkwame",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "lineBy": "4:30 PM",
+      "advice": "6 bar seats plus 32 patio seats are available for walk-ins; arrive by 4:30 PM as the line forms early."
+    },
+    "phoneNumber": "212-875-5222",
+    "tips": [
+      "#1 Restaurant in NYC (NYT 2024)",
+      "Prime 5-7 PM slots gone in minutes",
+      "700-2000 people on notify list daily",
+      "Try the 7:30-8 PM gap between seatings",
+      "Refresh Resy throughout day for cancellations"
+    ],
+    "signatureDish": "Curried Goat Patties",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "cote",
+    "name": "Cote Korean Steakhouse",
+    "neighborhood": "Flatiron",
+    "cuisine": "Korean BBQ / Steakhouse",
+    "coordinates": {
+      "lat": 40.741,
+      "lng": -73.9908
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/cote-nyc",
+    "website": "https://www.cotekoreansteakhouse.com",
+    "instagram": "cotekoreansteakhouse",
+    "bookingWindow": "29 days",
+    "bookingWindowDays": 29,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Standing room only at the bar; Undercote (the downstairs bar) is walk-in only."
+    },
+    "phoneNumber": "212-401-7886",
+    "tips": [
+      "Better luck with parties of 4-6 (table setup)",
+      "Two-tops only available at first/last seating",
+      "Michelin starred",
+      "Phone reservationists available 11 AM - 10 PM daily"
+    ],
+    "signatureDish": "Butcher's Feast",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "le-bernardin",
+    "name": "Le Bernardin",
+    "neighborhood": "Midtown West",
+    "cuisine": "French Seafood",
+    "coordinates": {
+      "lat": 40.7615,
+      "lng": -73.9819
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/ny/le-bernardin",
+    "website": "https://le-bernardin.com",
+    "instagram": "lebernardinny",
+    "bookingWindow": "60 days",
+    "bookingWindowDays": 60,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar and lounge accept walk-ins for drinks and lighter fare."
+    },
+    "phoneNumber": "212-554-1515",
+    "tips": [
+      "Three Michelin stars",
+      "NOT on OpenTable - use Resy or call directly",
+      "Weekend dinner slots fill within hours",
+      "Lunch reservations much easier to get",
+      "Jacket required for men"
+    ],
+    "signatureDish": "Barely Cooked Salmon",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      },
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "le-veau-dor",
+    "name": "Le Veau d'Or",
+    "neighborhood": "Upper East Side",
+    "cuisine": "French Bistro",
+    "coordinates": {
+      "lat": 40.7629,
+      "lng": -73.9679
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/le-veau-dor-new-york",
+    "website": "https://lvdnyc.com",
+    "instagram": "leveaudor",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "5-seat bar accepts walk-ins for drinks, lunch, or dinner."
+    },
+    "phoneNumber": "646-386-7608",
+    "tips": [
+      "Reopened July 2024 by Frenchette team",
+      "Only seats up to 4 per table in main dining room",
+      "Prix fixe $135/person dinner, $85 lunch",
+      "$50/seat fee if party size decreases after booking",
+      "James Beard Outstanding Restaurateur 2025"
+    ],
+    "signatureDish": "Poulet à l'Estragon",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "four-horsemen",
+    "name": "The Four Horsemen",
+    "neighborhood": "Williamsburg",
+    "cuisine": "New American / Wine Bar",
+    "coordinates": {
+      "lat": 40.7126,
+      "lng": -73.9572
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-four-horsemen",
+    "website": "https://fourhorsemenbk.com",
+    "instagram": "fourhorsemenbk",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "7:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "advice": "Arrive at the 5:30 PM opening for walk-in bar seats."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Co-owned by LCD Soundsystem's James Murphy",
+      "Exceptional natural wine program",
+      "Small plates meant for sharing",
+      "Early morning release time - set alarm for 6:55 AM"
+    ],
+    "signatureDish": "Seasonal Tasting Menu",
+    "lastVerified": "2025-01-29",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      },
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "has-snack-bar",
+    "name": "Ha's Snack Bar",
+    "neighborhood": "East Village",
+    "cuisine": "French-Vietnamese",
+    "coordinates": {
+      "lat": 40.718,
+      "lng": -73.991
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/has-snack-bar",
+    "website": null,
+    "instagram": "has_dac_biet",
+    "bookingWindow": "20 days",
+    "bookingWindowDays": 20,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "lineBy": "4:45 PM",
+      "advice": "Primarily walk-in; the line starts forming at 4:45 PM for the 5:30 PM opening. A Thursday at 9:30 PM was quoted a 4-hour wait."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Midnight release time is unusual - set alarm",
+      "Very limited Resy availability - walk-in is often easier",
+      "Sister restaurant Bistrot Ha opened Dec 2025 at 137 Eldridge St",
+      "Very small space - 18 seats"
+    ],
+    "signatureDish": "Boudin Noir",
+    "lastVerified": "2025-01-29"
+  },
+  {
+    "id": "aquavit",
+    "name": "Aquavit",
+    "neighborhood": "Midtown East",
+    "cuisine": "Nordic",
+    "coordinates": {
+      "lat": 40.76,
+      "lng": -73.9718
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/aquavit/",
+    "website": "https://www.aquavit.org",
+    "instagram": "aquavitnyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "3:00 PM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Bar Room opens nightly",
+      "advice": "Bar Room takes walk-ins and also accepts same-day reservations on Tock. Easier to get in than the Dining Room."
+    },
+    "phoneNumber": "212-307-7311",
+    "tips": [
+      "Reservations for the Dining Room drop on the 1st of each month at 3:00 PM ET via Tock — be logged in and ready.",
+      "The Bar Room (prix-fixe or à la carte) is far easier to book and also takes walk-ins; good fallback if the Dining Room is sold out.",
+      "Two Michelin stars since 2017; the Chef's Tasting (longer) is the premium experience.",
+      "Arctic Bird's Nest dessert — goat cheese parfait with sea-buckthorn 'yolk' — is the signature finisher; don't skip it.",
+      "Parties over 6 must call directly; online Tock only serves up to 6 guests."
+    ],
+    "signatureDish": "Arctic Bird's Nest (goat cheese parfait, sea-buckthorn yolk)",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "aska",
+    "name": "Aska",
+    "neighborhood": "Williamsburg, Brooklyn",
+    "cuisine": "Nordic Tasting",
+    "coordinates": {
+      "lat": 40.7132,
+      "lng": -73.9653
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/aska-brooklyn",
+    "website": "https://www.askanyc.com",
+    "instagram": "askanyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": "(929) 337-6792",
+    "tips": [
+      "Reservations for next month open on the 1st at noon ET sharp — set an alarm and use the direct OpenTable link, not the Aska website redirect.",
+      "All sales are final; no cancellations or reschedules, so only book a date you are certain about.",
+      "Closed Monday and Tuesday; Wednesday is the easiest night to land.",
+      "The wine pairing leans heavily Nordic and natural — ask for the non-alcoholic pairing if you want an equally thoughtful alternative.",
+      "Chef Fredrik Berselius sources from his own farm in the Hudson Valley; the menu shifts with harvest cycles, so dishes on social media may not reflect your actual meal."
+    ],
+    "signatureDish": "Aged duck with fermented berries and pine",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "atera",
+    "name": "Atera",
+    "neighborhood": "Tribeca",
+    "cuisine": "New American Tasting",
+    "coordinates": {
+      "lat": 40.7157,
+      "lng": -74.006
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/atera",
+    "website": "https://ateranyc.com",
+    "instagram": "ateranyc",
+    "bookingWindow": "~28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Release batches drop in the early morning ET; set a Tock alert for your preferred date.",
+      "The $298 all-inclusive tasting menu covers even caviar and truffles — no supplement surprises.",
+      "Chef Ronny Emborg runs a 20-course Scandinavian-influenced menu that changes seasonally; go without dietary restrictions for the full experience.",
+      "Cancellations require one week's notice — plan accordingly.",
+      "Multiple seating types (chef's counter, formal dining, high-top) go live at different times; check all three pages on Tock for better odds."
+    ],
+    "signatureDish": "Osetra caviar with pistachio",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "atoboy",
+    "name": "Atoboy",
+    "neighborhood": "NoMad",
+    "cuisine": "Korean",
+    "coordinates": {
+      "lat": 40.7454,
+      "lng": -73.9845
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/atoboy",
+    "website": "https://www.atoboynyc.com/",
+    "instagram": "atoboynyc",
+    "bookingWindow": "29 days",
+    "bookingWindowDays": 29,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Resy drop at midnight ET, 29 days in advance — book the moment the window opens.",
+      "Prix-fixe format: each guest picks 3 dishes shared family-style; the menu rotates seasonally.",
+      "Cancellations surface fairly often — check Resy 1–2 days before your target date.",
+      "Easier than its sibling Atomix upstairs, but still competitive on weekend prime-time slots.",
+      "Book online up to 6 guests; larger parties need to contact the restaurant directly."
+    ],
+    "signatureDish": "Aged Beef with Fermented Black Bean",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "au-cheval",
+    "name": "Au Cheval",
+    "neighborhood": "Tribeca",
+    "cuisine": "American Diner",
+    "coordinates": {
+      "lat": 40.718,
+      "lng": -74.0012
+    },
+    "difficulty": 4,
+    "priceRange": "$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/au-cheval-nyc",
+    "website": "https://www.auchevaldiner.com/nyc",
+    "instagram": "auchevaldiner",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Downstairs bar is first-come first-served with the full menu. Bar seating upstairs is also walk-in. Both fill fast on weekends."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open at 9 AM, 21 days out on Resy; a $2.50/person reservation fee applies (holiday fees may vary).",
+      "The bar and downstairs bar are walk-in only with the full menu — arrive before 6 PM on weeknights.",
+      "Online reservations limited to parties of 1–6; larger groups call ahead.",
+      "Located on Cortlandt Alley — a hidden cobblestone passage; GPS to 33 Cortlandt Alley.",
+      "The double cheeseburger with fried egg is non-negotiable; the bone marrow and crispy frites are equally essential."
+    ],
+    "signatureDish": "Double Cheeseburger",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "balthazar",
+    "name": "Balthazar",
+    "neighborhood": "SoHo",
+    "cuisine": "French Brasserie",
+    "coordinates": {
+      "lat": 40.7236,
+      "lng": -74.0011
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/balthazar-nyc",
+    "website": "https://balthazarny.com/",
+    "instagram": "balthazarny",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "weekly",
+    "releaseDay": "Saturday midnight",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Opens at 7:30 AM for breakfast",
+      "lineBy": "N/A — arrive early for prime dinner seating",
+      "advice": "Breakfast and late-night (post-11 PM) walk-in slots are far more available than dinner. For dinner walk-ins, try arriving at 5:30 PM or after 10 PM."
+    },
+    "phoneNumber": "+12129651414",
+    "tips": [
+      "Reservations drop at midnight ET every Saturday for dates 30 days out — one of the only NYC Resy drops still at midnight; set an alarm.",
+      "Breakfast at Balthazar (starting 7:30 AM weekdays, 8:00 AM weekends) is the city's best walk-in meal — croissants, steak frites, and the full brasserie menu without the reservation battle.",
+      "The raw bar (oysters, plateau de fruits de mer) is the move for groups — order the large plateau before anything else.",
+      "Keith McNally's front-of-house staff are trained to seat regulars first in the prime center section; if you're a first-timer, confirm you want a table, not a banquette corner.",
+      "Late supper (after 11 PM) is underrated and nearly always walkable — same kitchen, less noise, the city crowd thins out."
+    ],
+    "signatureDish": "Steak frites — bavette with Balthazar butter, pommes frites; also the plateau de fruits de mer for groups",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird Dog",
+    "neighborhood": "West Village",
+    "cuisine": "Italian-Southern",
+    "coordinates": {
+      "lat": 40.7344,
+      "lng": -74.0059
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/bird-dog-ny",
+    "website": "https://www.birddognyc.com",
+    "instagram": "birddog_nyc",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "4:00 PM",
+      "advice": "Pasta happy hour (4–6 PM) is walk-in only — half-price pasta at the bar, no reservations accepted for that window."
+    },
+    "phoneNumber": "(917) 261-4221",
+    "tips": [
+      "14-day Resy window with 9 AM drops — one of the more civilized release times in NYC, easier to hit than midnight spots.",
+      "Three menu paths: Family Style Chef's Tasting, Three Course Prix Fixe, or Fried Chicken Dinner — decide before you sit, the table commits together.",
+      "Pasta happy hour (4–6 PM) is walk-in bar only; half-price housemade pasta is a genuine steal.",
+      "Cancellation policy charges $20 per person within 6 hours — cancel early or you'll be charged.",
+      "Note: the chunk listed NoHo as the neighborhood, but the restaurant is at 525 Hudson St, firmly in the West Village."
+    ],
+    "signatureDish": "Fried chicken dinner",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "bonnies",
+    "name": "Bonnie's",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Cantonese-American",
+    "coordinates": {
+      "lat": 40.7178,
+      "lng": -73.954
+    },
+    "difficulty": 4,
+    "priceRange": "$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/bonnies",
+    "website": "https://www.bonniesbrooklyn.com/",
+    "instagram": "bonniesthaspot",
+    "bookingWindow": "13 days",
+    "bookingWindowDays": 13,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "A few bar seats and one or two tables are held back for walk-ins nightly; worth attempting on a weeknight before 6 PM."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Releases daily at 10 AM ET, 13 days out — from the restaurant's own policy page; be on Resy at 10:00 AM sharp.",
+      "Chef Calvin Eng named the restaurant after his mother — the menu is deeply personal Hong Kong-American nostalgia with NYC swagger; don't skip the McSorley's dark float dessert.",
+      "398 Manhattan Ave, Williamsburg — not easy walking from the L train; plan the G or a cab.",
+      "The char siu and har gow are required orders; the egg tart is a dessert that books out fast — ask your server to hold one.",
+      "Michelin Bib Gourmand — one of the better-value hard bookings in the city, with plates topping out around $40."
+    ],
+    "signatureDish": "Char siu (Cantonese BBQ pork)",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "buvette",
+    "name": "Buvette",
+    "neighborhood": "West Village",
+    "cuisine": "French",
+    "coordinates": {
+      "lat": 40.7329,
+      "lng": -74.0034
+    },
+    "difficulty": 3,
+    "priceRange": "$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/buvette-nyc",
+    "website": "https://ilovebuvette.com/",
+    "instagram": "ilovebuvette",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Walk-ins are common and often successful — the bar fills quickly but tables turn fast. Best chance is off-peak hours or early evening."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open 14 days out at 10am ET on Resy — not as competitive as harder spots but weekend evenings still move fast.",
+      "Walk-ins are a legitimate strategy; the room turns quickly and off-peak (before 6:30 PM or after 9 PM) is your best bet.",
+      "Located at 42 Grove Street in the West Village — the tight Parisian-style interior is part of the charm; expect cozy.",
+      "All-day service: excellent for brunch or a late glass of wine with charcuterie, not just dinner.",
+      "The croque-madame and avocado toast are brunch staples; at dinner, the braised meats and natural wine list are the focus."
+    ],
+    "signatureDish": "Croque-madame",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "charlie-bird",
+    "name": "Charlie Bird",
+    "neighborhood": "SoHo",
+    "cuisine": "Italian-American",
+    "coordinates": {
+      "lat": 40.7257,
+      "lng": -74.0041
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/charlie-bird",
+    "website": "https://www.charliebirdnyc.com",
+    "instagram": "charliebirdnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "advice": "Bar seats are walk-in only and a genuine option — the full menu is served there. Early Bird happy hour 5–6 PM at the bar is $10 drinks."
+    },
+    "phoneNumber": "(212) 235-7133",
+    "tips": [
+      "30-day Resy window with midnight drops — straightforward compared to other NYC hardcores, but weekend primetime still fills fast.",
+      "Bar and walk-in counter seats are your safety valve; arrive at 5 PM opening.",
+      "The farro with duck liver and the cacio e pepe are menu constants worth ordering.",
+      "Private events fill the back room frequently — if the Resy page shows limited slots, check if a buyout is blocking full availability.",
+      "For groups of 8+ a prix-fixe is required; contact info@charliebirdnyc.com in advance."
+    ],
+    "signatureDish": "Farro with duck liver, radish, and herbs",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "ci-siamo",
+    "name": "Ci Siamo",
+    "neighborhood": "Hudson Yards",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7534,
+      "lng": -74.0018
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/reservations/cisiamo",
+    "website": "https://www.cisiamo.com/",
+    "instagram": "cisiamorestaurant",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "The entire bar (13 stools) and lounge (~20 seats) are walk-in only — a reliable alternative to the dining room."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Primary booking platform is SevenRooms (sevenrooms.com/reservations/cisiamo), not Resy — book there directly for best availability.",
+      "Reservations open at noon ET, 28 days in advance — be on SevenRooms at 12:00 PM sharp with date and party size selected.",
+      "Bar and lounge are entirely walk-in; 13 bar stools and ~20 lounge seats available throughout the evening.",
+      "1 Michelin Star; live-fire Italian cooking from Chef Hillary Sterling — the wood-grilled dishes are the move.",
+      "If dining room is sold out, check the bar seating or set a cancellation alert via SevenRooms."
+    ],
+    "signatureDish": "Wood-roasted chicken with salsa verde",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "claud",
+    "name": "Claud",
+    "neighborhood": "East Village",
+    "cuisine": "European",
+    "coordinates": {
+      "lat": 40.7299,
+      "lng": -73.989
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/claud",
+    "website": "https://www.claudnyc.com",
+    "instagram": "claudnyc",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open 14 days in advance at 9 AM ET on Resy — one of the shorter windows in NYC so the crush is intense.",
+      "Michelin-starred wine bar from Chase Sinzer and Joshua Pinsky (both Momofuku Ko alums); the wine program is world-class.",
+      "The roasted chicken and pork chop with smoked onion jus are the main event proteins — order one.",
+      "Cancellations under 24 hours incur a $50/person fee; treat as a confirmed commitment.",
+      "Parties of 1–6; 2 hours allotted for most tables. Shows up on secondary market sites but prices are steep."
+    ],
+    "signatureDish": "Roasted chicken",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "coqodaq",
+    "name": "COQODAQ",
+    "neighborhood": "Flatiron",
+    "cuisine": "Korean Fried Chicken",
+    "coordinates": {
+      "lat": 40.7409,
+      "lng": -73.9882
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/coqodaq",
+    "website": "https://www.coqodaq.com/",
+    "instagram": "coqodaq",
+    "bookingWindow": "13 days",
+    "bookingWindowDays": 13,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Patio seats and some bar seats are held for walk-ins; arrive 15 minutes before opening and ask the host — lunch walk-ins are easier than dinner."
+    },
+    "phoneNumber": "(212) 390-0082",
+    "tips": [
+      "13-day window drops at 10 AM ET daily — be logged in and ready; Dining Hall, Dining Room, Patio, and Bar are all separate inventory pools, so check all seat types.",
+      "Gracious Hospitality Management (Simon Kim) concept — the room is a Rockwell Group cathedral; reserve a Dining Hall booth for the full theater.",
+      "Order the whole fried chicken (serves 2–3) plus the caviar service and the soju cocktails — the fried chicken alone is worth the hunt.",
+      "Lunch is significantly easier to book than dinner and the menu is largely identical — a good path in if evening slots are gone.",
+      "Michelin one star as of 2025; the wine list is built around high-acid whites that pair well with fried chicken — let the sommelier guide you."
+    ],
+    "signatureDish": "Whole Korean fried chicken with caviar",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "corner-bar",
+    "name": "Corner Bar",
+    "neighborhood": "Lower East Side",
+    "cuisine": "American",
+    "coordinates": {
+      "lat": 40.7148,
+      "lng": -73.9994
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/corner-bar-new-york",
+    "website": "https://cornerbarnyc.com/",
+    "instagram": "cornerbarnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "5:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar seats are walk-in only. Arrive close to opening for the best odds; the bar is a genuine fallback."
+    },
+    "phoneNumber": "+16468699310",
+    "tips": [
+      "Despite a Resy page appearing in search, bookings are on OpenTable — use OpenTable directly.",
+      "Releases 30 days in advance at 5 AM ET on OpenTable; set an alarm.",
+      "The bar is walk-in and serves the full menu — a real option if you miss the online drop.",
+      "Inspired by classic European bistros; the steak frites and wine list punch above the price point.",
+      "Parties of 7–16 require email booking via info@cornerbarnyc.com."
+    ],
+    "signatureDish": "Steak Frites",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "cosme",
+    "name": "Cosme",
+    "neighborhood": "Flatiron",
+    "cuisine": "Mexican",
+    "coordinates": {
+      "lat": 40.7398,
+      "lng": -73.9893
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/cosme",
+    "website": "https://cosmenyc.com/",
+    "instagram": "cosmenyc",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:30 PM",
+      "advice": "Bar seats and a small number of walk-in tables are held; arrive before opening and ask the host directly — weeknight early slots have the best odds."
+    },
+    "phoneNumber": "(212) 913-9659",
+    "tips": [
+      "28-day rolling window on Resy; no fixed public release time — check early in the day and activate Notify immediately if your slot is gone.",
+      "Bar seats are not on Resy — walk in or call; the bar menu is full-restaurant, not a limited version.",
+      "Corn husk meringue dessert always sells out — mention it to your server at the start of the meal to reserve one.",
+      "Weekday dinner seatings at 5:30–6 PM are the easiest to land; Friday/Saturday 7–9 PM is nearly impossible without a head start.",
+      "Chef Enrique Olvera and chef de cuisine Daniela Soto-Innes have both won James Beard awards — this is one of the most acclaimed Mexican restaurants outside Mexico City."
+    ],
+    "signatureDish": "Corn husk meringue with corn mousse",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "crown-shy",
+    "name": "Crown Shy",
+    "neighborhood": "Financial District",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7069,
+      "lng": -74.0089
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/crown-shy",
+    "website": "https://www.crownshy.nyc/",
+    "instagram": "crownshy",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:45 PM",
+      "advice": "Bar seats (up to 2 people) and outdoor tables are walk-in only; show up at 5pm opening or check the bar mid-service for cancellations."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations drop daily at noon, 28 days in advance — set a phone alarm and book exactly at 12:00 PM ET.",
+      "Bar and outdoor seating are walk-in only; arriving right at 5pm opening is your best shot.",
+      "Enable Resy Notify for your target date as a backup; cancellations move quickly.",
+      "The dining room is inside a landmark 1932 Art Deco skyscraper — request a window table overlooking the lobby when booking.",
+      "1 Michelin Star; tasting menu and à la carte both available — the chicken dish is a consistent highlight."
+    ],
+    "signatureDish": "Roasted chicken for two",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "dame",
+    "name": "Dame",
+    "neighborhood": "West Village",
+    "cuisine": "British Seafood",
+    "coordinates": {
+      "lat": 40.7301,
+      "lng": -74.001
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/dame-new-york",
+    "website": "https://www.damenewyork.com",
+    "instagram": "dame_nyc",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Outdoor structure sometimes has walk-in availability; indoors is almost always fully reserved. Arrive at 5:30 PM opening."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations drop daily at noon, 21 days out — set a calendar reminder and book the moment they open.",
+      "Cancellations within 12 hours incur a $50 per person fee; take any Notify hit seriously.",
+      "Maximum party size is 6; groups of 7+ require a full restaurant buyout (up to 27 guests).",
+      "The fish and chips and the dressed crab are the signatures — don't over-order starters or you won't make it to the mains.",
+      "Monday is closed; Tuesday is the easiest booking night."
+    ],
+    "signatureDish": "Fish and chips",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "neighborhood": "Upper East Side",
+    "cuisine": "French",
+    "coordinates": {
+      "lat": 40.7663,
+      "lng": -73.9672
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/daniel",
+    "website": "https://www.danielnyc.com",
+    "instagram": "restaurantdaniel",
+    "bookingWindow": "60 days",
+    "bookingWindowDays": 60,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Open for dinner",
+      "advice": "Bar and lounge seats are first-come first-served; arrive at opening for the best shot."
+    },
+    "phoneNumber": "(212) 288-0033",
+    "tips": [
+      "Reservations open exactly 60 days out on Resy — set a calendar reminder and hit it at 10 AM ET.",
+      "The bar and lounge take walk-ins with the full menu; arrive at 5:30 PM for best odds.",
+      "Ask for a table in the main dining room rotunda, not the side alcove — the room itself is part of the experience.",
+      "The prix-fixe is required at dinner; order the foie gras torchon if it's on the menu.",
+      "Cancellations often surface 1–3 days before; check Resy app in the evenings."
+    ],
+    "signatureDish": "Foie Gras Torchon",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025",
+        "note": "Held two stars historically; the current guide lists Daniel at one star"
+      }
+    ]
+  },
+  {
+    "id": "dhamaka",
+    "name": "Dhamaka",
+    "neighborhood": "Lower East Side",
+    "cuisine": "Indian",
+    "coordinates": {
+      "lat": 40.7187,
+      "lng": -73.9873
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/dhamakanyc/reservations/create/search/",
+    "website": "https://www.dhamaka.nyc/",
+    "instagram": "dhamakanyc",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "+12122048616",
+    "tips": [
+      "Releases on SevenRooms 14 days in advance at 9 AM ET — be logged in and refreshing before 9.",
+      "Parties of 7+ must contact for private dining; online booking caps at 6.",
+      "One of the hardest reservations in NYC — check cancellations on SevenRooms at off-peak hours.",
+      "The menu focuses on regional Indian cooking rarely found in the US; whole roasted meats and offal are the point.",
+      "Go with a group of 4–6 to cover the most of the menu."
+    ],
+    "signatureDish": "Whole Roasted Goat (Champaran Mutton)",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "eleven-madison-park",
+    "name": "Eleven Madison Park",
+    "neighborhood": "Flatiron",
+    "cuisine": "Contemporary American / Plant-Forward Tasting",
+    "coordinates": {
+      "lat": 40.7416,
+      "lng": -73.9874
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/eleven-madison-park",
+    "website": "https://www.elevenmadisonpark.com",
+    "instagram": "elevenmadisonpark",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": "212-889-0905",
+    "tips": [
+      "Reservations open on the 1st of the prior month at 10 AM ET sharp — have Resy loaded and ready at 9:55 AM.",
+      "The menu is no longer exclusively vegan; at booking you can select a fully plant-based or hybrid menu that includes duck, scallops, or lobster.",
+      "Join the Resy waitlist immediately if your date is full — cancellations are common and the system notifies you instantly.",
+      "Bar seats at Clemente Bar (downstairs) are easier to snag and do not require the full tasting menu commitment.",
+      "Tasting menu is ~$365 per person before drinks; gratuity is included."
+    ],
+    "signatureDish": "Three-day beet prepared in clay pot",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "estela",
+    "name": "Estela",
+    "neighborhood": "Nolita",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7252,
+      "lng": -73.9964
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/estela",
+    "website": "https://estelanyc.com/",
+    "instagram": "estelanyc",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:30 PM",
+      "advice": "Walk-in bar seating available nightly. Arrive before doors open and wait at the bar; seats fill quickly but turnover happens."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Resy drop is daily at 9 AM ET, 28 days out — use the app with notifications on.",
+      "Bar seats are walk-in only and worth pursuing; the full menu is served there.",
+      "Lunch on Fri–Sun is dramatically easier to book than dinner — same kitchen, far fewer people chasing it.",
+      "One Michelin star; the menu is share-focused, order 3–4 plates for two.",
+      "Cancellations surface throughout the week — check Resy daily if you missed the drop."
+    ],
+    "signatureDish": "Beef Tartare with Sunchoke",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "foxface-natural",
+    "name": "Foxface Natural",
+    "neighborhood": "East Village",
+    "cuisine": "Seafood",
+    "coordinates": {
+      "lat": 40.7264,
+      "lng": -73.9815
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/foxface-natural",
+    "website": "https://foxface.nyc/",
+    "instagram": "foxface.nyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Counter seats for parties of 1-3 often available walk-in; arrive early as the space is small."
+    },
+    "phoneNumber": "(646) 270-1449",
+    "tips": [
+      "No reservations by phone or email — Resy only; the restaurant will text/email only for existing booking help.",
+      "Counter seats (1-3 people) are the easiest walk-in option; show up within the first 30 minutes of service.",
+      "Menu driven by wild fish, game, and seasonal forage from a wood-burning kitchen — the menu changes frequently.",
+      "Set a Resy Notify alert; this is a small room and cancellations do come up.",
+      "They will offer your seats to the waitlist 15 minutes after your reservation time — do not be late."
+    ],
+    "signatureDish": "Wood-roasted whole fish",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "frenchette",
+    "name": "Frenchette",
+    "neighborhood": "Tribeca",
+    "cuisine": "French Brasserie",
+    "coordinates": {
+      "lat": 40.7199,
+      "lng": -74.0063
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/frenchette",
+    "website": "https://www.frenchettenyc.com",
+    "instagram": "frenchettenyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "lineBy": "5:00 PM",
+      "advice": "Bar, banquettes, and the outdoor structure are your best walk-in bets. Aim to arrive before 5:30 PM on a weeknight — weekend walk-ins are brutal."
+    },
+    "phoneNumber": "(212) 334-3883",
+    "tips": [
+      "Reservations drop 30 days out at midnight; about 80% of the room releases then, with a second trickle a couple days before the date.",
+      "600–800 people are on the Notify List on a given night — enable Resy Notify immediately after midnight misses.",
+      "The bar seats are first-come first-served and are genuinely great for the full menu.",
+      "Order the foie gras torchon and the rotisserie duck — both are consistent anchors regardless of season.",
+      "If you email reservations@frenchettenyc.com for a specific occasion you sometimes surface cancelled tables not on Resy."
+    ],
+    "signatureDish": "Rotisserie duck",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "frevo",
+    "name": "Frevo",
+    "neighborhood": "Greenwich Village",
+    "cuisine": "French Tasting",
+    "coordinates": {
+      "lat": 40.7306,
+      "lng": -73.9984
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/frevo/",
+    "website": "https://frevonyc.com",
+    "instagram": "frevo.nyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "2:00 PM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations for next month open on the 1st at 2 PM ET on Tock — the 16-seat counter sells out in minutes.",
+      "The art gallery entrance at 48 W 8th St is easy to miss; confirm the address before your visit.",
+      "Menu, gallery exhibition, and wine pairings rotate every four months — check Instagram to see the current chapter before booking.",
+      "No shorts or flip-flops; elegant casual is enforced at the door.",
+      "A deposit is required at booking — Tock charges the full ticket price upfront, not just a hold."
+    ],
+    "signatureDish": "Sauce-led tasting course (rotating)",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "gabriel-kreuther",
+    "name": "Gabriel Kreuther",
+    "neighborhood": "Midtown",
+    "cuisine": "French Alsatian",
+    "coordinates": {
+      "lat": 40.7527,
+      "lng": -73.9834
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/gabrielkreuther/",
+    "website": "https://www.gknyc.com/",
+    "instagram": "gabrielkreuther",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "+12122575826",
+    "tips": [
+      "Book exactly 28 days out on Tock at 10 AM ET — the main dining room fills within minutes of the drop.",
+      "Resy also lists Gabriel Kreuther but the primary/preferred platform is Tock; use Tock for best availability.",
+      "If dinner is sold out, the Bar Room has a separate, less competitive reservation track — still on Tock.",
+      "The champagne and caviar service (Tue–Sat 4–9 PM) has more availability and is a worthy standalone experience.",
+      "Two Michelin stars; jacket preferred for the main dining room."
+    ],
+    "signatureDish": "Smoked Sturgeon & Balik Salmon Tart",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "gramercy-tavern",
+    "name": "Gramercy Tavern",
+    "neighborhood": "Gramercy",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7388,
+      "lng": -73.9882
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-dining-room-at-gramercy-tavern",
+    "website": "https://www.gramercytavern.com/",
+    "instagram": "gramercytavern",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "lineBy": "5:00 PM",
+      "advice": "The Tavern (front room) is walk-in only with no reservations — arrive before 5:30 PM opening to join the line; it fills within the first 30 minutes. The bar stools are your best solo bet."
+    },
+    "phoneNumber": "+12124771234",
+    "tips": [
+      "Dining Room reservations open at noon ET exactly 28 days in advance — set a Resy alert for your target date and be ready at 11:58 AM.",
+      "The Tavern (front room) is walk-in only and easier to access; quality and kitchen are identical — not a consolation prize.",
+      "Tasting menu in the Dining Room is prix-fixe only; the Tavern menu is à la carte and more casual.",
+      "Cancellations surface frequently on Resy — enable Notify and check back a few days before your target date.",
+      "One of the few fine-dining rooms that's genuinely family-friendly; no hard dress code enforced."
+    ],
+    "signatureDish": "Smoked duck breast with celery root and foie gras torchon",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "i-sodi",
+    "name": "i Sodi",
+    "neighborhood": "West Village",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.733,
+      "lng": -74.0048
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/i-sodi",
+    "website": "https://www.isodinyc.com/",
+    "instagram": "isodinyc",
+    "bookingWindow": "13 days",
+    "bookingWindowDays": 13,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "advice": "Walk-ins are always welcome per the restaurant — a small number of unreserved seats at the bar and occasional early tables are available; arrive at opening."
+    },
+    "phoneNumber": "(212) 414-5774",
+    "tips": [
+      "Midnight ET release, 13 days out — one of the very few NYC spots still dropping at midnight; be on Resy at exactly 12:00 AM, not 12:01.",
+      "Inventory clears in 1–2 seconds for prime slots; have party size, date, and credit card pre-loaded before the clock ticks over.",
+      "Rita Sodi's Tuscan cucina povera is the whole point — order the pappardelle al cinghiale, ribollita if on the menu, and the tiramisu.",
+      "The restaurant is physically small (~40 seats); any no-show or cancellation resurfaces quickly — check Resy at 10 AM and 5 PM on your target date.",
+      "Sister restaurant Buvette (next door, French) books much more easily and shares a similar sensibility — a real fallback."
+    ],
+    "signatureDish": "Pappardelle al cinghiale (wild boar ragu)",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "indian-accent",
+    "name": "Indian Accent",
+    "neighborhood": "Midtown West",
+    "cuisine": "Indian",
+    "coordinates": {
+      "lat": 40.7645,
+      "lng": -73.9801
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/indian-accent",
+    "website": "https://www.indianaccent.com/newyork",
+    "instagram": "indianaccentnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Walk-ins are accommodated when space permits. Call ahead on the day for best odds."
+    },
+    "phoneNumber": "212-842-8070",
+    "tips": [
+      "Parties of 4 or fewer book online via OpenTable; groups of 5+ must call 212-842-8070.",
+      "The tasting menu is the way to go — the blue cheese naan and makhan malai are standout courses.",
+      "Sister to the Delhi original; same creative Indian fine dining DNA with seasonal NYC produce.",
+      "Walk-ins are welcome if space allows — lunch is easier than dinner for drop-ins.",
+      "Located at 123 W 56th St steps from Carnegie Hall; convenient for pre-show dining."
+    ],
+    "signatureDish": "Blue cheese naan with makhan malai",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "ito",
+    "name": "Ito",
+    "neighborhood": "Tribeca",
+    "cuisine": "Sushi Tasting / Omakase",
+    "coordinates": {
+      "lat": 40.7148,
+      "lng": -74.0134
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/ito",
+    "website": "https://www.ito-omakase.com",
+    "instagram": "itotribeca",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open at 12 PM ET exactly 21 days out on Resy — noon is unusual, so most competitors miss it.",
+      "The restaurant is in Tribeca (75 Barclay St), not Williamsburg — the data hint was wrong.",
+      "Two seatings per night, Tuesday–Saturday: 6:00 PM and 8:45 PM at a 16-seat counter.",
+      "$295 per person; cancellations within 48 hours are fully non-refundable.",
+      "Chefs Masashi Ito and Kevin Kim blend Japanese technique with Korean and American influences — a genuinely distinct omakase voice in the city."
+    ],
+    "signatureDish": "Seasonal omakase counter with Japanese-Korean technique",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "jean-georges",
+    "name": "Jean-Georges",
+    "neighborhood": "Columbus Circle",
+    "cuisine": "French",
+    "coordinates": {
+      "lat": 40.7685,
+      "lng": -73.9815
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/jeangeorges/",
+    "website": "https://www.jean-georgesrestaurant.com/jean-georges/",
+    "instagram": "jeangeorgesnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(212) 299-3900",
+    "tips": [
+      "Tock is the primary platform; also mirrored on Resy and OpenTable — book via Tock for widest availability.",
+      "Tue–Sat only; lunch is significantly easier to book than dinner and offers better value on the three-course prix-fixe ($138 vs. $218 tasting).",
+      "Two Michelin stars as of 2025 — not the hardest reservation in the city, so 2–3 weeks out is often enough with flexibility on time.",
+      "Request a window table overlooking Central Park when booking — stock phrase in the notes field on Tock.",
+      "Jackets suggested; t-shirts, shorts, and sportswear are declined — dress code is lightly enforced but real."
+    ],
+    "signatureDish": "Egg caviar (scrambled egg with caviar in a shell)",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "jua",
+    "name": "Jua",
+    "neighborhood": "Flatiron",
+    "cuisine": "Korean Tasting",
+    "coordinates": {
+      "lat": 40.7395,
+      "lng": -73.9862
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/jua",
+    "website": "https://juanyc.com",
+    "instagram": "jua.nyc",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(646) 590-1598",
+    "tips": [
+      "21-day Resy window, midnight drops — two seatings per night (6 PM and 8:30 PM), Tuesday through Sunday only.",
+      "Seven-course tasting menu at $150 per person — one of the better-value Michelin tasting menus in the city.",
+      "The kitchen cannot accommodate vegan, vegetarian, dairy-free, gluten-free, no-seafood, no-sesame, or no-allium diets — check before booking.",
+      "Phone calls only answered 2–6 PM; for fastest response email info@juanyc.com.",
+      "Late arrivals of 15+ minutes risk losing the table — allow extra transit time."
+    ],
+    "signatureDish": "Wood-fired Korean tasting menu",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "keens-steakhouse",
+    "name": "Keens Steakhouse",
+    "neighborhood": "Midtown",
+    "cuisine": "Steakhouse",
+    "coordinates": {
+      "lat": 40.7507,
+      "lng": -73.9865
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/keens-steakhouse",
+    "website": "https://www.keens.com/",
+    "instagram": "keenssteakhouse",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar and the Pub Room accept walk-ins; arrive at 5:00 PM for the best chance at bar seating before the after-work Midtown crowd arrives."
+    },
+    "phoneNumber": "+12129473636",
+    "tips": [
+      "The mutton chop (technically lamb saddle) is the non-negotiable order — it's the dish that made Keens famous since 1885.",
+      "The Pipe Club room and the Lincoln Room are the best private dining spaces; request specifically when booking groups.",
+      "Resy releases at 10 AM ET 30 days in advance; weekend prime time (6:30–8 PM) books out fast, but Tuesday–Thursday stays bookable days out.",
+      "The clay pipe collection covering the ceiling is legitimate history — arrive early and look up; each pipe belonged to a historical member (Babe Ruth, Teddy Roosevelt, etc.).",
+      "Single diners at the bar get full menu access and often chat with regulars who know the older servers by name — one of the better solo dining experiences in the city."
+    ],
+    "signatureDish": "Mutton chop — slow-roasted lamb saddle chop, served whole, for one",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "kono",
+    "name": "Kono",
+    "neighborhood": "Chinatown",
+    "cuisine": "Yakitori Omakase",
+    "coordinates": {
+      "lat": 40.7153,
+      "lng": -73.998
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/kono",
+    "website": "https://www.yakitorikono.com",
+    "instagram": "yakitorikono",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(646) 524-6838",
+    "tips": [
+      "14-seat counter in Canal Arcade (between Bowery and Elizabeth St) — it's a hidden passage, so know the entrance before you go.",
+      "Closed Sundays; runs six nights per week with a 16-course binchotan-grilled omakase ($185/pp).",
+      "Cancellations must be made 48 hours in advance — no-shows are noticed in a 14-seat room.",
+      "Holds three Michelin stars; despite the difficulty hint of 3, this is one of NYC's most decorated spots — book as early as the window allows.",
+      "Check Resy at midnight when the new day opens; also monitor for cancellations mid-week."
+    ],
+    "signatureDish": "Sasami (Chicken Tender) Yakitori",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "kosaka",
+    "name": "Kosaka",
+    "neighborhood": "West Village",
+    "cuisine": "Sushi Omakase",
+    "coordinates": {
+      "lat": 40.7362,
+      "lng": -74.0012
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/kosaka",
+    "website": "https://www.kosakanyc.com/",
+    "instagram": "kosakanyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(212) 727-1709",
+    "tips": [
+      "Tock is the only booking channel — no Resy or OpenTable; Maki Kosaka (sister spot) is on Resy and is a lower-stakes fallback.",
+      "Sushi bar ($295 pp) seats you in front of Chef Soma; dining table ($270 pp) is slightly more relaxed — both are full Edomae omakase.",
+      "18-seat room means any night can feel fully booked weeks out; lunch has no service, so dinner only — target Sunday or Monday for slightly softer demand.",
+      "Fish is flown daily from Toyosu Market in Tokyo; the menu changes entirely with season and market — ask the chef about the day's sourcing.",
+      "Cancellation penalty of $150/pp kicks in inside 48 hours — set a reminder to reschedule early if plans change."
+    ],
+    "signatureDish": "Hokkaido uni with bafun and murasaki",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "labeille",
+    "name": "l'abeille",
+    "neighborhood": "Tribeca",
+    "cuisine": "French-Japanese Tasting",
+    "coordinates": {
+      "lat": 40.7195,
+      "lng": -74.0089
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/labielle",
+    "website": "https://www.labeille.nyc",
+    "instagram": "labeilletribeca",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:45 PM",
+      "advice": "Bar seats are available for à la carte ordering without the full tasting menu — best shot at a walk-in; arrive before doors open."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open at midnight 21 days out on Resy — set a phone alarm.",
+      "The six-course chef's tasting menu is the main event; the bar offers à la carte seasonal dishes if you can't get a table.",
+      "Chef Mitsunobu Nagae trained in Tokyo and Paris — Japanese technique in French form; expect subtle, precise flavors.",
+      "The sister wine bar l'abeille à côté next door is far easier to walk into and shares the same kitchen sensibility.",
+      "Closed Sunday and Monday."
+    ],
+    "signatureDish": "Six-course chef's tasting menu with French-Japanese seasonal compositions",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "lartusi",
+    "name": "L'Artusi",
+    "neighborhood": "West Village",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7334,
+      "lng": -74.0058
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/lartusi-ny",
+    "website": "https://www.lartusi.com/",
+    "instagram": "lartusi",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "advice": "Bar and a few walk-in seats available nightly — arrive right at opening and ask the host; the bar is a full experience, not a consolation prize."
+    },
+    "phoneNumber": "(212) 255-5757",
+    "tips": [
+      "14-day rolling window drops at 9 AM ET every morning — be logged into Resy with card on file before 9 AM.",
+      "228 W 10th St is the West Village's most sought-after Italian; prime Fri/Sat 7–8 PM slots go in under a minute.",
+      "Bar stools along the open kitchen are not on Resy — walk in or call after 2 PM the same day.",
+      "The cacio e pepe and black truffle tagliatelle are the non-negotiable orders; the wine list skews natural Italian at fair markups.",
+      "Larger parties (6–8) must call; Resy only handles up to 5 online — email info@lartusi.com with dates for groups."
+    ],
+    "signatureDish": "Black truffle tagliatelle",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "laser-wolf",
+    "name": "Laser Wolf",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Israeli",
+    "coordinates": {
+      "lat": 40.7196,
+      "lng": -73.959
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/laser-wolf-brooklyn",
+    "website": "https://www.laserwolfbrooklyn.com/",
+    "instagram": "laserwolfbrooklyn",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Walk-ins are possible at the bar or for early/late dinner slots. Come in the first 30 minutes after opening for best odds."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Resy drop at 10 AM ET, 21 days in advance — tables sell out in minutes; be in the app right at 10.",
+      "Rooftop on The Hoxton, Williamsburg — ask for an outdoor table when booking for Manhattan skyline views.",
+      "The salatim (salad spread) arrives automatically to start; the whole-roasted chicken is the anchor entrée.",
+      "Michael Solomonov's flagship NYC outpost; the coal-fired pita with hummus is mandatory.",
+      "Cancellations are frequent — check Resy the day before and the morning of your desired date."
+    ],
+    "signatureDish": "Coal-Roasted Chicken with Tehina",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "le-coucou",
+    "name": "Le Coucou",
+    "neighborhood": "SoHo",
+    "cuisine": "French",
+    "coordinates": {
+      "lat": 40.7212,
+      "lng": -74.0004
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-coucou",
+    "website": "https://lecoucou.com/",
+    "instagram": "lecoucounyc",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(212) 271-4252",
+    "tips": [
+      "Midnight ET release — one of the few high-end NYC spots that still drops at 12 AM; be on Resy at exactly midnight.",
+      "28-day rolling window; mark your calendar 28 days before your target date.",
+      "Cancellations surface regularly — set Resy Notify and check mid-week around 5–7 PM ET when people cancel prior-week bookings.",
+      "Counter seats by the open kitchen are held back and release the day-of — worth checking Resy after 10 AM.",
+      "One Michelin star; chef Daniel Rose's classic French repertoire makes this a destination meal — order the moules marinières and any whole fish."
+    ],
+    "signatureDish": "Moules marinières",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "le-jardinier",
+    "name": "Le Jardinier",
+    "neighborhood": "Midtown East",
+    "cuisine": "French Vegetable-Forward",
+    "coordinates": {
+      "lat": 40.7579,
+      "lng": -73.9712
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/lejardiniernyc/reservations/create/search",
+    "website": "https://www.lejardinier-nyc.com",
+    "instagram": "lejardiniernew",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar seats are available without a reservation; arrive at opening for the best selection."
+    },
+    "phoneNumber": "(212) 451-9211",
+    "tips": [
+      "Books via SevenRooms (primary) and OpenTable; the restaurant site links SevenRooms directly.",
+      "Chef Alain Verzeroli's vegetable-forward Michelin-starred menu changes seasonally — check the current menu before going.",
+      "Lunch is easier to book than dinner and offers good value with the prix-fixe.",
+      "Located in the SELENE skyscraper on Lexington Ave — entrance on 58th St.",
+      "If dinner is full, call directly at (212) 451-9211; they occasionally hold tables for phone reservations."
+    ],
+    "signatureDish": "Garden Vegetables Tart",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "le-pavillon",
+    "name": "Le Pavillon",
+    "neighborhood": "Midtown East",
+    "cuisine": "French",
+    "coordinates": {
+      "lat": 40.7527,
+      "lng": -73.9772
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-pavillon",
+    "website": "https://www.lepavillonnyc.com/",
+    "instagram": "lepavillonnyc",
+    "bookingWindow": "60 days",
+    "bookingWindowDays": 60,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar seating is available walk-in, subject to availability. Arrive early in the evening for best odds."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Releases 60 days in advance at midnight ET on Resy — set an alarm and book the moment the window opens.",
+      "Bar walk-ins are a genuine option here; the full menu is available at the bar.",
+      "Daniel Boulud's vegetable- and seafood-focused menu changes seasonally — the tasting menu is the move.",
+      "Located on the 24th floor of One Vanderbilt with views of Grand Central; ask for a window seat when booking.",
+      "Closed Sundays; lunch service runs weekdays only."
+    ],
+    "signatureDish": "Roasted Beet & Citrus with Whipped Goat Cheese",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "le-rock",
+    "name": "Le Rock",
+    "neighborhood": "Rockefeller Center",
+    "cuisine": "French Brasserie",
+    "coordinates": {
+      "lat": 40.7588,
+      "lng": -73.9795
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/le-rock",
+    "website": "https://www.lerocknyc.com",
+    "instagram": "lerocknyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar and counter seats available walk-in; arrive at opening (11 AM weekdays, 4 PM Saturday). Lunch is less competitive than dinner."
+    },
+    "phoneNumber": "332-258-8734",
+    "tips": [
+      "Reservations open 30 days in advance on Resy — check at 9 AM ET for new slots.",
+      "From chefs Lee Hanson and Riad Nasr (Frenchette); the bison au poivre and escargot are must-orders.",
+      "Lunch (Mon–Fri) is dramatically easier to book than dinner; nearly the full menu is available.",
+      "The profiterole with caramel ice cream and warm chocolate sauce is a signature dessert worth saving room for.",
+      "Closed Sundays; Saturday is dinner only from 4 PM."
+    ],
+    "signatureDish": "Bison au poivre",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "manhatta",
+    "name": "Manhatta",
+    "neighborhood": "Financial District",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7079,
+      "lng": -74.0085
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/manhatta/reservations/create/search",
+    "website": "https://www.manhattarestaurant.com",
+    "instagram": "manhattarestaurant",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar seats and late-evening slots (after 9 PM) are easier to walk into; early dinner on weekdays is most accessible."
+    },
+    "phoneNumber": "(212) 230-5500",
+    "tips": [
+      "Reservations open at noon exactly 28 days out via SevenRooms — the restaurant also appears on Resy but SevenRooms is the primary platform.",
+      "60th-floor views are the main draw; request a window table when booking or call ahead.",
+      "Weekday lunch is far easier to book than weekend dinner.",
+      "The bar menu is available all day — if dinner is full, grab a drink and snack with the same view.",
+      "Late slots (9:30 PM+) often open up same-day on the app."
+    ],
+    "signatureDish": "Dry-Aged Duck",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "marea",
+    "name": "Marea",
+    "neighborhood": "Central Park South",
+    "cuisine": "Italian Seafood",
+    "coordinates": {
+      "lat": 40.7665,
+      "lng": -73.981
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/marea",
+    "website": "https://www.marearestaurant.com/new-york",
+    "instagram": "marearestaurant",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "212-582-5100",
+    "tips": [
+      "Book exactly 30 days out at 9 AM on Resy — weekend dinner slots disappear within minutes.",
+      "The lunch service is significantly easier to book and offers the same kitchen quality at lower prices.",
+      "Sit at the bar for a more relaxed pace; the pasta bar area books separately on Resy.",
+      "The fusilli with red wine-braised octopus and bone marrow is the must-order; don't skip the crudo to start.",
+      "Valet parking is available on Central Park South — confirm when booking if needed."
+    ],
+    "signatureDish": "Fusilli with red wine-braised octopus and bone marrow",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "mari",
+    "name": "Mari",
+    "neighborhood": "Hell's Kitchen",
+    "cuisine": "Korean Tasting / Handroll Omakase",
+    "coordinates": {
+      "lat": 40.7625,
+      "lng": -73.9919
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/mari",
+    "website": "https://marinyc.com",
+    "instagram": "marinyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "646-649-3545",
+    "tips": [
+      "Reservations drop at midnight 30 days out on Resy — set a phone alarm and be ready.",
+      "$145 per person seasonal tasting menu; handrolls feature uni, wagyu, toro, and caviar.",
+      "From the team behind Kochi — serious Korean fine dining pedigree, not a gimmick spot.",
+      "The sister concept Mari.ne Handroll (also on Resy) is a slightly easier get and shares the same culinary DNA.",
+      "Michelin-starred; book well in advance for Friday and Saturday evenings."
+    ],
+    "signatureDish": "Korean handroll omakase with wagyu, uni, and caviar",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "masa",
+    "name": "Masa",
+    "neighborhood": "Columbus Circle",
+    "cuisine": "Sushi Tasting",
+    "coordinates": {
+      "lat": 40.7686,
+      "lng": -73.9831
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/masa/",
+    "website": "https://www.masanyc.com/",
+    "instagram": "masanyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations drop on Tock on the 1st of each month for the following month — be on the page at 9am ET sharp.",
+      "Two experiences: standard omakase ($750pp) and Hinoki Counter ($950pp); the counter faces Chef Masa directly.",
+      "Lunch omakase is abbreviated and slightly easier to book than dinner.",
+      "Cancellations occasionally surface mid-month; set a Tock alert and check weekly.",
+      "Dress the occasion — this is a 3-Michelin-star room; no shorts or sneakers."
+    ],
+    "signatureDish": "Toro with caviar",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "minetta-tavern",
+    "name": "Minetta Tavern",
+    "neighborhood": "Greenwich Village",
+    "cuisine": "French Bistro",
+    "coordinates": {
+      "lat": 40.7298,
+      "lng": -74.0003
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/minetta-tavern",
+    "website": "https://www.minettatavernny.com",
+    "instagram": "minettatavernny",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Open daily from 5 PM (lunch Wed–Fri, brunch weekends)",
+      "advice": "Bar seating is first-come, first-served every night. Arrive by 5 PM for a realistic chance. Shoulder-to-shoulder but fully in the room."
+    },
+    "phoneNumber": "212-475-3850",
+    "tips": [
+      "Reservations drop at midnight on Resy exactly 30 days out — slots for Friday/Saturday vanish in seconds.",
+      "Bar seats are walk-in only; arrive right at 5 PM opening for the best chance, especially weeknights.",
+      "The Black Label Burger (dry-aged blend, caramelized onions, brioche) is the most-discussed dish — always order it.",
+      "Michelin one-star; the room is gorgeous and the bone marrow is a required starter alongside the burger.",
+      "Lunch (Wed–Fri) and weekend brunch are easier to book than dinner; same kitchen, less competition."
+    ],
+    "signatureDish": "Black Label Burger",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "misi",
+    "name": "Misi",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7196,
+      "lng": -73.964
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/misi",
+    "website": "https://www.misinewyork.com/",
+    "instagram": "misinewyork",
+    "bookingWindow": "27 days",
+    "bookingWindowDays": 27,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar and counter seats are walk-in. Arrive at opening (5:30 PM) for best shot — the bar fills immediately."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Resy drop is daily at 10 AM ET, 27 days out — not the often-cited 28; act precisely at 10.",
+      "Bar walk-ins at opening are a reliable backup — arrive by 5:15 PM.",
+      "Missy Robbins' pasta-focused menu; order the aged ricotta with honey as a starter.",
+      "Cancellations are common the week of — check Resy at noon and again at 7 PM.",
+      "Located on the Williamsburg waterfront; outdoor seating in warm months has more walk-in flexibility."
+    ],
+    "signatureDish": "Rigatoni with Lamb Neck Ragù",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "nakaji",
+    "name": "Nakaji",
+    "neighborhood": "Chinatown",
+    "cuisine": "Edomae Sushi Omakase",
+    "coordinates": {
+      "lat": 40.7155,
+      "lng": -73.9988
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/nakaji",
+    "website": "https://www.nakajinyc.com",
+    "instagram": "nakajinyc",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(646) 478-8282",
+    "tips": [
+      "Only 10 counter seats; seatings at 5:30 PM and 8 PM — pick your seating when booking on Resy.",
+      "Reservations open 14 days out at midnight on Resy; set an alarm and be ready at 12:00 AM.",
+      "Phone reservations available Tue–Sun if Resy slots are gone: (646) 478-8282.",
+      "Omakase runs approximately 2.5 hours; plan the night around it.",
+      "Also listed on Tock but Resy is the active platform — use Resy."
+    ],
+    "signatureDish": "Otoro Nigiri",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "naks",
+    "name": "Naks",
+    "neighborhood": "East Village",
+    "cuisine": "Filipino",
+    "coordinates": {
+      "lat": 40.7265,
+      "lng": -73.9836
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/naks/reservations/create/search/",
+    "website": "https://www.naks.nyc",
+    "instagram": "naks.nyc",
+    "bookingWindow": "7 days",
+    "bookingWindowDays": 7,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Books via SevenRooms (not Resy) — 7 days in advance at 9 AM ET. The hint lists Resy but SevenRooms is the live platform.",
+      "18-course kamayan tasting menu by chef Eric Valdez (Unapologetic Foods); this is a full-commitment dinner.",
+      "The ginataang alimango (Dungeness crab in coconut milk, chile, ginger, shrimp paste) is the standout course.",
+      "Closed Mondays; Tue–Fri dinner only, Sat–Sun brunch + dinner. Cancellations under 24 hours = $40/person fee.",
+      "A la carte is also available as an alternative to the tasting menu — good if the full kamayan feels like too much."
+    ],
+    "signatureDish": "Ginataang alimango (Dungeness crab in coconut-chile broth)",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "noda",
+    "name": "Noda",
+    "neighborhood": "NoMad",
+    "cuisine": "Sushi Omakase",
+    "coordinates": {
+      "lat": 40.7436,
+      "lng": -73.993
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/noda-nyc",
+    "website": "https://www.noda.nyc",
+    "instagram": "noda.nyc",
+    "bookingWindow": "monthly batch release",
+    "bookingWindowDays": null,
+    "releaseTime": "3:00 PM ET",
+    "releaseSchedule": "monthly",
+    "releaseDay": "21st of previous month",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations release in batches on Tock — recent drops have been around the 21st of the month at 3 PM ET; check Tock for the exact next release date.",
+      "Fully prepaid at $400 per person; Tock charges at booking, no refunds.",
+      "Parties of 1 to 6 all seated at the single counter — every seat faces the chef.",
+      "The Japanese whiskey collection is one of the most extensive in NYC; budget extra for pours.",
+      "Chef Tsunoda trained in edomae in Ginza — the pacing is unhurried, plan 2.5–3 hours."
+    ],
+    "signatureDish": "20-course edomae seasonal tasting",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "noz-17",
+    "name": "Noz 17",
+    "neighborhood": "Chelsea",
+    "cuisine": "Sushi Omakase",
+    "coordinates": {
+      "lat": 40.7429,
+      "lng": -74.0048
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/noz17/reservations/create/search/",
+    "website": "https://www.noz.global/experience/noz-17",
+    "instagram": "noz17nyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": "+19173381792",
+    "tips": [
+      "Platform is SevenRooms — not Tock; book via noz.global/reserve-seats or the link in their Instagram bio.",
+      "Only 7 counter seats; two seatings nightly at 6 PM and 9 PM, Monday–Saturday — availability is extremely thin.",
+      "Email oshinobi@noz17.com directly for cancellation list; the team responds and occasionally releases single seats this way.",
+      "The 20–25 course Edomae-style menu is fully chef-driven with no substitutions; dietary restrictions must be disclosed well in advance.",
+      "Sushi Noz (UES) and Noz Market are sister restaurants on the same SevenRooms system — if Noz 17 is sold out, check noz.global for group availability."
+    ],
+    "signatureDish": "Chef's seasonal Edomae nigiri progression — aged hirame and otoro are recurring highlights",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "odo",
+    "name": "Odo",
+    "neighborhood": "Flatiron",
+    "cuisine": "Sushi Tasting",
+    "coordinates": {
+      "lat": 40.7415,
+      "lng": -73.993
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/odo-new-york/",
+    "website": "https://www.odo.nyc/",
+    "instagram": "odonyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "mid-month for following month",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations release monthly via Tock in batches — check the Tock page for the exact drop date (typically mid-month for the following month).",
+      "2 Michelin Stars; hyper-seasonal Japanese kaiseki-influenced tasting menu by Chef Hiroki Odo.",
+      "Cannot accommodate vegan, vegetarian, gluten-free, or guests who cannot eat seafood/seaweed — confirm dietary restrictions before booking.",
+      "Odo Lounge next door has a cocktail program and a more accessible entry point; also on Tock.",
+      "Two dinner seatings: 6:00 PM and 8:30 PM — the earlier seating is marginally easier to book."
+    ],
+    "signatureDish": "Uni hand roll",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "oiji-mi",
+    "name": "Oiji Mi",
+    "neighborhood": "Flatiron",
+    "cuisine": "Korean",
+    "coordinates": {
+      "lat": 40.7393,
+      "lng": -73.9934
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/oiji-mi",
+    "website": "https://www.oijimi.com",
+    "instagram": "oijimi",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar and lounge seats: majority held as walk-in first-come first-served. Arrive at 6 PM opening. À la carte menu only at bar — not the prix-fixe."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Dining room releases 30 days in advance at midnight ET on Resy; 5-course prix-fixe at $150/person.",
+      "Bar/lounge is mostly walk-in (FCFS) with à la carte — great for a spontaneous meal without the tasting menu commitment.",
+      "Michelin one-star; chef Brian Kim's chili lobster ramyun is the dish everyone talks about.",
+      "Striped jack hwe (crudo) with seaweed scallion vinaigrette is an underrated opener — order it in the dining room.",
+      "Lounge reservations are also available on Resy with less competition than the dining room."
+    ],
+    "signatureDish": "Chili lobster ramyun",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "one-white-street",
+    "name": "One White Street",
+    "neighborhood": "Tribeca",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7163,
+      "lng": -74.0089
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/one-white-street",
+    "website": "https://onewhitestreetnyc.com/",
+    "instagram": "onewhitestreetnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Ground-floor wine bar operates as walk-in; the 8-course tasting menu upstairs is reservation-only. The wine bar is a legitimate entry point and serves food."
+    },
+    "phoneNumber": "+16463987679",
+    "tips": [
+      "Two distinct spaces: walk-in wine bar on the ground floor, ticketed 8-course tasting menu ($185 pp) on the upper floors — book the tasting menu via Resy, wine bar is first-come.",
+      "Friday and Sunday lunch (recently added) is dramatically easier to book than dinner — same kitchen, same produce, lower competition.",
+      "The restaurant sources from its own rooftop farm in Tribeca; menu shifts weekly based on harvest — check their Instagram before going to see what's in.",
+      "Chef Austin Johnson's wine list is one of the best in NYC natural wine; lean on the sommelier for pairings rather than doing the add-on pairing package.",
+      "The townhouse has a residential feel — show up a few minutes early and take in the ground floor before heading upstairs."
+    ],
+    "signatureDish": "Dry-aged beef with rooftop farm vegetables — the preparation shifts seasonally but anchors the menu",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "oxomoco",
+    "name": "Oxomoco",
+    "neighborhood": "Greenpoint, Brooklyn",
+    "cuisine": "Mexican",
+    "coordinates": {
+      "lat": 40.7299,
+      "lng": -73.9555
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/oxomoco",
+    "website": "https://www.oxomoconyc.com",
+    "instagram": "_oxomoco_",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "The sunlit, plant-filled dining room has some walk-in capacity, especially for brunch and early weeknight dinner. Weekend dinner walk-ins are very difficult."
+    },
+    "phoneNumber": "(646) 688-4180",
+    "tips": [
+      "Resy is the booking platform; weekend dinner reservations are highly competitive — book the day the 30-day window opens.",
+      "Currently running a seasonal seafood pop-up concept 'Playa Oxomoco' — the menu is more seafood-forward than usual; confirm the current format before visiting.",
+      "The wood-fired cooking is the soul of the menu — the smoked beet tostada and any wood-roasted protein are the moves.",
+      "Brunch and lunch are meaningfully easier to book than dinner; great for a first visit.",
+      "Groups of 8+ must email hola@oxomoconyc.com — Resy won't surface large-party slots."
+    ],
+    "signatureDish": "Wood-fired beet tostada",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "pasquale-jones",
+    "name": "Pasquale Jones",
+    "neighborhood": "Nolita",
+    "cuisine": "Italian / Wood-fired Pizza",
+    "coordinates": {
+      "lat": 40.7219,
+      "lng": -73.9966
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/pasquale-jones",
+    "website": "https://www.pasqualejones.com",
+    "instagram": "pasqualejones",
+    "bookingWindow": "45 days",
+    "bookingWindowDays": 45,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:45 PM",
+      "advice": "Bar and patio seats are available for walk-ins; show up at opening or between 8–9 PM when early diners turn over."
+    },
+    "phoneNumber": "917-596-0716",
+    "tips": [
+      "Booking window is 45 days — longer than most assume; book five to six weeks out for weekend nights.",
+      "The wood-fired clam pie with lardo is the must-order; don't overlook the pastas.",
+      "Walk-in bar seating is genuinely available on weeknights — arrive at opening or after 8:30 PM when the first wave clears.",
+      "Lunch and brunch (Wed–Sun) are dramatically easier to walk into than dinner.",
+      "From the Delicious Hospitality Group (also Charlie Bird, Pasquale Slice) — the team knows hospitality."
+    ],
+    "signatureDish": "Wood-fired clam pie with lardo",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "pastis",
+    "name": "Pastis",
+    "neighborhood": "Meatpacking District",
+    "cuisine": "French Brasserie",
+    "coordinates": {
+      "lat": 40.7399,
+      "lng": -74.008
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/pastis",
+    "website": "https://pastisnyc.com/",
+    "instagram": "pastisnyc",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "advice": "The zinc bar and cafe tables near the front are typically first-come; arrive 15 minutes before your desired meal time on weekdays for the best shot."
+    },
+    "phoneNumber": "(212) 929-4844",
+    "tips": [
+      "28-day rolling window on Resy; Starr Restaurants property — not the hardest in the city but Saturday dinner and Sunday brunch are legitimately difficult.",
+      "Breakfast (Mon–Fri 8–11 AM) and weekday lunch are easy walk-ins — the zinc bar vibe is best experienced without the reservation chase anyway.",
+      "Outdoor terrace tables on Gansevoort Street release the same window but move faster in summer — check 'Outdoor' seat type separately on Resy.",
+      "Classic brasserie menu: order the steak frites (black angus), croque madame at lunch, and profiteroles to finish.",
+      "The late-night bar scene (Fri/Sat past 11 PM) is effectively walk-in territory — the restaurant stops seating new dinner parties but the bar stays open."
+    ],
+    "signatureDish": "Steak frites",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "per-se",
+    "name": "Per Se",
+    "neighborhood": "Columbus Circle",
+    "cuisine": "French Tasting",
+    "coordinates": {
+      "lat": 40.7685,
+      "lng": -73.983
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/perse",
+    "website": "https://thomaskeller.com/perseny/",
+    "instagram": "thomaskellerrestaurantgroup",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "2:00 PM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": "+12128239335",
+    "tips": [
+      "Reservations drop on the 1st of each month at 2:00 PM ET for the following month — be logged in to Tock and ready at 1:58 PM.",
+      "Both the 9-course chef's tasting ($425 pp) and the vegetable tasting menu must be prepaid in full at booking; cancellations are strictly enforced.",
+      "Request a window table overlooking Central Park when booking — specify in the notes field; it makes a material difference.",
+      "If the 1st is sold out, check back on Tock daily — cancellations surface in real time and the 30-day window still applies.",
+      "Dress code is business casual enforced; jackets recommended for men."
+    ],
+    "signatureDish": "Oysters and Pearls — sabayon of pearl tapioca with Island Creek oysters and caviar",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "peter-luger",
+    "name": "Peter Luger",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Steakhouse",
+    "coordinates": {
+      "lat": 40.7099,
+      "lng": -73.9626
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/peter-luger-steak-house",
+    "website": "https://peterluger.com",
+    "instagram": "peterlugersteakhouse",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "11:45 AM",
+      "lineBy": "11:30 AM",
+      "advice": "Walk-ins accepted at lunch until 2 PM. Bar seating and singles have best luck noon–4 PM on weekdays."
+    },
+    "phoneNumber": "718-387-7400",
+    "tips": [
+      "Lunch walk-ins are viable on weekdays; arrive as soon as they open at noon for the best shot.",
+      "Peter Luger does NOT accept credit cards — bring cash, a US debit card, or the Luger house card.",
+      "Order the porterhouse for two minimum; the extra thick bacon appetizer and sliced tomato with onion are non-negotiable starters.",
+      "Phone reservations are also accepted at 718-387-7400 — sometimes easier than Resy for large parties.",
+      "Stick to the classics; the menu rarely changes and the staff prefers it that way."
+    ],
+    "signatureDish": "Dry-aged porterhouse for two",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "rafs",
+    "name": "Raf's",
+    "neighborhood": "Nolita",
+    "cuisine": "French-Italian",
+    "coordinates": {
+      "lat": 40.7238,
+      "lng": -73.9953
+    },
+    "difficulty": 4,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/rafs",
+    "website": "https://www.rafsnewyork.com",
+    "instagram": "rafsnewyork",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:45 PM",
+      "advice": "Bar seats are held for walk-ins nightly — your best bet if you can't snag a table on Resy."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations drop at 9 AM sharp, 14 days out on Resy — set an alarm and move fast for weekends.",
+      "The bar walk-in is a legitimate strategy and often the better seat — you see the room and the pasta comes out the same.",
+      "All-day bakery (open from 9 AM) for croissants and pastries requires no reservation.",
+      "From the Musket Room team; the French-Italian pastas and roast chicken are the anchors of the menu.",
+      "Closed Monday."
+    ],
+    "signatureDish": "French-Italian seasonal pasta and whole roasted chicken",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "raouls",
+    "name": "Raoul's",
+    "neighborhood": "SoHo",
+    "cuisine": "French Bistro",
+    "coordinates": {
+      "lat": 40.7257,
+      "lng": -74
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/raoulsrestaurant",
+    "website": "http://www.raouls.com",
+    "instagram": "raoulsrestaurantnyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "8:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "advice": "Walk-in bar seats available from 5 PM; arrive early as the bar fills fast. SoHo institution since 1975 — the scene at the bar is half the point."
+    },
+    "phoneNumber": "(212) 966-3518",
+    "tips": [
+      "Reservations open at 8 AM sharp, 30 days out on Resy — set an alarm.",
+      "The bar is walk-in and worth it; shows up around 5–5:30 PM for a stool before the rush.",
+      "Open since 1975 — a genuine NYC institution, not a trend restaurant. Order the steak au poivre.",
+      "Weekend brunch (11 AM–2:30 PM) has a separate and slightly easier booking track.",
+      "Cancellations appear frequently on Resy the week of; check 2–3 days ahead in the evenings."
+    ],
+    "signatureDish": "Steak au Poivre",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "rezdora",
+    "name": "Rezdôra",
+    "neighborhood": "Flatiron",
+    "cuisine": "Italian (Emilia-Romagna)",
+    "coordinates": {
+      "lat": 40.7393,
+      "lng": -73.9884
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/rezdora",
+    "website": "https://www.rezdora.nyc",
+    "instagram": "rezdoranyc",
+    "bookingWindow": "29 days",
+    "bookingWindowDays": 29,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "A few bar seats are available walk-in; arrive right at opening (5 PM) for the best chance — the bar fills fast."
+    },
+    "phoneNumber": "(646) 692-9090",
+    "tips": [
+      "Reservations drop at midnight exactly 29 days out — set an alarm; they go within minutes.",
+      "Resy allows bookings for up to 4 guests; larger groups need to call directly.",
+      "Bar seats walk-in only — show up at 5 PM sharp on a weeknight for the best odds.",
+      "The hand-rolled pasta is the whole point: order the tortellini in brodo and the tagliatelle al ragù.",
+      "Watch Resy cancellations at 4 PM the day before — confirmations go out and dropped slots reappear."
+    ],
+    "signatureDish": "Tortellini in Brodo",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "rubirosa",
+    "name": "Rubirosa",
+    "neighborhood": "Nolita",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7228,
+      "lng": -73.996
+    },
+    "difficulty": 4,
+    "priceRange": "$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/rubirosa",
+    "website": "https://www.rubirosanyc.com",
+    "instagram": "rubirosanyc",
+    "bookingWindow": "7 days",
+    "bookingWindowDays": 7,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Open Mon–Sun 11 AM–11 PM",
+      "lineBy": "No formal line; arrive at 11 AM or 5 PM opening for best walk-in odds",
+      "advice": "Bar seats are walk-in only. Peak waits run 1–2 hours on weekends; weekday lunch is most forgiving."
+    },
+    "phoneNumber": "212-965-0500",
+    "tips": [
+      "Resy opens 7 days in advance at midnight ET sharp — weekend prime times vanish in seconds, so be ready at 11:59 PM.",
+      "A secondary dump of cancellations typically hits 25–26 hours before service time; worth checking the app.",
+      "The thin-crust Pappalardo family pizza is the draw; the vodka sauce and clam pie are the top orders.",
+      "Parties of 2 get 75 minutes; parties of 4–7 get 90 minutes — don't be late.",
+      "Walk-in bar seats are viable on weekday lunches; evenings and weekends require patience."
+    ],
+    "signatureDish": "Thin-crust tomato pie (Pappalardo family recipe)",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "saga",
+    "name": "Saga",
+    "neighborhood": "Financial District",
+    "cuisine": "New American Tasting",
+    "coordinates": {
+      "lat": 40.7074,
+      "lng": -74.0081
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/saga-ny",
+    "website": "https://www.saga-nyc.com/",
+    "instagram": "saganyc",
+    "bookingWindow": "calendar month",
+    "bookingWindowDays": null,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "calendar-month",
+    "releaseDay": "1st of previous month",
+    "walkIns": false,
+    "phoneNumber": "+12123393963",
+    "tips": [
+      "Reservations drop on the 1st of each month for the following month on Resy — platform switched from Tock in 2024, confirm current platform before booking.",
+      "$100 per-person deposit required at booking; non-refundable within 48 hours of the reservation.",
+      "Located on the 63rd floor of 70 Pine — arrive 10 minutes early to clear building security and reach the elevator bank.",
+      "Wednesday–Thursday seatings are significantly easier to land than Friday–Saturday; the 4-course menu at $198 pp (Sun–Thu) offers better value than the 7-course.",
+      "The Terrace has a separate Resy listing (saga-the-lounge-and-terraces) and is easier to book if you want a taste of the space."
+    ],
+    "signatureDish": "Dry-aged duck — preparations change seasonally but the duck has anchored the tasting menu since opening",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "neighborhood": "Fort Greene",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.6888,
+      "lng": -73.9736
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "OpenTable",
+    "platformUrl": "https://www.opentable.com/r/sailor-brooklyn",
+    "website": "https://www.sailor.nyc/",
+    "instagram": "sailorfortgreene",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "11:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:00 PM",
+      "lineBy": "4:30 PM",
+      "advice": "Over half the seats are held for walk-ins nightly; arrive 4:30–4:45 PM before the 5 PM opening to secure a spot."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Official reservation platform is OpenTable — released at 11am, 14 days in advance (not Resy despite appearing there).",
+      "More than half the restaurant is walk-in only; showing up at 4:30–4:45 PM before the 5 PM open is a reliable strategy.",
+      "Prime 6–8 PM slots vanish within 90 minutes of the 11am drop — book immediately or go walk-in.",
+      "Outdoor seats released same-day based on weather forecast — check OpenTable the morning of.",
+      "Chef April Bloomfield helms the kitchen; the smash burger and roast chicken are must-orders."
+    ],
+    "signatureDish": "Smash burger",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "saint-theos",
+    "name": "Saint Theo's",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7178,
+      "lng": -73.9574
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/saint-theos",
+    "website": "https://www.sainttheos.com",
+    "instagram": "sainttheosnyc",
+    "bookingWindow": "21 days",
+    "bookingWindowDays": 21,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Check Resy at 4 PM the evening before — text confirmations go out and released slots reappear. Also try the bar walk-in."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Reservations open at 10 AM, 21 days in advance on Resy — no phone or email bookings accepted.",
+      "Best cancellation window: check Resy at 4 PM the day before, when the restaurant texts to reconfirm and dropped slots resurface.",
+      "Located at 340 Bleecker St in the West Village — note the chunk_3 hint said Williamsburg, but the restaurant is in the West Village.",
+      "Fresh seafood, handmade pasta, and artisan pizza; order the wood-fired dishes for the full experience.",
+      "Weekend brunch (11 AM–3 PM) books out nearly as fast as dinner; same 21-day window applies."
+    ],
+    "signatureDish": "Wood-Fired Margherita Pizza",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "sartianos",
+    "name": "Sartiano's",
+    "neighborhood": "SoHo",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7242,
+      "lng": -73.9996
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Phone",
+    "platformUrl": "https://www.sartianos.com/reservations/",
+    "website": "https://www.sartianos.com/",
+    "instagram": "sartianos",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar is first-come, first-served. The bar scene is part of the draw; arrive early evening for a seat."
+    },
+    "phoneNumber": "+12126581155",
+    "tips": [
+      "Dinner reservations are primarily handled by phone or email — call (212) 658-1155 between 10 AM–5 PM, or email reservations@sartianos.com.",
+      "A Resy page exists but dinner isn't reliably bookable there; use the phone/email channel.",
+      "Located inside The Mercer hotel at 99 Prince St; celebrity-magnet SoHo scene, dress accordingly.",
+      "Culinary direction by three-time James Beard winner Alfred Portale — the pasta and Dover sole are signatures.",
+      "One month advance is the practical window; call the morning you're 30 days out for prime slots."
+    ],
+    "signatureDish": "Dover Sole Meunière",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "scarpetta",
+    "name": "Scarpetta",
+    "neighborhood": "NoMad",
+    "cuisine": "Italian",
+    "coordinates": {
+      "lat": 40.7447,
+      "lng": -73.9876
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/scarpetta-nyc",
+    "website": "https://www.scarpettarestaurants.com/location/scarpetta-new-york-city/",
+    "instagram": "scarpettanyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "Bar seating at Hotel Seville's bar area is available walk-in; the dining room is reservation-heavy on weekends."
+    },
+    "phoneNumber": "+12126910555",
+    "tips": [
+      "Located inside Hotel Seville at 88 Madison Ave (NoMad) — neighborhood is technically NoMad, not Flatiron, despite some listings.",
+      "Resy drop is at 9 AM ET 30 days in advance; weekend prime-time slots (7–8 PM Friday/Saturday) go within minutes.",
+      "The spaghetti al pomodoro and tagliatelle with Bolognese are the two dishes to order regardless of anything else on the menu.",
+      "Pasta is handmade daily — the kitchen is at its most engaged Tuesday–Thursday; weekends can feel like a volume operation.",
+      "SevenRooms widget also exists on their site but Resy is the primary channel for dining room reservations."
+    ],
+    "signatureDish": "Spaghetti al pomodoro — the defining dish; simple, precise, irreproducible at home",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "semma",
+    "name": "Semma",
+    "neighborhood": "Greenwich Village",
+    "cuisine": "South Indian",
+    "coordinates": {
+      "lat": 40.7366,
+      "lng": -74.0024
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/semma/reservations/create/search/",
+    "website": "https://www.semma.nyc/",
+    "instagram": "semmanyc",
+    "bookingWindow": "14 days",
+    "bookingWindowDays": 14,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "5:30 PM",
+      "lineBy": "4:00 PM",
+      "advice": "12 bar seats held for walk-ins; queue by 4 PM for best odds. Staff takes a waitlist by text once bar is full — give your number and stay nearby."
+    },
+    "phoneNumber": "(212) 373-8900",
+    "tips": [
+      "14-day window releases daily at 9 AM ET on SevenRooms — most slots clear within 10–35 seconds; have your party size and preferred dates pre-loaded.",
+      "Wednesday 3-top at 9 PM has historically been the slowest-selling slot (~145 sec) — most other combos vanish in under 30 seconds.",
+      "Walk-in bar seats are a real path in; arrive by 4 PM and ask to be on the walk-in list — weeknights give better odds than weekends.",
+      "Chef Vijay Kumar's menu is Tamil Nadu-rooted: order the gunpowder dosa, wild boar curry, and any daily special fish preparation.",
+      "Unapologetic Foods group (Dhamaka, Adda) — if Semma is full, Dhamaka on Resy is slightly easier and equally exciting."
+    ],
+    "signatureDish": "Gunpowder dosa",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "shukette",
+    "name": "Shukette",
+    "neighborhood": "Chelsea",
+    "cuisine": "Middle Eastern",
+    "coordinates": {
+      "lat": 40.7449,
+      "lng": -74.0046
+    },
+    "difficulty": 3,
+    "priceRange": "$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/shukette",
+    "website": "https://shukette.org",
+    "instagram": "shukettenyc",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "doors": "Mon–Fri 5 PM, Sat 5 PM, Sun 4 PM",
+      "lineBy": "30–45 minutes before doors open",
+      "advice": "The 23-seat wrap-around concrete counter is reserved almost entirely for walk-ins. Arrive 30–45 min before opening to be in the first seating wave. Zero wait if you're first in line."
+    },
+    "phoneNumber": "212-242-1803",
+    "tips": [
+      "Reservations drop at 10 AM ET daily on Resy — 30-day window, prime evening slots gone in seconds.",
+      "Counter walk-in is genuinely a good strategy: line up 30–45 min before opening and you'll get in at first seating.",
+      "Order the Frena bread and Not Your Average Hummus immediately — the bread is the signature item.",
+      "Chef Ayesha Nurdjaja's charcoal-grilled skewers are the main event; the cauliflower and lamb chops are standouts.",
+      "From the Cookshop/Shuka group; similar food DNA to Shuka but louder, more casual, and harder to book."
+    ],
+    "signatureDish": "Frena bread with house dips",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "st-anselm",
+    "name": "St. Anselm",
+    "neighborhood": "Williamsburg",
+    "cuisine": "Steakhouse",
+    "coordinates": {
+      "lat": 40.7143,
+      "lng": -73.9574
+    },
+    "difficulty": 3,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/st-anselm",
+    "website": "https://www.stanselm.net/",
+    "instagram": "stanselm",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "The 11-seat bar and a quarter of the dining room are held for walk-ins nightly; call ahead at (718) 384-5054 to check availability."
+    },
+    "phoneNumber": "(718) 384-5054",
+    "tips": [
+      "Reservations drop at midnight ET on Resy, 28 days in advance — set an alarm for 12:00 AM if you want a weekend prime-time slot.",
+      "11-seat bar and ~25% of dining room tables are walk-in; arrive before 5:30 PM for the best shot on weekends.",
+      "Call ahead to check walk-in availability — the staff is responsive at (718) 384-5054.",
+      "Menu is wood-fire focused — the hanger steak and bone-in chicken are the signatures; go with whichever the server emphasizes that night.",
+      "Max party size is 8 in the dining room; larger groups should inquire about private dining."
+    ],
+    "signatureDish": "Hanger steak",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "sushi-nakazawa",
+    "name": "Sushi Nakazawa",
+    "neighborhood": "West Village",
+    "cuisine": "Sushi Omakase",
+    "coordinates": {
+      "lat": 40.7326,
+      "lng": -74.0026
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/sushi-nakazawa",
+    "website": "https://www.sushinakazawa.com/new-york",
+    "instagram": "sushinakazawa",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Dinner reservations open 30 days in advance; lunch opens 14 days out — lunch is dramatically easier to land.",
+      "Dinner seating is parties of 2 only; lunch accommodates 1–4 guests.",
+      "Three dinner seatings: 5 PM, 7:15 PM, 9:30 PM — the 9:30 seating is the last to fill.",
+      "The 20-course omakase is fully scripted by Chef Nakazawa; do not attempt to substitute or modify.",
+      "Book via Resy only — no OpenTable, no phone reservations."
+    ],
+    "signatureDish": "20-course nigiri omakase",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "sushi-noz",
+    "name": "Sushi Noz",
+    "neighborhood": "Upper East Side",
+    "cuisine": "Sushi Tasting",
+    "coordinates": {
+      "lat": 40.7739,
+      "lng": -73.9566
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/sushinoz",
+    "website": "https://www.noz.global",
+    "instagram": "sushinoz",
+    "bookingWindow": "~42 days (approx 6 weeks)",
+    "bookingWindowDays": 42,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Reservations release approximately six weeks out on Tock; set a calendar alert and check every morning near the six-week mark.",
+      "Four seatings per night across two counters (6-seat at 5:45 PM / 8:45 PM, 8-seat at 6:00 PM / 9:00 PM) — the 6-seat counter is the more intimate experience.",
+      "No cancellations or rescheduling within 72 hours; full deposit forfeiture. Know your schedule before booking.",
+      "The omakase is hyper-seasonal Edomae-style — trust the chef's progression and avoid requests.",
+      "Sister spots Noz 17 and Noz Market are accessible fallbacks if Sushi Noz is sold out."
+    ],
+    "signatureDish": "Edomae-style seasonal omakase nigiri",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "tempura-matsui",
+    "name": "Tempura Matsui",
+    "neighborhood": "Murray Hill",
+    "cuisine": "Tempura Omakase",
+    "coordinates": {
+      "lat": 40.7483,
+      "lng": -73.9752
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/tempuramatsui/",
+    "website": "https://www.tempuramatsui.com",
+    "instagram": "tempuramatsui",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 AM (Midnight) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "212-986-8885",
+    "tips": [
+      "America's only Michelin-starred tempura counter — reservations are mandatory, zero walk-ins.",
+      "Book via Tock up to 30 days out; the counter is tiny (under 10 seats) so dinner slots disappear fast.",
+      "Dinner omakase is $295/person; lunch (Fri–Sat only) is $168/person — lunch is easier to book.",
+      "Request counter seats when booking to watch the chef work; the bar-side view is the full experience.",
+      "Cancellation policy: full charge applies for cancellations after June 2026 cutoffs — treat this like a ticketed event."
+    ],
+    "signatureDish": "Anago (saltwater eel) tempura",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "the-grill",
+    "name": "The Grill",
+    "neighborhood": "Midtown East",
+    "cuisine": "American Chophouse",
+    "coordinates": {
+      "lat": 40.7572,
+      "lng": -73.9726
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-grill-ny",
+    "website": "https://thegrillnewyork.com",
+    "instagram": "thegrillnewyork",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "(212) 254-3000",
+    "tips": [
+      "Reservations open at 10 AM sharp, 30 days in advance on Resy.",
+      "Dress code is enforced: no shorts, open-toed shoes, tank tops, athletic wear, or baseball caps.",
+      "The room — Mies van der Rohe's Seagram Building — is as important as the food; ask for the main dining room, not the bar.",
+      "Cancellation deadline for dinner is noon on the day of the reservation.",
+      "Lunch on weekdays is dramatically easier to book than weekend dinner."
+    ],
+    "signatureDish": "Grill Trolley Dover Sole",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "the-modern",
+    "name": "The Modern",
+    "neighborhood": "Midtown",
+    "cuisine": "New American",
+    "coordinates": {
+      "lat": 40.7614,
+      "lng": -73.9776
+    },
+    "difficulty": 3,
+    "priceRange": "$$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/the-modern",
+    "website": "https://www.themodernnyc.com/",
+    "instagram": "themodernnyc",
+    "bookingWindow": "28 days",
+    "bookingWindowDays": 28,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "The Bar Room accepts walk-ins across all four seating areas and also takes reservations — easier entry point than the Dining Room."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Dining Room reservations open 28 days out at noon ET on Resy — the Bar Room is also reservable and easier to snag.",
+      "The Bar Room is à la carte and walk-in friendly; an excellent alternative if the Dining Room is full.",
+      "2 Michelin Stars as of 2025; request a table overlooking MoMA's Abby Aldrich Rockefeller Sculpture Garden.",
+      "The Kitchen Table (up to 4 guests) offers a front-row kitchen experience — book separately through the restaurant directly.",
+      "Lunch tasting menu is harder to find guidance on but releases on the same 28-day window."
+    ],
+    "signatureDish": "Langoustine with brown butter",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "yoshino",
+    "name": "Yoshino",
+    "neighborhood": "NoHo",
+    "cuisine": "Sushi Tasting",
+    "coordinates": {
+      "lat": 40.7255,
+      "lng": -73.9933
+    },
+    "difficulty": 4,
+    "priceRange": "$$$$",
+    "platform": "Tock",
+    "platformUrl": "https://www.exploretock.com/yoshinonewyork",
+    "website": "https://www.yoshinonewyork.com/",
+    "instagram": "yoshinonewyork",
+    "bookingWindow": "30 days",
+    "bookingWindowDays": 30,
+    "releaseTime": "12:00 PM (Noon) ET",
+    "releaseSchedule": "daily",
+    "walkIns": false,
+    "phoneNumber": "+19174441988",
+    "tips": [
+      "Reservations drop at noon ET exactly 30 days out on Tock — prepayment required in full at booking, so have your card ready.",
+      "Two seatings: 5:30 PM and 8:00 PM, Monday–Saturday; the later seating often lingers slightly longer and the 8 PM slot is marginally easier to snag.",
+      "Add yourself to the Tock waitlist the moment your target date sells out — single-seat cancellations appear regularly.",
+      "At ~$648 all-in (meal + service + tax), it's one of NYC's pricier omakases — the price reflects Chef Yoshida's Edo-mae training under a Tokyo master.",
+      "Located at 342 Bowery — the entrance is understated; look for the small placard street-level."
+    ],
+    "signatureDish": "Seasonal 20-course Edomae omakase — the kohada (gizzard shad) cured in-house is a recurring standout",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-in-the-michelin-guide-to-new-york-city-2025"
+      }
+    ]
+  },
+  {
+    "id": "adda",
+    "name": "Adda",
+    "neighborhood": "East Village",
+    "cuisine": "Indian",
+    "coordinates": {
+      "lat": 40.727,
+      "lng": -73.9876
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/reservations/addanyc",
+    "website": "https://www.addanyc.com",
+    "instagram": "addanyc",
+    "bookingWindow": "7 days",
+    "bookingWindowDays": 7,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "advice": "A few counter/bar seats are held for walk-ins; arrive right at 5 PM opening for the best shot."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "Unapologetic Foods group (Dhamaka, Semma, Adda) — books fast and rewards persistence.",
+      "Moved from Long Island City to the East Village (107 1st Ave); confirm the address.",
+      "Set an alarm for 8:55 AM — SevenRooms releases 7 days out at 9 AM and prime slots vanish.",
+      "Order the Butter Chicken Experience; the goat is the sleeper hit."
+    ],
+    "signatureDish": "Butter Chicken Experience",
+    "lastVerified": "2026-06-24",
+    "sources": [
+      {
+        "name": "Eater NY",
+        "tier": "Essential 38",
+        "url": "https://ny.eater.com/maps/best-new-york-restaurants-38"
+      }
+    ]
+  },
+  {
+    "id": "ramen-by-ra",
+    "name": "Ramen by Ra",
+    "neighborhood": "East Village",
+    "cuisine": "Ramen",
+    "coordinates": {
+      "lat": 40.7265,
+      "lng": -73.9855
+    },
+    "difficulty": 5,
+    "priceRange": "$$$",
+    "platform": "Resy",
+    "platformUrl": "https://resy.com/cities/new-york-ny/venues/ramen-by-ra",
+    "website": "https://www.ramenbyra.com",
+    "instagram": "ramenbyra",
+    "bookingWindow": "twice monthly",
+    "bookingWindowDays": null,
+    "releaseTime": "9:00 AM ET",
+    "releaseSchedule": "twice-monthly",
+    "releaseDay": "1st & 15th",
+    "walkIns": false,
+    "phoneNumber": null,
+    "tips": [
+      "Drops twice a month — 1st and 15th at 9 AM ET. Set both alarms.",
+      "Counter omakase-style; you pick your bowl at booking. No walk-ins for the counter.",
+      "Relocated to a new East Village space in late 2025 — confirm the address on Resy.",
+      "Miss the drop? Takeaway broth cups and breakfast bao at the walk-up window until sold out."
+    ],
+    "signatureDish": "Tori Paitan Ramen",
+    "lastVerified": "2026-06-24"
+  },
+  {
+    "id": "oresh",
+    "name": "Or'esh",
+    "neighborhood": "SoHo",
+    "cuisine": "Mediterranean",
+    "coordinates": {
+      "lat": 40.7258,
+      "lng": -74.0017
+    },
+    "difficulty": 5,
+    "priceRange": "$$$$",
+    "platform": "SevenRooms",
+    "platformUrl": "https://www.sevenrooms.com/explore/450wbroadway/reservations/create/search/",
+    "website": "https://www.oresh.com",
+    "instagram": null,
+    "bookingWindow": "7 days",
+    "bookingWindowDays": 7,
+    "releaseTime": "10:00 AM ET",
+    "releaseSchedule": "daily",
+    "walkIns": true,
+    "walkIn": {
+      "lineBy": "4:00 PM",
+      "advice": "Limited walk-ins — line up outside by 4 PM at the latest for the best shot."
+    },
+    "phoneNumber": null,
+    "tips": [
+      "The hardest table in NYC in early 2026 — books out within seconds.",
+      "Reservations on SevenRooms (the DoorDash dining app) 7 days out at 10 AM ET.",
+      "Smart-elegant dress code enforced.",
+      "Michelin-starred chef Nadav Greenberg; go for the coal-fired seafood."
+    ],
+    "signatureDish": "Coal-fired whole fish",
+    "lastVerified": "2026-06-24"
+  }
+]
