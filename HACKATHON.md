@@ -78,3 +78,6 @@ any other folder, the global `muse` command does the same thing.
 - `CNAME` — so GitHub Pages here can't claim the production domain.
 - `wrangler.jsonc` worker name is `table-for-two-muse`, so a stray `wrangler deploy`
   cannot overwrite the live worker.
+
+## Status log
+- 26 Oct 2026: baseline, rules brief and build spec in place; phase 1 (agent skeleton) starts next.
