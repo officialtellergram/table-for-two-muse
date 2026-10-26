@@ -85,3 +85,4 @@ free for Meta's Muse Code CLI, which also reads `CLAUDE.md`).
 
 ## Status log
 - 26 Oct 2026: baseline, rules brief and build spec in place; phase 1 (agent skeleton) starts next.
+- 26 Oct 2026 (evening): phase 1 landed in `agent/`: drop engine, the four read-only tools, the Muse Wonder tool loop, CLI harness, FastAPI + SSE service and the Modal wrapper (24 offline tests). Demo sentence verified live on muse-wonder-1.0. These commits were made with Claude, not Muse, and say so in their trailer. Next: phase 2 (live availability, similar_spots, create_watch, the Get-me-in panel, voice route).
