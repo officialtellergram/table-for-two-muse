@@ -1,0 +1,13 @@
+#!/bin/sh
+# Hackathon attribution: commits here are made with Muse Wonder 1.0 (Meta Model API)
+# driving the coding agent. If the message carries no co-author trailer yet, add Muse's.
+# A message that already names a co-author (e.g. a setup commit made with Claude) is
+# left alone so attribution stays truthful.
+#
+# Enable once per clone:   git config core.hooksPath .githooks
+msg="$1"
+case "$2" in merge|squash) exit 0 ;; esac
+if ! grep -qi '^Co-Authored-By:' "$msg"; then
+  printf '\nCo-Authored-By: Muse Wonder 1.0 <muse@noreply.meta.ai>\n' >> "$msg"
+fi
+exit 0

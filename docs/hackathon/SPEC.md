@@ -29,8 +29,8 @@ browser (index.html + new "Get me in" panel)
   |                                              |- tools = thin wrappers over scraper/*.py + cities/*.json
   |                                              |- Resy live calls via resy_find.slots (capped, cached)
   |                                              |- Supabase watchlists (create_watch)
-  |                                              '- Muse Spark Open on Modal GPU (vLLM) for cheap
-  |                                                 structured sub-tasks; falls back to muse-spark-1.3
+  |                                              '- Muse Glimmer (30B open weights) on a Modal GPU (vLLM)
+  |                                                 for cheap structured sub-tasks; falls back to muse-spark-1.3
   '- design assets generated with Muse Image (+ SAM 3.1 cut-outs, stretch)
 ```
 Why Modal for the agent: it runs the existing Python scraper verbatim (no JS port of the
@@ -38,7 +38,7 @@ Resy client), it is a hackathon partner with credits, and the same account hosts
 open-weights model, so option 6 is one more Modal function, not a second platform.
 
 Repo layout for new work: `agent/` (service), `agent/tools/`, `agent/prompts/`,
-`agent/openweights/` (Spark Open deploy), `web/concierge.js` + panel markup in
+`agent/openweights/` (Glimmer deploy), `web/concierge.js` + panel markup in
 `index.html`, `scripts/muse_art.py` (design pipeline), `design/` (assets).
 
 ## 3. Tool surface (name → backing code → contract)
@@ -91,8 +91,17 @@ helper, no library) → POST to the agent service `/ask/voice`, which forwards t
 before the agent runs so misheard names can be fixed.
 
 ## 6. Open weights on Modal (option 6)
-Deploy Muse Spark Open with vLLM on a Modal GPU function (docs: /docs/muse-spark-open/deploy,
-/docs/muse-spark-open/hardware-platforms). Use it for: (a) structured extraction of the
+**Use Muse Glimmer, not Spark Open.** Spark Open is an 816B-parameter MoE (42B active) that
+needs 8 Blackwell GPUs (4 at NVFP4); it is not deployable on hackathon credits. Glimmer is a
+30B dense multimodal model (Apache 2.0, 128K context, distilled from Spark, built for local
+agentic workflows) and counts for the same "best build on open weights" bonus.
+Deploy Glimmer with vLLM on one Modal GPU (docs: /docs/muse-glimmer/get-the-model,
+/docs/muse-glimmer/quantization, /docs/muse-glimmer/deploy): bf16 (~60 GB) on an A100-80GB
+or H100, or a 4-bit quant (~17 GB) on an L4/A10G at roughly $1/hour. Scale to zero,
+short idle timeout, and expect a 1–3 minute cold start, which is why the API fallback
+below is mandatory. Budget: the current $30 Modal credit covers the CPU agent service
+for the whole hackathon plus a few GPU hours for Glimmer; the $100 credit, once approved,
+removes the constraint. Use it for: (a) structured extraction of the
 request into `{party, date, time_window, neighborhoods[], cuisines[], vibe[], must_have}`,
 (b) `similar_spots` re-ranking, (c) alert copy, (d) scoring radar openings for relevance to
 active watches. Behind a flag `OPENWEIGHTS=modal|api|off` with `muse-spark-1.3` as the API
@@ -115,7 +124,7 @@ Explorations and the exact style suffix live in `design/muse-explorations/`. Pla
   `next_drop`, `booking_link`; CLI harness; SSE endpoint. Watch the Meta workshop 27 Oct noon ET.
 - **28–29 Oct:** `check_live_availability` with caps/cache, `similar_spots`, `create_watch`;
   the Get-me-in panel in `index.html`; voice route wired.
-- **30–31 Oct:** Spark Open on Modal behind the flag; design pass (icons, hero, venue art).
+- **30–31 Oct:** Glimmer on Modal behind the flag; design pass (icons, hero, venue art).
 - **1–2 Nov:** demo script, record the 3-minute video with voiceover, README for judges,
   flip repo public, fill the submission form (prior-work call-out, bonus opt-ins: agentic,
   open weights, creative, community vote).
@@ -130,7 +139,10 @@ Explorations and the exact style suffix live in `design/muse-explorations/`. Pla
 - Make the repo public before submitting:
   `gh repo edit officialtellergram/table-for-two-muse --visibility public --accept-visibility-change-consequences`
 
-## 10. Kickoff prompt for the Muse session (paste into `claude` in this folder)
+## 10. Kickoff prompt for the Muse session
+The hackathon folder is `C:\Users\Karen Plankton\Desktop\table-for-two-muse`. Open it in
+VS Code (File → Open Folder) and run `claude` in its terminal; the project settings route
+that session to Muse. Then paste:
 > Read CLAUDE.md, HACKATHON.md and docs/hackathon/SPEC.md. Start phase 1: create `agent/`
 > with a FastAPI app for Modal, an Anthropic-SDK client pointed at https://api.meta.ai using
 > muse-wonder-1.0, and the tools search_spots, get_spot, next_drop, booking_link over

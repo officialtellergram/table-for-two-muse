@@ -55,21 +55,25 @@ reasons over the live drop/availability data, agentic booking-window detection, 
 voice flow via Muse Voice Transcribe. Decide that scope first, then build.
 
 **Decision (26 Oct 2026):** build the **"Get me in" concierge agent** on Muse Wonder, with
-voice entry via Muse Voice Transcribe and Muse Spark Open on Modal as the open-weights
-layer, plus a Muse Image design pass. The full build spec, verified API shapes, tool
+voice entry via Muse Voice Transcribe and Muse Glimmer (30B open weights) on Modal as the
+open-weights layer, plus a Muse Image design pass. (Spark Open was the first idea; it is an
+816B MoE needing 8 Blackwell GPUs, so Glimmer it is.) The full build spec, verified API shapes, tool
 surface and phase plan are in `docs/hackathon/SPEC.md`.
 
 ## Attribution
 Hackathon commits are made by Claude Code running on **muse-wonder-1.0** through the Meta
 Model API, so each one carries `Co-Authored-By: Muse Wonder 1.0 <muse@noreply.meta.ai>`
-(the committed `.claude/settings.json` sets this trailer for Claude Code sessions here, and
-`CLAUDE.md` instructs the agent to add it; the address is an attribution label, not a
-mailbox). The baseline and setup commits were made with Claude and say so.
+(the committed `.claude/settings.json` sets this trailer for Claude Code sessions here,
+`CLAUDE.md` instructs the agent to add it, and `.githooks/prepare-commit-msg` adds it to any
+commit that has no co-author yet; enable the hook once per clone with
+`git config core.hooksPath .githooks`). The address is an attribution label, not a mailbox.
+The baseline and setup commits were made with Claude and say so.
 
 ## Working on it with Muse
 Open Claude Code in this folder. `.claude/settings.local.json` (git-ignored, holds the
 API key) points every model slot at Muse, so plain `claude` here already uses it. From
-any other folder, the global `muse` command does the same thing.
+any other folder, the global `muse-cc` command does the same thing (`muse` itself is left
+free for Meta's Muse Code CLI, which also reads `CLAUDE.md`).
 
 ## What was deliberately left out of the copy
 - `.github/workflows/` — the production radar, drop-detection and SEO jobs. They run on
