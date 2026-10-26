@@ -16,7 +16,7 @@ drives Claude Code for the build, and the product itself integrates the Meta Mod
 ## The hackathon in one screen (from the 26 Oct 2026 kickoff stream)
 - **Organiser/partners:** Meta (Model API team) with Cerebral Valley; partners Baseten,
   Fireworks AI, Modal.
-- **Window:** hacking opens after the 26 Oct kickoff; **submissions due Tue 4 Nov 2026, 9:00 PM ET.**
+- **Window:** hacking opens after the 26 Oct kickoff; **submissions due Wed 4 Nov 2026, 9:00 PM ET.**
 - **Tracks:** Indie Developer (individuals/students; judged on creativity, technical
   ambition, whether it works) and Startups (incorporated). You applied to one of them.
 - **Themes:** *Build for your world* (bring Meta models into a domain you know firsthand)
