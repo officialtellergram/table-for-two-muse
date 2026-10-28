@@ -34,3 +34,7 @@ scraper/.detect.lock
 
 # Concierge local watch fallback (phase 2): watches saved without a signed-in guest.
 agent/.watches.json
+
+# Muse Image generation cache (design/candidates and art/ hold the kept outputs)
+design/.cache/
+design/candidates/index.html

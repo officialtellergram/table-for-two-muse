@@ -1,0 +1,50 @@
+[
+ {
+  "file": "chairs-1.webp",
+  "direction": "chairs",
+  "subject": "App icon mark: two empty chairs facing each other across a small round table, seen straight from above, the whole mark built from halftone dots, centred on a solid cream square with a generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "chairs-2.webp",
+  "direction": "chairs",
+  "subject": "App icon mark: two empty chairs facing each other across a small round table, seen straight from above, the whole mark built from halftone dots, centred on a solid cream square with a generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "bell-1.webp",
+  "direction": "bell",
+  "subject": "App icon mark: a single ringing bell above a dinner plate, the alert for an impossible restaurant table, halftone dot-screen graphic on a solid ink-black square, centred, generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "bell-2.webp",
+  "direction": "bell",
+  "subject": "App icon mark: a single ringing bell above a dinner plate, the alert for an impossible restaurant table, halftone dot-screen graphic on a solid ink-black square, centred, generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "candle-1.webp",
+  "direction": "candle",
+  "subject": "App icon mark: one lit candle on a small round table with two empty chairs, seen from the side as a tight symmetric silhouette, halftone dots, solid ink-black square, warm cream light, centred, generous margin.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "candle-2.webp",
+  "direction": "candle",
+  "subject": "App icon mark: one lit candle on a small round table with two empty chairs, seen from the side as a tight symmetric silhouette, halftone dots, solid ink-black square, warm cream light, centred, generous margin.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "plate-clock-1.webp",
+  "direction": "plate-clock",
+  "subject": "App icon mark: a dinner plate whose rim is a clock face with the hands at one minute to ten, fork and knife as the hands, halftone dot-screen, solid cream square, centred, generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ },
+ {
+  "file": "plate-clock-2.webp",
+  "direction": "plate-clock",
+  "subject": "App icon mark: a dinner plate whose rim is a clock face with the hands at one minute to ten, fork and knife as the hands, halftone dot-screen, solid cream square, centred, generous margin, nothing else in frame.",
+  "size": "1024x1024"
+ }
+]

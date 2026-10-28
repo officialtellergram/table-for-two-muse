@@ -490,6 +490,10 @@
   .cg-tips li{margin:2px 0}
   .cg-watch{border-color:color-mix(in srgb,var(--accent2) 40%,transparent)}
   .cg-link{color:var(--accent2);text-decoration:underline;cursor:pointer;background:none;border:none;padding:0;font:inherit;font-size:12px}
+  .cg-hero{display:block;width:100%;height:auto;border-radius:12px;margin:0 0 16px;border:1px solid var(--line);
+    filter:saturate(.92)}
+  .cg-hero[hidden]{display:none}
+  .card-photo img.muse-art{object-fit:cover}
   .cg-ask .ex{color:var(--faint);font-size:12px;margin:6px 0 0}
   .cg-ask .ex a{color:var(--muted)}
 </style>
@@ -677,6 +681,8 @@
     <button class="modal-x" id="cgClose" aria-label="Close">✕</button>
     <h2 id="cgTitle">Get me in.</h2>
     <p class="modal-sub">Say where, when and how many. The concierge checks live tables, times the next drop, lines up alternates and sets the watch. Muse Wonder plans; our data and Resy answer.</p>
+    <img class="cg-hero" id="cgHero" src="art/hero.webp" alt="" width="1400" height="933" loading="lazy" />
+
     <div class="cg-ask">
       <textarea id="cgText" rows="2" placeholder="Get four of us into Carbone this Saturday around eight, or something similar in the West Village if that's impossible."></textarea>
       <div class="cg-row">
@@ -1112,6 +1118,7 @@ function diffWord(n){ return DIFF_WORDS[Math.min(5,Math.max(1,Math.round(n)))||3
 /* ---------- App state ---------- */
 let RAW=[];            // normalized spots for current city
 let META=null;
+let ART={};            // spot id -> Muse Image venue plate path (art/<city>/manifest.json)
 let SNIPER=null;       // cancellation-radar feed (cities/just-opened.json)
 let cityKey='nyc';
 let party=2;           // booking party size; "table for two" is the default, not a limit
@@ -1153,6 +1160,13 @@ async function loadCity(){
   try{
     const {meta,spots}=await src.load();
     RAW=spots; META=meta;
+    // Muse Image venue plates (scripts/muse_art.py): art/<city>/manifest.json lists
+    // the spots that have one; buildCard prefers it over the platform photo.
+    ART={};
+    try{
+      const r=await fetch(bust('art/'+cityKey+'/manifest.json'),{cache:'no-store'});
+      if(r.ok) for(const a of await r.json()) if(a.id&&a.file) ART[a.id]='art/'+cityKey+'/'+a.file;
+    }catch(e){ /* no art for this city */ }
     $('srcMeta').textContent='· '+spots.length+' spots';
     buildFilters();
     hideState();
@@ -1388,10 +1402,13 @@ function buildCard(s,drop){
       }).join('')+'</div>'
     : '';
 
+  const art=(typeof ART!=='undefined'&&ART[s.id])||'';
   el.innerHTML=`
     <div class="card-photo">
-      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`:`<canvas data-photo aria-hidden="true"></canvas>`}
-      ${s.photo&&s.photoAttr?`<span class="cp-credit" title="Photo: ${attr(s.photoAttr)}">Photo · ${esc(s.photoAttr)}</span>`:''}
+      ${art?`<img class="muse-art" src="${attr(art)}" alt="" loading="lazy" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`
+        :s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      ${art?`<span class="cp-credit" title="Original art generated with Muse Image from the signature dish">Art · Muse Image</span>`
+        :s.photo&&s.photoAttr?`<span class="cp-credit" title="Photo: ${attr(s.photoAttr)}">Photo · ${esc(s.photoAttr)}</span>`:''}
       <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
       <div class="cp-cap">
         <div class="name">${esc(s.name)}</div>

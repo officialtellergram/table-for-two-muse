@@ -141,6 +141,7 @@ export function initConcierge(opts) {
       return;
     }
     running = true; go.disabled = true; stopTicker();
+    const hero = $('cgHero'); if (hero) hero.hidden = true;   // the plan takes the hero's place
     steps.innerHTML = ''; plan.hidden = true; plan.innerHTML = ''; setMsg('', '');
     status.textContent = 'Muse Wonder is reading the request…';
     const S = { order: [], spots: {}, drops: {}, live: {}, links: {}, alternates: null, watch: null, t0: Date.now(), rounds: 0, model: '' };
