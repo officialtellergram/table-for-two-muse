@@ -249,8 +249,8 @@
     text-shadow:0 1px 8px rgba(0,0,0,.7);opacity:0;transform:translateY(10px);text-wrap:balance}
   .lz-ask::before{content:"\201C"}
   .lz-ask::after{content:"\201D";display:inline;color:#f4f3f1}
-  .lz-ask .cr{display:inline-block;width:2px;height:1em;background:var(--accent2);vertical-align:-.15em;margin-left:3px;animation:lzBlink 1s steps(2) infinite}
-  #landing.typed .lz-ask .cr{display:none}
+  .lz-ask .w{display:inline-block;opacity:0;transform:translateY(5px);filter:blur(3px);animation:lzWordIn .45s ease forwards}
+  @keyframes lzWordIn{to{opacity:1;transform:none;filter:blur(0)}}
   .lz-tiers{display:flex;flex-direction:column;gap:8px;width:100%;max-width:560px}
   .lz-tier{display:flex;gap:14px;align-items:flex-start;text-align:left;border:1px solid rgba(244,243,241,.13);border-radius:12px;padding:11px 14px;
     background:rgba(16,16,17,.82);backdrop-filter:blur(8px);font-size:14px;line-height:1.45;color:#f4f3f1;opacity:0;transform:translateY(12px)}
@@ -288,7 +288,7 @@
   }
   @media (prefers-reduced-motion: reduce){
     #landing .lz-cover{opacity:0}
-    #landing :is(.lz-brand,.lz-ey,.lz-ask,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;animation:none}
+    #landing :is(.lz-brand,.lz-ey,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
     #landing .lz-img,#landing .lz-veil{animation:none}
     #landing .lz-veil{background:radial-gradient(95vmax 95vmax at 62% 42%,transparent 0,rgba(10,10,11,.1) 45%,rgba(10,10,11,.86) 100%)}
   }
@@ -565,7 +565,7 @@
   </div>
   <div class="lz-stage">
     <div class="lz-ey">The concierge, in one ask</div>
-    <div class="lz-ask"><span id="lzAsk"></span><span class="cr" aria-hidden="true"></span></div>
+    <div class="lz-ask"><span id="lzAsk"></span></div>
     <div class="lz-tiers" aria-label="Example answer">
       <div class="lz-tier"><b>Now</b><div>Carbone: nothing open live. Marea has a table for four that night.<div class="sl"><i>19:30</i><i>20:15</i><i>20:30</i><i>20:45</i><i>21:00</i></div></div></div>
       <div class="lz-tier"><b>Drop</b><div>Carbone releases daily at 10:00 AM ET, 30 days out. Refresh at exactly 10:00:00.</div></div>
@@ -1778,19 +1778,21 @@ function runLanding(){
     requestAnimationFrame(()=>el.classList.add('playing'));
     // The ask types itself once the door has opened: one real sentence, the same
     // one the concierge panel offers as its example.
-    const SENT="Get four of us into Carbone this Saturday around eight, or something similar in the West Village if that's impossible.";
+    const SENT="Get four of us into Carbone this Saturday around eight, or something similar in the West Village.";
     const ask=$('lzAsk');
     const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(ask){
       if(reduce){ ask.textContent=SENT; el.classList.add('typed'); }
       else{
-        let i=0;
-        setTimeout(function tick(){
-          if(!document.body.contains(ask)) return;
-          ask.textContent=SENT.slice(0,++i);
-          if(i<SENT.length) setTimeout(tick, SENT[i-1]===' '?52:28);
-          else el.classList.add('typed');
-        }, 1500);
+        // Word by word: each word rises in on its own delay once the door has opened.
+        const words=SENT.split(' ');
+        ask.textContent='';
+        words.forEach((w,i)=>{
+          const sp=document.createElement('span'); sp.className='w'; sp.textContent=w;
+          sp.style.animationDelay=(1500+i*120)+'ms'; ask.appendChild(sp);
+          if(i<words.length-1) ask.appendChild(document.createTextNode(' '));
+        });
+        setTimeout(()=>el.classList.add('typed'), 1500+words.length*120+350);
       }
     }
     let done=false;
