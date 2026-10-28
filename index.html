@@ -445,6 +445,53 @@
     .brand small{display:none}            /* hide only the long "as of…" subtext */
     .seg button{padding:8px 13px}
   }
+  /* Hackathon: "Get me in" concierge panel (web/concierge.js) */
+  .modal.cg{max-width:660px;max-height:calc(100vh - 40px);overflow:auto}
+  .cg-ask textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:12px 13px;
+    color:var(--txt);font:inherit;font-size:14.5px;line-height:1.45;resize:vertical;min-height:66px}
+  .cg-ask textarea:focus{outline:none;border-color:color-mix(in srgb,var(--accent2) 55%,transparent)}
+  .cg-row{display:flex;align-items:center;gap:10px;margin-top:10px}
+  .cg-row .btn{flex:0 0 auto}
+  .cg-ctx{flex:1;color:var(--faint);font-size:12px;min-width:0}
+  .cg-ctx a{color:var(--muted)}
+  .cg-mic{width:38px;height:38px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--panel2);
+    color:var(--txt);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .15s,color .15s}
+  .cg-mic:hover{border-color:var(--line2)}
+  .cg-mic.rec{border-color:var(--resy);color:var(--resy);box-shadow:0 0 0 4px color-mix(in srgb,var(--resy) 22%,transparent);animation:cgPulse 1.2s ease-in-out infinite}
+  .cg-mic.busy{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 45%,transparent)}
+  @keyframes cgPulse{50%{box-shadow:0 0 0 9px color-mix(in srgb,var(--resy) 8%,transparent)}}
+  .cg-status{color:var(--muted);font-size:12.5px;margin-top:14px;min-height:18px}
+  .cg-steps{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+  .cg-steps li{font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted);
+    display:inline-flex;gap:6px;align-items:center}
+  .cg-steps li small{color:var(--faint);font-size:11px}
+  .cg-steps li.ok{color:var(--txt)}
+  .cg-steps li.err{color:var(--soon);border-color:color-mix(in srgb,var(--soon) 45%,transparent)}
+  .cg-steps li.run::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);animation:cgBlink 1s infinite}
+  @keyframes cgBlink{50%{opacity:.25}}
+  .cg-plan{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+  .cg-tier{border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:var(--panel2)}
+  .cg-tier h3{margin:0 0 6px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent2)}
+  .cg-tier p{margin:0;font-size:14px;line-height:1.55}
+  .cg-tier a{color:var(--accent2)}
+  .cg-answer{white-space:pre-wrap;overflow-wrap:anywhere}
+  .cg-cards{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .cg-card{flex:1 1 180px;min-width:0;border:1px solid var(--line);border-radius:11px;padding:10px 11px;background:var(--panel);font-size:12.5px}
+  .cg-card b{display:block;font-size:13.5px;margin-bottom:2px}
+  .cg-card .sub{display:block;color:var(--faint);font-size:11.5px}
+  .cg-slots{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+  .cg-slots a{font-size:12px;border:1px solid color-mix(in srgb,var(--good) 45%,transparent);color:var(--good);
+    border-radius:8px;padding:3px 8px;text-decoration:none}
+  .cg-slots a:hover{background:color-mix(in srgb,var(--good) 10%,transparent)}
+  .cg-st{display:inline-block;margin-top:6px;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .cg-st.open{color:var(--good)} .cg-st.none{color:var(--soon)} .cg-st.unknown{color:var(--faint)}
+  .cg-count{font-variant-numeric:tabular-nums;font-size:22px;font-weight:600;letter-spacing:.5px;margin:4px 0 2px}
+  .cg-tips{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:12.5px}
+  .cg-tips li{margin:2px 0}
+  .cg-watch{border-color:color-mix(in srgb,var(--accent2) 40%,transparent)}
+  .cg-link{color:var(--accent2);text-decoration:underline;cursor:pointer;background:none;border:none;padding:0;font:inherit;font-size:12px}
+  .cg-ask .ex{color:var(--faint);font-size:12px;margin:6px 0 0}
+  .cg-ask .ex a{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -587,6 +634,7 @@
       <small id="srcMeta"></small>
     </div>
     <div class="spacer"></div>
+    <button class="alertbtn" id="cgOpen" title="Ask the concierge to get you in">Get me in</button>
     <button class="alertbtn" id="alertBtn" title="Get alerted when a table opens" hidden>Get alerts</button>
     <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme"><span class="ticon" id="themeIcon"></span></button>
   </div>
@@ -619,6 +667,31 @@
       <div id="watchList" class="watch-list"></div>
       <button class="linkbtn" id="signOut">Sign out</button>
     </div>
+  </div>
+</div>
+
+<!-- Hackathon: the "Get me in" concierge. Text (or voice) in, a NOW / DROP / WATCH
+     plan out, streamed from the Muse Wonder agent in agent/ (web/concierge.js). -->
+<div class="modal-scrim" id="cgScrim" hidden>
+  <div class="modal cg" role="dialog" aria-modal="true" aria-labelledby="cgTitle">
+    <button class="modal-x" id="cgClose" aria-label="Close">✕</button>
+    <h2 id="cgTitle">Get me in.</h2>
+    <p class="modal-sub">Say where, when and how many. The concierge checks live tables, times the next drop, lines up alternates and sets the watch. Muse Wonder plans; our data and Resy answer.</p>
+    <div class="cg-ask">
+      <textarea id="cgText" rows="2" placeholder="Get four of us into Carbone this Saturday around eight, or something similar in the West Village if that's impossible."></textarea>
+      <div class="cg-row">
+        <button class="cg-mic" id="cgMic" title="Hold to talk" aria-label="Hold to talk" hidden>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+        </button>
+        <span class="cg-ctx" id="cgCtx"></span>
+        <button class="btn book avail" id="cgGo" style="--c:var(--good)">Ask the concierge</button>
+      </div>
+      <p class="ex"><a href="#" id="cgExample">Use the example</a> · Ctrl/Cmd + Enter sends</p>
+    </div>
+    <div class="cg-status" id="cgStatus"></div>
+    <ol class="cg-steps" id="cgSteps"></ol>
+    <div class="cg-plan" id="cgPlan" hidden></div>
+    <div class="modal-msg" id="cgMsg"></div>
   </div>
 </div>
 
@@ -2065,6 +2138,9 @@ async function hydrateWatched(){
   }catch(e){ /* tables not ready — bells just stay idle */ }
 }
 window.t42Watched = id => watched.has(curCity().key+'|'+id);
+// The concierge (web/concierge.js) forwards a signed-in guest's token so
+// create_watch can write their real watchlist row; null when signed out.
+window.t42Token = async () => { const s = ready ? await getSession().catch(()=>null) : null; return s ? s.access_token : null; };
 window.t42Watch = async (spot, btn) => {
   const session = ready ? await getSession().catch(()=>null) : null;
   const c = curCity();
@@ -2179,6 +2255,16 @@ async function backendReady(){
     refresh();   // handles a magic-link redirect landing back with a fresh session
   }
 })();
+</script>
+<!-- Hackathon: "Get me in" concierge panel. -->
+<script type="module">
+import { initConcierge } from './web/concierge.js';
+const $=id=>document.getElementById(id);
+initConcierge({
+  getCity: () => { const s=$('city'); return { key:s.value, label:(s.options[s.selectedIndex]||{}).textContent||s.value }; },
+  getParty: () => +($('party')?.value)||2,
+  getToken: async () => { try{ return window.t42Token ? await window.t42Token() : null; }catch(e){ return null; } },
+});
 </script>
 </body>
 </html>

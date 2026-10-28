@@ -1,11 +1,12 @@
 ﻿/* Table for Two — service worker.
    App shell cached for offline/installability; city data always fetched fresh
    (falls back to cache only when offline) so the radar feed never goes stale. */
-const CACHE = 't42-v67';   // bump to invalidate the cached shell on deploy
+const CACHE = 't42-v68';   // bump to invalidate the cached shell on deploy
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
-  './icons/favicon.png', './icons/mark.png'
+  './icons/favicon.png', './icons/mark.png',
+  './web/config.js', './web/auth.js', './web/concierge.js'
 ];
 
 self.addEventListener('install', e => {

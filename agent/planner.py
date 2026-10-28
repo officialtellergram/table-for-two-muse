@@ -25,7 +25,7 @@ from .tools import TOOLS, call as call_tool
 _RESULT_PREVIEW = 400
 # Full tool results up to this size ride along in the tool_result event so the web
 # panel can render slots, links and watches from data instead of parsing prose.
-_RESULT_INLINE_MAX = 6000
+_RESULT_INLINE_MAX = 24000   # similar_spots with three live-checked alternates is ~8 KB
 
 
 def system_prompt(default_city: str = "nyc", now: datetime | None = None) -> str:
