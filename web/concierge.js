@@ -288,7 +288,7 @@ export function initConcierge(opts) {
     }, 1000);
   }
 
-  return { open, close, ask, setText, setModel: v => { text.value = v; } };
+  return { open, close, ask, setText: v => { text.value = v; }, setModel };
 }
 
 // ---- voice: mic -> 16 kHz mono WAV -> /ask/voice (Muse Voice Transcribe) --------
