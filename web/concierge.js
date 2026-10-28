@@ -103,6 +103,8 @@ export function initConcierge(opts) {
   try { model = new URLSearchParams(location.search).get('model') || localStorage.getItem('t42-model') || 'wonder'; } catch (e) { /* private mode */ }
   const modelParam = () => model === 'spark-open' ? 'spark-open' : undefined;
   const modelLabel = () => model === 'spark-open' ? 'Muse Spark Open' : 'Muse Wonder';
+  // Service model ids -> names for the status line (meta-models/muse-spark-open-1026 -> Muse Spark Open).
+  const pretty = m => /spark-open/.test(m || '') ? 'Muse Spark Open' : /wonder/.test(m || '') ? 'Muse Wonder' : /spark/.test(m || '') ? 'Muse Spark' : (m || 'Muse');
   function setModel(m) {
     model = m === 'spark-open' ? 'spark-open' : 'wonder';
     try { localStorage.setItem('t42-model', model); } catch (e) { /* ignore */ }
@@ -189,9 +191,9 @@ export function initConcierge(opts) {
           else if (data.name === 'create_watch') S.watch = r;
         }
         else if (event === 'usage') {
-          S.rounds = data.round; S.model = data.model;
+          S.rounds = data.round; S.model = pretty(data.model);
           S.prov = data.provider === 'baseten' ? ' · open weights on Baseten' : '';
-          status.textContent = `${data.model}${S.prov} · round ${data.round} · ${((Date.now() - S.t0) / 1000).toFixed(1)} s`;
+          status.textContent = `${S.model}${S.prov} · round ${data.round} · ${((Date.now() - S.t0) / 1000).toFixed(1)} s`;
         }
         else if (event === 'thinking') status.textContent = `${S.model || modelLabel()} reasoned for ${data.chars} characters, now acting…`;
         else if (event === 'text') status.textContent = data.text;
