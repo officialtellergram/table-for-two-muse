@@ -31,3 +31,6 @@ scraper/.detect.lock
 
 # Muse hackathon: the API key lives in the local Claude Code settings, never in git.
 .claude/settings.local.json
+
+# Concierge local watch fallback (phase 2): watches saved without a signed-in guest.
+agent/.watches.json

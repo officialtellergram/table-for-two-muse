@@ -7,7 +7,7 @@ from agent import app as service
 from agent import planner
 
 
-def _fake_run(message, city="nyc", model=None, max_rounds=None, now=None):
+def _fake_run(message, city="nyc", model=None, max_rounds=None, now=None, ctx=None):
     yield {"type": "tool_call", "id": "t1", "name": "search_spots", "input": {"city": city, "query": "Carbone"}}
     yield {"type": "tool_result", "id": "t1", "name": "search_spots", "ok": True, "preview": "{}", "bytes": 2}
     yield {"type": "final", "text": f"NOW: plan for {message!r}", "rounds": 1, "input_tokens": 10, "output_tokens": 5}

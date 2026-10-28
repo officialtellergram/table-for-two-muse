@@ -13,7 +13,7 @@ from typing import Any, Callable
 
 from ..context import RequestContext
 from ..data import UnknownCity, UnknownSpot, city_keys
-from . import booking, drops, live, similar, spots
+from . import booking, drops, live, similar, spots, watch
 
 ToolFn = Callable[..., dict[str, Any]]
 
@@ -135,6 +135,29 @@ TOOLS: list[dict[str, Any]] = [
             "required": ["city", "spot_id", "party", "date"],
         },
     },
+    {
+        "name": "create_watch",
+        "description": (
+            "Arm an alert for a spot over a date range (max 14 days) and optional time window. "
+            "Signed-in guests get a real watchlist row (the radar emails them when a table opens); "
+            "otherwise it is saved on the concierge only and `alerts_active` is false. Read "
+            "`stored_in` and `note` and tell the guest which one happened. One watch per spot."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "city": _CITY_PROP,
+                "spot_id": _SPOT_PROP,
+                "date_from": {"type": "string", "description": "YYYY-MM-DD, first date to watch."},
+                "date_to": {"type": "string", "description": "YYYY-MM-DD, last date to watch (default: date_from)."},
+                "party": {"type": "integer", "minimum": 1, "maximum": 20, "description": "Party size."},
+                "time_from": {"type": "string", "description": "Optional HH:MM (24h) earliest seating."},
+                "time_to": {"type": "string", "description": "Optional HH:MM (24h) latest seating."},
+                "channel": {"type": "string", "enum": ["email", "telegram", "push"], "description": "Default email."},
+            },
+            "required": ["city", "spot_id", "date_from", "party"],
+        },
+    },
 ]
 
 REGISTRY: dict[str, ToolFn] = {
@@ -144,10 +167,11 @@ REGISTRY: dict[str, ToolFn] = {
     "booking_link": booking.booking_link,
     "check_live_availability": live.check_live_availability,
     "similar_spots": similar.similar_spots,
+    "create_watch": watch.create_watch,
 }
 
 # Tools that take the per-request context (Resy budget, guest token) as `_ctx`.
-CTX_TOOLS = {"check_live_availability", "similar_spots"}
+CTX_TOOLS = {"check_live_availability", "similar_spots", "create_watch"}
 
 
 def call(name: str, args: dict[str, Any], ctx: RequestContext | None = None) -> dict[str, Any]:
