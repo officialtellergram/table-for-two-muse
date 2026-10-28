@@ -3,8 +3,8 @@
 Muse Wonder plans over Table for Two's own drop data and live Resy through seven tools,
 and Muse Voice Transcribe turns a spoken request into the text it plans from. The web
 panel (`web/concierge.js`, opened by "Get me in" in `index.html`) streams the run.
-Open weights (Glimmer on Modal) and the design pass are phase 3 (see
-`docs/hackathon/SPEC.md` section 8).
+Phase 3: Muse Spark Open, Meta's open-weights model served by Baseten, runs the same
+loop behind `--model spark-open` (`agent/openweights.py`, SPEC section 6).
 
 ```
 agent/
@@ -76,7 +76,7 @@ uses `CONCIERGE_URL_PROD` in `web/config.js`, or `?concierge=<url>` on the page 
 
 ```bash
 modal token new
-modal secret create meta-model-api MODEL_API_KEY=<key>      # add SUPABASE_URL / SUPABASE_ANON_KEY to override web/config.js
+modal secret create meta-model-api MODEL_API_KEY=<key> BASETEN_API_KEY=<key>   # add SUPABASE_URL / SUPABASE_ANON_KEY to override web/config.js
 modal serve agent/modal_app.py          # dev URL, hot reload
 modal deploy agent/modal_app.py         # stable URL -> CONCIERGE_URL_PROD in web/config.js
 ```

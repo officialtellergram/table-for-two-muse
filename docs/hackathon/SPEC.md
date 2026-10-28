@@ -29,16 +29,16 @@ browser (index.html + new "Get me in" panel)
   |                                              |- tools = thin wrappers over scraper/*.py + cities/*.json
   |                                              |- Resy live calls via resy_find.slots (capped, cached)
   |                                              |- Supabase watchlists (create_watch)
-  |                                              '- Muse Glimmer (30B open weights) on a Modal GPU (vLLM)
-  |                                                 for cheap structured sub-tasks; falls back to muse-spark-1.3
+  |                                              '- Muse Spark Open (open weights) served per token by Baseten
+  |                                                 as an alternate planner behind model=spark-open; falls back to Wonder
   '- design assets generated with Muse Image (+ SAM 3.1 cut-outs, stretch)
 ```
 Why Modal for the agent: it runs the existing Python scraper verbatim (no JS port of the
 Resy client), it is a hackathon partner with credits, and the same account hosts the
-open-weights model, so option 6 is one more Modal function, not a second platform.
+open-weights model; option 6 is Baseten's hosted Spark Open behind the same planner, no GPU of our own.
 
 Repo layout for new work: `agent/` (service), `agent/tools/`, `agent/prompts/`,
-`agent/openweights/` (Glimmer deploy), `web/concierge.js` + panel markup in
+`agent/openweights.py` (Spark Open on Baseten), `web/concierge.js` + panel markup in
 `index.html`, `scripts/muse_art.py` (design pipeline), `design/` (assets).
 
 ## 3. Tool surface (name → backing code → contract)
@@ -90,23 +90,29 @@ helper, no library) → POST to the agent service `/ask/voice`, which forwards t
 `/v1/asr/transcribe` and streams the agent run. Keep the raw transcript visible and editable
 before the agent runs so misheard names can be fixed.
 
-## 6. Open weights on Modal (option 6)
-**Use Muse Glimmer, not Spark Open.** Spark Open is an 816B-parameter MoE (42B active) that
-needs 8 Blackwell GPUs (4 at NVFP4); it is not deployable on hackathon credits. Glimmer is a
-30B dense multimodal model (Apache 2.0, 128K context, distilled from Spark, built for local
-agentic workflows) and counts for the same "best build on open weights" bonus.
-Deploy Glimmer with vLLM on one Modal GPU (docs: /docs/muse-glimmer/get-the-model,
-/docs/muse-glimmer/quantization, /docs/muse-glimmer/deploy): bf16 (~60 GB) on an A100-80GB
-or H100, or a 4-bit quant (~17 GB) on an L4/A10G at roughly $1/hour. Scale to zero,
-short idle timeout, and expect a 1–3 minute cold start, which is why the API fallback
-below is mandatory. Budget: the current $30 Modal credit covers the CPU agent service
-for the whole hackathon plus a few GPU hours for Glimmer; the $100 credit, once approved,
-removes the constraint. Use it for: (a) structured extraction of the
-request into `{party, date, time_window, neighborhoods[], cuisines[], vibe[], must_have}`,
-(b) `similar_spots` re-ranking, (c) alert copy, (d) scoring radar openings for relevance to
-active watches. Behind a flag `OPENWEIGHTS=modal|api|off` with `muse-spark-1.3` as the API
-fallback so the demo never depends on a cold GPU. This is also the entry for the
-"best build on open weights" bonus.
+## 6. Open weights: Muse Spark Open on Baseten (option 6)
+**Revised 28 Oct.** Spark Open is an 816B-parameter MoE (42B active) that needs 8 Blackwell
+GPUs; it cannot be self-hosted on hackathon credits, which is why Glimmer on a Modal GPU
+was the first plan. Baseten serves Spark Open per token for the event
+(`https://inference.baseten.co/v1`, model `meta-models/muse-spark-open-1026`, OpenAI
+chat-completions shape, $1.25 / $4.25 per million tokens in / out, $100 credit, 2M TPM),
+so the open-weights layer is now an alternate planner, not a sub-task helper:
+
+- `agent/openweights.py` runs the same tool loop as `agent/planner.py` over chat
+  completions: the Anthropic-shaped tool definitions become function tools, tool results go
+  back as role `tool`, `reasoning_content` (Spark Open always reasons; `reasoning_effort=low`
+  keeps a round under two seconds) surfaces as a `thinking` event and is never echoed back.
+- Selected per request with `model=spark-open` (CLI `--model`, `/ask` body, panel toggle,
+  `?model=spark-open`). `OPENWEIGHTS=off` refuses it. If the first Baseten call fails the run
+  falls back to Muse Wonder on the Meta API, so the demo never depends on it.
+- Key: `BASETEN_API_KEY` in the `meta-model-api` Modal secret, or the git-ignored
+  `.claude/settings.local.json` locally. `scripts/baseten_probe.py` checks hello, one
+  function-calling round and the full loop.
+- Verified 28 Oct: the demo ask ran end to end in 6 rounds, 16.5 s, 41K in / 2K out tokens
+  (about six cents), 3 live Resy calls, same NOW / DROP / WATCH answer as Wonder.
+
+Glimmer on a GPU is dropped: hosted Spark Open is the "best build on open weights" entry
+with no GPU, no cold start, and the Modal credit stays for the CPU agent service.
 
 ## 7. Design pass with Muse Image
 Explorations and the exact style suffix live in `design/muse-explorations/`. Plan:
@@ -124,7 +130,7 @@ Explorations and the exact style suffix live in `design/muse-explorations/`. Pla
   `next_drop`, `booking_link`; CLI harness; SSE endpoint. Watch the Meta workshop 27 Oct noon ET.
 - **28–29 Oct:** `check_live_availability` with caps/cache, `similar_spots`, `create_watch`;
   the Get-me-in panel in `index.html`; voice route wired.
-- **30–31 Oct:** Glimmer on Modal behind the flag; design pass (icons, hero, venue art).
+- **30–31 Oct:** ~~Glimmer on Modal behind the flag~~ Spark Open on Baseten behind `model=spark-open` (done 28 Oct); design pass (icons, hero, venue art) (done 28 Oct).
 - **1–2 Nov:** demo script, record the 3-minute video with voiceover, README for judges,
   flip repo public, fill the submission form (prior-work call-out, bonus opt-ins: agentic,
   open weights, creative, community vote).
@@ -133,8 +139,8 @@ Explorations and the exact style suffix live in `design/muse-explorations/`. Pla
 ## 9. Owner actions (Karen)
 - Claim credits from the event-details page: Modal $100 (needed for §2 and §6), Baseten,
   Fireworks; confirm the Meta $150 is on this key.
-- Create the Modal account/workspace and set secrets `MODEL_API_KEY`, `SUPABASE_URL`,
-  `SUPABASE_ANON_KEY` (never the service role key).
+- Create the Modal account/workspace and set secrets `MODEL_API_KEY`, `BASETEN_API_KEY`,
+  `SUPABASE_URL`, `SUPABASE_ANON_KEY` (never the service role key).
 - Confirm which track was applied for (Indie vs Startup) and team members (≤4, approved).
 - Make the repo public before submitting:
   `gh repo edit officialtellergram/table-for-two-muse --visibility public --accept-visibility-change-consequences`

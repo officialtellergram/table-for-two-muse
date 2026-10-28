@@ -55,9 +55,9 @@ reasons over the live drop/availability data, agentic booking-window detection, 
 voice flow via Muse Voice Transcribe. Decide that scope first, then build.
 
 **Decision (26 Oct 2026):** build the **"Get me in" concierge agent** on Muse Wonder, with
-voice entry via Muse Voice Transcribe and Muse Glimmer (30B open weights) on Modal as the
-open-weights layer, plus a Muse Image design pass. (Spark Open was the first idea; it is an
-816B MoE needing 8 Blackwell GPUs, so Glimmer it is.) The full build spec, verified API shapes, tool
+voice entry via Muse Voice Transcribe, Muse Spark Open (Meta's open-weights model, served
+per token by Baseten) as an alternate planner, plus a Muse Image design pass. (Glimmer on a
+Modal GPU was the first open-weights plan; Baseten hosting Spark Open made it unnecessary.) The full build spec, verified API shapes, tool
 surface and phase plan are in `docs/hackathon/SPEC.md`.
 
 ## Attribution
@@ -89,4 +89,5 @@ trailer, see Attribution.)
 - 26 Oct 2026: baseline, rules brief and build spec in place; phase 1 (agent skeleton) starts next.
 - 26 Oct 2026 (evening), phase 1: **Muse Wonder** (`muse-wonder-1.0`, `/v1/messages`) is the planner. It drives the four read-only tools (`search_spots`, `get_spot`, `next_drop`, `booking_link`) through the Anthropic-shaped tool loop in `agent/planner.py`, with `muse-spark-1.3` as the fallback model; CLI harness, FastAPI + SSE service, Modal wrapper, 24 offline tests. The demo sentence ran end to end on Wonder in 5 rounds.
 - 28 Oct 2026, phase 2: **Muse Wonder** now plans over live Resy and alerts: `check_live_availability` (10-min cache, hard cap of 4 Resy calls per request, failed lookups never read as sold out), `similar_spots` (max 3, each live-checked on the same budget) and `create_watch` (guest's Supabase watchlist via their own token, honest local fallback otherwise). **Muse Voice Transcribe** (`muse-voice-transcribe-1.0`, `/v1/asr/transcribe`) is the voice entry: the mic in the "Get me in" panel records, the browser encodes 16 kHz WAV, `/ask/voice` returns an editable transcript. The panel (`index.html` + `web/concierge.js`) streams Wonder's run over SSE into NOW / DROP / WATCH cards. 47 offline tests. Verified in Chrome: Wonder in 6 rounds, 24 s, 3 live Resy calls (Carbone nothing open, Marea open 19:30-21:00, watch saved); Voice transcribed the synthesized demo sentence verbatim in 1.8 s.
-- 28 Oct 2026, design pass: **Muse Image** (`muse-image-1.0`, `/v1/images/generations`) generates the brand art through `scripts/muse_art.py` with one shared halftone style suffix: app-icon directions, the Get-me-in hero, and per-venue plates from each spot's `signatureDish` (`art/<city>/`). Phase 3 (Glimmer on Modal) is parked behind the design pass.
+- 28 Oct 2026, design pass: **Muse Image** (`muse-image-1.0`, `/v1/images/generations`) generates the brand art through `scripts/muse_art.py` with one shared halftone style suffix: app-icon directions, the Get-me-in hero, and per-venue plates from each spot's `signatureDish` (`art/<city>/`).
+- 28 Oct 2026, open weights: **Muse Spark Open** (`meta-models/muse-spark-open-1026`, Baseten's hackathon Model API, OpenAI chat-completions shape) runs the whole concierge loop as an alternate planner behind `model=spark-open` (`agent/openweights.py`): the same seven tools as function tools, its reasoning surfaced as a thinking step, Muse Wonder as the automatic fallback. First full run of the demo ask: 6 rounds, 16.5 s, 41K in / 2K out tokens (about six cents), 3 live Resy calls, the same NOW / DROP / WATCH answer. The panel gets a Muse Wonder / Spark Open switch. Glimmer on a Modal GPU is dropped; this is the open-weights entry, with no GPU and no cold start.
