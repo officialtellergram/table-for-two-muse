@@ -40,7 +40,8 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["GET", "P
 class AskIn(BaseModel):
     message: str = Field(..., min_length=1, max_length=2000, description="What the guest said.")
     city: str = Field("nyc", description="Default city key, label or short code.")
-    model: str | None = Field(None, description="Override the planner model.")
+    model: str | None = Field(None, description="Override the planner model; 'spark-open' runs the "
+                                                "open-weights Muse Spark Open on Baseten.")
     user_token: str | None = Field(None, description="Supabase access token of a signed-in guest.")
 
 
@@ -57,7 +58,10 @@ def _ctx(city: str, token: str | None) -> RequestContext:
 def health() -> dict[str, Any]:
     return {"ok": True, "model": config.PLANNER_MODEL, "fallback": config.FALLBACK_MODEL,
             "base_url": config.META_BASE_URL, "cities": city_keys(),
-            "tools": [t["name"] for t in tools.TOOLS], "phase": 2}
+            "tools": [t["name"] for t in tools.TOOLS], "phase": 3,
+            "openweights": {"provider": config.OPENWEIGHTS, "model": config.OPENWEIGHTS_MODEL,
+                            "base_url": config.BASETEN_BASE_URL, "alias": "spark-open",
+                            "key": config.has_baseten_key()}}
 
 
 @app.get("/tools")

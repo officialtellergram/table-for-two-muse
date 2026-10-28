@@ -2,7 +2,7 @@
 
 One-time setup (owner):
   modal token new
-  modal secret create meta-model-api MODEL_API_KEY=<key from dev.meta.ai>
+  modal secret create meta-model-api MODEL_API_KEY=<key from dev.meta.ai> BASETEN_API_KEY=<Baseten hackathon key>
 Then:
   modal serve  agent/modal_app.py     # hot-reloading dev URL
   modal deploy agent/modal_app.py     # stable *.modal.run URL for web/concierge.js

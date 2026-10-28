@@ -96,6 +96,24 @@ export function initConcierge(opts) {
     plan = $('cgPlan'), msg = $('cgMsg'), ctx = $('cgCtx');
   let abort = null, ticker = null, running = false;
 
+  // Planner model: Muse Wonder on the Meta API (default) or Muse Spark Open, Meta's
+  // open-weights model, served per token by Baseten (?model=spark-open or the toggle in
+  // the panel; remembered per browser). The service falls back to Wonder by itself.
+  let model = 'wonder';
+  try { model = new URLSearchParams(location.search).get('model') || localStorage.getItem('t42-model') || 'wonder'; } catch (e) { /* private mode */ }
+  const modelParam = () => model === 'spark-open' ? 'spark-open' : undefined;
+  const modelLabel = () => model === 'spark-open' ? 'Muse Spark Open' : 'Muse Wonder';
+  function setModel(m) {
+    model = m === 'spark-open' ? 'spark-open' : 'wonder';
+    try { localStorage.setItem('t42-model', model); } catch (e) { /* ignore */ }
+    document.querySelectorAll('#cgModel button').forEach(b => {
+      const on = b.dataset.model === model;
+      b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+  document.querySelectorAll('#cgModel button').forEach(b => { b.onclick = () => setModel(b.dataset.model); });
+  setModel(model);
+
   function open() {
     scrim.hidden = false;
     const c = o.getCity();
@@ -143,8 +161,8 @@ export function initConcierge(opts) {
     running = true; go.disabled = true; stopTicker();
     const hero = $('cgHero'); if (hero) hero.hidden = true;   // the plan takes the hero's place
     steps.innerHTML = ''; plan.hidden = true; plan.innerHTML = ''; setMsg('', '');
-    status.textContent = 'Muse Wonder is reading the request…';
-    const S = { order: [], spots: {}, drops: {}, live: {}, links: {}, alternates: null, watch: null, t0: Date.now(), rounds: 0, model: '' };
+    status.textContent = `${modelLabel()} is reading the request…`;
+    const S = { order: [], spots: {}, drops: {}, live: {}, links: {}, alternates: null, watch: null, t0: Date.now(), rounds: 0, model: '', prov: '' };
     const seen = id => { if (id && !S.order.includes(id)) S.order.push(id); };
     abort = new AbortController();
     const city = o.getCity().key;
@@ -154,7 +172,7 @@ export function initConcierge(opts) {
       const resp = await fetch(`${CONCIERGE_URL}/ask/stream`, {
         method: 'POST', signal: abort.signal,
         headers: { 'Content-Type': 'application/json', Accept: 'text/event-stream' },
-        body: JSON.stringify({ message, city, user_token: token }),
+        body: JSON.stringify({ message, city, user_token: token, model: modelParam() }),
       });
       if (!resp.ok || !resp.body) throw new Error(`service answered ${resp.status}`);
       for await (const { event, data } of sse(resp)) {
@@ -172,14 +190,16 @@ export function initConcierge(opts) {
         }
         else if (event === 'usage') {
           S.rounds = data.round; S.model = data.model;
-          status.textContent = `${data.model} · round ${data.round} · ${((Date.now() - S.t0) / 1000).toFixed(1)} s`;
+          S.prov = data.provider === 'baseten' ? ' · open weights on Baseten' : '';
+          status.textContent = `${data.model}${S.prov} · round ${data.round} · ${((Date.now() - S.t0) / 1000).toFixed(1)} s`;
         }
+        else if (event === 'thinking') status.textContent = `${S.model || modelLabel()} reasoned for ${data.chars} characters, now acting…`;
         else if (event === 'text') status.textContent = data.text;
         else if (event === 'note') setMsg('', data.text);
         else if (event === 'final') {
           render(data, S);
           const live = data.resy_calls_used != null ? ` · ${data.resy_calls_used} live Resy call${data.resy_calls_used === 1 ? '' : 's'}` : '';
-          status.textContent = `${S.model || 'Muse'} · ${data.rounds} rounds · ${((Date.now() - S.t0) / 1000).toFixed(1)} s${live}`;
+          status.textContent = `${S.model || 'Muse'}${S.prov} · ${data.rounds} rounds · ${((Date.now() - S.t0) / 1000).toFixed(1)} s${live}`;
         }
         else if (event === 'error') setMsg('err', data.text);
       }
@@ -268,7 +288,7 @@ export function initConcierge(opts) {
     }, 1000);
   }
 
-  return { open, close, ask, setText: v => { text.value = v; } };
+  return { open, close, ask, setText, setModel: v => { text.value = v; } };
 }
 
 // ---- voice: mic -> 16 kHz mono WAV -> /ask/voice (Muse Voice Transcribe) --------

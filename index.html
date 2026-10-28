@@ -546,7 +546,11 @@
   .cg-dock i{width:32px;height:32px;border-radius:50%;background:var(--accent2);color:#1a1410;display:grid;place-items:center;animation:cgRing 2.4s ease-out 1.2s 3}
   .cg-dock i svg{width:15px;height:15px}
   @keyframes cgDockIn{from{opacity:0;transform:translate(-50%,24px)}to{opacity:1;transform:translate(-50%,0)}}
-  .cg-ask .ex{color:var(--faint);font-size:12px;margin:6px 0 0}
+  .cg-ask .ex{color:var(--faint);font-size:12px;margin:6px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+  /* Planner switch: Muse Wonder (Meta API) or Muse Spark Open (open weights on Baseten). */
+  .cg-model{display:inline-flex;margin-left:auto;border:1px solid color-mix(in srgb,var(--muted) 35%,transparent);border-radius:999px;overflow:hidden;vertical-align:middle}
+  .cg-model button{font:inherit;font-size:11px;letter-spacing:.02em;padding:3px 10px;background:transparent;color:var(--muted);border:0;cursor:pointer;white-space:nowrap}
+  .cg-model button.on{background:var(--accent2);color:#1a1410}
   .cg-ask .ex a{color:var(--muted)}
 </style>
 </head>
@@ -634,7 +638,7 @@
   <div class="modal cg" role="dialog" aria-modal="true" aria-labelledby="cgTitle">
     <button class="modal-x" id="cgClose" aria-label="Close">✕</button>
     <h2 id="cgTitle">Get me in.</h2>
-    <p class="modal-sub">Say where, when and how many. The concierge checks live tables, times the next drop, lines up alternates and sets the watch. Muse Wonder plans; our data and Resy answer.</p>
+    <p class="modal-sub">Say where, when and how many. The concierge checks live tables, times the next drop, lines up alternates and sets the watch. Muse Wonder plans, or Muse Spark Open on open weights; our data and Resy answer.</p>
     <img class="cg-hero" id="cgHero" src="art/hero.webp" alt="" width="1400" height="933" loading="lazy" />
 
     <div class="cg-ask">
@@ -646,7 +650,8 @@
         <span class="cg-ctx" id="cgCtx"></span>
         <button class="btn book avail" id="cgGo" style="--c:var(--good)">Ask the concierge</button>
       </div>
-      <p class="ex"><a href="#" id="cgExample">Use the example</a> · Ctrl/Cmd + Enter sends</p>
+      <p class="ex"><a href="#" id="cgExample">Use the example</a> · Ctrl/Cmd + Enter sends
+        <span class="cg-model" id="cgModel" role="group" aria-label="Planner model"><button type="button" data-model="wonder" title="Muse Wonder 1.0 on the Meta Model API">Muse Wonder</button><button type="button" data-model="spark-open" title="Muse Spark Open, Meta's open-weights model, served by Baseten">Spark Open · open weights</button></span></p>
     </div>
     <div class="cg-status" id="cgStatus"></div>
     <ol class="cg-steps" id="cgSteps"></ol>

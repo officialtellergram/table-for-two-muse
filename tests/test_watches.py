@@ -111,4 +111,5 @@ def test_token_reaches_the_request_context(monkeypatch):
     assert seen["token"] == "tok-header"
     c.get("/ask/stream", params={"q": "x"})
     assert seen["token"] is None
-    assert c.get("/health").json()["phase"] == 2
+    h = c.get("/health").json()
+    assert h["phase"] == 3 and h["openweights"]["alias"] == "spark-open"

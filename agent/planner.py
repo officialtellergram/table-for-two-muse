@@ -7,6 +7,8 @@ they are echoed back verbatim in the assistant turn, as the protocol requires.
 
 run() is a generator of event dicts so the CLI and the SSE endpoint share one
 loop:  {"type": "text"|"tool_call"|"tool_result"|"usage"|"final"|"error", ...}
+Model "spark-open" (any alias in config.is_openweights_model) hands the same run to
+agent.openweights: Muse Spark Open, the open-weights model, served by Baseten.
 """
 from __future__ import annotations
 
@@ -63,6 +65,11 @@ def run(message: str, city: str = "nyc", model: str | None = None,
     their Supabase token; a fresh one is made when none is given.
     """
     model = model or config.PLANNER_MODEL
+    if config.is_openweights_model(model):
+        # Open weights: Muse Spark Open on Baseten speaks the OpenAI shape; same events.
+        from . import openweights
+        yield from openweights.run(message, city, model=model, max_rounds=max_rounds, now=now, ctx=ctx)
+        return
     max_rounds = max_rounds or config.MAX_TOOL_ROUNDS
     ctx = ctx or RequestContext(city=city)
     system = system_prompt(city, now)
@@ -131,7 +138,7 @@ def ask(message: str, city: str = "nyc", **kw: Any) -> dict[str, Any]:
     steps: list[dict[str, Any]] = []
     answer, usage, error = "", {}, None
     for ev in run(message, city, **kw):
-        if ev["type"] in ("tool_call", "tool_result", "text", "note"):
+        if ev["type"] in ("tool_call", "tool_result", "text", "note", "thinking"):
             steps.append(ev)
         elif ev["type"] == "final":
             answer = ev["text"]
