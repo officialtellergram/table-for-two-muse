@@ -1,0 +1,1 @@
+design/candidates/icons/candle-1.webp via Muse Image (muse-image-1.0), build-icons --crop 0.085
