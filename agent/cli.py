@@ -32,6 +32,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--quiet", action="store_true", help="only print the final plan")
     ap.add_argument("--tool", nargs="+", metavar="NAME k=v", help="run one tool directly, no model")
     ap.add_argument("--system", action="store_true", help="print the rendered system prompt and exit")
+    ap.add_argument("--voice", metavar="FILE.wav", help="transcribe a WAV with Muse Voice and use it as the message")
+    ap.add_argument("--transcribe-only", action="store_true", help="with --voice: print the transcript and stop")
     a = ap.parse_args(argv)
 
     if a.system:
@@ -40,8 +42,16 @@ def main(argv: list[str] | None = None) -> int:
     if a.tool:
         print(json.dumps(tools.call(a.tool[0], _kv(a.tool[1:])), indent=2, ensure_ascii=False, default=str))
         return 0
+    if a.voice:
+        from pathlib import Path
+        from . import voice
+        tr = voice.transcribe(Path(a.voice).read_bytes())
+        print(json.dumps(tr, indent=2, ensure_ascii=False))
+        if a.transcribe_only:
+            return 0
+        a.message = tr["transcript"] or a.message
     if not a.message:
-        ap.error("message is required unless --tool or --system is given")
+        ap.error("message is required unless --tool, --system or --voice is given")
 
     if a.json:
         print(json.dumps(planner.ask(a.message, a.city, model=a.model), indent=2, ensure_ascii=False))

@@ -2258,13 +2258,14 @@ async function backendReady(){
 </script>
 <!-- Hackathon: "Get me in" concierge panel. -->
 <script type="module">
-import { initConcierge } from './web/concierge.js';
+import { initConcierge, initVoice } from './web/concierge.js';
 const $=id=>document.getElementById(id);
 initConcierge({
   getCity: () => { const s=$('city'); return { key:s.value, label:(s.options[s.selectedIndex]||{}).textContent||s.value }; },
   getParty: () => +($('party')?.value)||2,
   getToken: async () => { try{ return window.t42Token ? await window.t42Token() : null; }catch(e){ return null; } },
 });
+initVoice();   // shows the mic only where MediaRecorder exists; transcript stays editable
 </script>
 </body>
 </html>

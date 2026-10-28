@@ -7,8 +7,11 @@ Then:
   modal serve  agent/modal_app.py     # hot-reloading dev URL
   modal deploy agent/modal_app.py     # stable *.modal.run URL for web/concierge.js
 
-The image carries the agent package, cities/ and scraper/ (the Resy client lives
-there; phase 2 calls it). Secrets are read from the environment by agent.config.
+The image carries the agent package, cities/, scraper/ (the Resy client and the
+venue-id cache live there) and web/ (config.js holds the public Supabase URL and
+anon key that create_watch falls back to). Secrets come from the environment via
+agent.config; add SUPABASE_URL / SUPABASE_ANON_KEY to the same Modal secret to
+override the file.
 """
 from __future__ import annotations
 
@@ -20,8 +23,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 image = (
     modal.Image.debian_slim(python_version="3.12")
-    .pip_install("anthropic>=0.40,<3", "fastapi[standard]>=0.115", "requests>=2.28", "tzdata")
+    .pip_install("anthropic>=0.40,<3", "fastapi[standard]>=0.115", "python-multipart>=0.0.9",
+                 "requests>=2.28", "tzdata")
     .add_local_dir(ROOT / "cities", remote_path="/root/cities")
+    .add_local_dir(ROOT / "web", remote_path="/root/web")
     .add_local_dir(ROOT / "scraper", remote_path="/root/scraper",
                    ignore=["**/.ot_profile/**", "**/__pycache__/**", "**/*.lock", "**/*.log",
                            "**/.geocache.json", "**/.notify.json*"])

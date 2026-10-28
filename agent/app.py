@@ -7,6 +7,10 @@ agent/modal_app.py.
   POST /ask               {message, city?, model?, user_token?} -> {answer, steps, usage, error}
   GET  /ask/stream?q=..   Server-Sent Events, one event per planner event
   POST /ask/stream        same, JSON body
+  POST /ask/voice         multipart {audio: WAV, city?, run?} -> Muse Voice Transcribe;
+                          returns {transcript, ...} so the guest can fix it before the
+                          planner runs, or with run=true streams a `transcript` event
+                          followed by the planner events
 
 SSE frames are `event: <type>` + `data: <json>` and end with a `final` or `error`
 event, which web/concierge.js consumes. A signed-in guest's Supabase access token
@@ -18,12 +22,12 @@ from __future__ import annotations
 import json
 from typing import Any, Iterator
 
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, File, Form, HTTPException, Query, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
-from . import config, planner, tools
+from . import config, planner, tools, voice
 from .context import RequestContext
 from .data import city_keys
 
@@ -94,3 +98,28 @@ def ask_stream_get(request: Request, q: str = Query(..., min_length=1, max_lengt
 @app.post("/ask/stream")
 def ask_stream_post(body: AskIn, request: Request) -> StreamingResponse:
     return _stream(body.message, body.city, body.model, body.user_token or _bearer(request))
+
+
+@app.post("/ask/voice")
+async def ask_voice(request: Request, audio: UploadFile = File(..., description="WAV, mono 16-bit, 16 or 24 kHz"),
+                    city: str = Form("nyc"), run: bool = Form(False), model: str | None = Form(None),
+                    user_token: str | None = Form(None)):
+    data = await audio.read()
+    if not data:
+        raise HTTPException(400, "empty audio")
+    try:
+        tr = voice.transcribe(data)
+    except voice.TranscribeError as e:
+        raise HTTPException(502, str(e))
+    if not run:
+        return tr
+    if not tr["transcript"]:
+        raise HTTPException(422, "nothing was heard in the audio")
+    token = user_token or _bearer(request)
+
+    def events() -> Iterator[dict[str, Any]]:
+        yield {"type": "transcript", **tr}
+        yield from planner.run(tr["transcript"], city, model=model, ctx=_ctx(city, token))
+
+    return StreamingResponse(_sse(events()), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})

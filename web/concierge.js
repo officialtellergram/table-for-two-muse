@@ -269,3 +269,78 @@ export function initConcierge(opts) {
 
   return { open, close, ask, setText: v => { text.value = v; } };
 }
+
+// ---- voice: mic -> 16 kHz mono WAV -> /ask/voice (Muse Voice Transcribe) --------
+// The transcript lands in the editable box and nothing runs until the guest
+// taps Ask, so a misheard restaurant name can be fixed first (SPEC section 5).
+
+async function toWav16k(blob) {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  const ac = new AC();
+  let decoded;
+  try { decoded = await ac.decodeAudioData(await blob.arrayBuffer()); }
+  finally { ac.close().catch(() => {}); }
+  const rate = 16000, len = Math.max(1, Math.ceil(decoded.duration * rate));
+  const oc = new OfflineAudioContext(1, len, rate);     // mono destination downmixes
+  const src = oc.createBufferSource();
+  src.buffer = decoded; src.connect(oc.destination); src.start();
+  const mono = (await oc.startRendering()).getChannelData(0);
+  const out = new ArrayBuffer(44 + mono.length * 2), v = new DataView(out);
+  const tag = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  tag(0, 'RIFF'); v.setUint32(4, 36 + mono.length * 2, true); tag(8, 'WAVE');
+  tag(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  tag(36, 'data'); v.setUint32(40, mono.length * 2, true);
+  for (let i = 0, o = 44; i < mono.length; i++, o += 2) {
+    const s = Math.max(-1, Math.min(1, mono[i]));
+    v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+  }
+  return out;
+}
+
+export function initVoice() {
+  const mic = $('cgMic'), text = $('cgText'), status = $('cgStatus'), msg = $('cgMsg');
+  if (!mic || !navigator.mediaDevices || !window.MediaRecorder || !CONCIERGE_URL) return null;
+  mic.hidden = false;
+  let rec = null, chunks = [], stream = null;
+  const fail = t => { msg.className = 'modal-msg err'; msg.textContent = t; };
+
+  async function start() {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    rec = new MediaRecorder(stream);
+    chunks = [];
+    rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+    rec.onstop = finish;
+    rec.start();
+    mic.classList.add('rec'); mic.title = 'Tap to stop';
+    status.textContent = 'Listening. Tap the mic again when you are done.';
+  }
+  function stop() { if (rec && rec.state !== 'inactive') rec.stop(); }
+  async function finish() {
+    mic.classList.remove('rec'); mic.classList.add('busy'); mic.title = 'Hold to talk';
+    if (stream) stream.getTracks().forEach(t => t.stop());
+    status.textContent = 'Muse Voice is transcribing…';
+    try {
+      const wav = await toWav16k(new Blob(chunks, { type: rec.mimeType || 'audio/webm' }));
+      const fd = new FormData();
+      fd.append('audio', new Blob([wav], { type: 'audio/wav' }), 'speech.wav');
+      const t0 = Date.now();
+      const r = await fetch(`${CONCIERGE_URL}/ask/voice`, { method: 'POST', body: fd });
+      if (!r.ok) throw new Error(`voice route answered ${r.status}`);
+      const d = await r.json();
+      if (d.transcript) {
+        text.value = d.transcript; text.focus();
+        status.textContent = `Heard it (${d.model}, ${((d.audio_ms || 0) / 1000).toFixed(1)} s of audio, ${((Date.now() - t0) / 1000).toFixed(1)} s). Fix anything, then Ask.`;
+      } else status.textContent = 'Nothing was heard. Try again a little closer to the mic.';
+    } catch (e) {
+      status.textContent = '';
+      fail(`Voice failed: ${e.message || e}`);
+    } finally { mic.classList.remove('busy'); }
+  }
+  mic.onclick = () => {
+    msg.textContent = '';
+    if (rec && rec.state === 'recording') stop();
+    else start().catch(e => fail(`Microphone unavailable: ${e.message || e}`));
+  };
+  return { start, stop };
+}
