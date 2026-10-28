@@ -191,6 +191,10 @@ def cmd_build_icons(a: argparse.Namespace) -> None:
     w, h = src.size
     side = min(w, h)
     sq = src.crop(((w - side) // 2, (h - side) // 2, (w - side) // 2 + side, (h - side) // 2 + side))
+    if a.crop:   # trim a fraction off every edge so a framed candidate fills the tile
+        c = int(side * a.crop)
+        sq = sq.crop((c, c, side - c, side - c))
+        side = sq.size[0]
     # Maskable icons need the mark inside the central 80%: pad with the corner colour.
     bg = sq.getpixel((4, 4))
     pad = int(side * a.pad)
@@ -251,6 +255,7 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("prompt"); s.add_argument("subject"); s.add_argument("--out", required=True)
     s.add_argument("--size", default="1024x1024"); s.add_argument("--raw", action="store_true", help="no style suffix")
     s = sub.add_parser("build-icons"); s.add_argument("source"); s.add_argument("--pad", type=float, default=0.0)
+    s.add_argument("--crop", type=float, default=0.0, help="fraction trimmed off each edge before resizing")
     sub.add_parser("gallery")
     a = ap.parse_args(argv)
     {"icons": cmd_icons, "hero": cmd_hero, "venues": cmd_venues, "prompt": cmd_prompt,

@@ -28,7 +28,7 @@ contact sheet at `design/candidates/index.html`.
 |---|---|---|
 | icons/chairs | Two empty chairs facing each other across a small round table, seen straight from above, built from halftone dots, solid cream square. | alternative mark |
 | icons/bell | A single ringing bell above a dinner plate, the alert for an impossible table, solid ink-black square. | alternative mark (alerts) |
-| icons/candle | One lit candle on a small round table with two empty chairs, tight symmetric silhouette from the side, solid ink-black square. | **the app icon** (`candle-2` → `icons/*.png` via `build-icons`) |
+| icons/candle | One lit candle on a small round table with two empty chairs, tight symmetric silhouette from the side, solid ink-black square. | **the app icon** (`candle-1` → `icons/*.png` via `build-icons`; `candle-2` and `chairs-2` were the runners-up) |
 | icons/plate-clock | A dinner plate whose rim is a clock face with fork and knife as the hands at one minute to ten. | alternative mark (drops) |
 | hero/doorway | Maître d' stand and an open doorway into a glowing dining room seen from the dark street, one empty table for two inside. | **the Get-me-in hero** (`art/hero.webp`) and the share images (`icons/og-square.png`, `icons/og-image.png`) |
 | hero/ten-oclock | The second before reservations drop: wall clock at 9:59, a phone glowing on an empty candlelit table for two. | alternative hero |
