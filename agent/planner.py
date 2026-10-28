@@ -19,9 +19,13 @@ from zoneinfo import ZoneInfo
 import anthropic
 
 from . import config, data
+from .context import RequestContext
 from .tools import TOOLS, call as call_tool
 
 _RESULT_PREVIEW = 400
+# Full tool results up to this size ride along in the tool_result event so the web
+# panel can render slots, links and watches from data instead of parsing prose.
+_RESULT_INLINE_MAX = 6000
 
 
 def system_prompt(default_city: str = "nyc", now: datetime | None = None) -> str:
@@ -51,10 +55,16 @@ def _blocks(resp: anthropic.types.Message) -> list[dict[str, Any]]:
 
 
 def run(message: str, city: str = "nyc", model: str | None = None,
-        max_rounds: int | None = None, now: datetime | None = None) -> Iterator[dict[str, Any]]:
-    """Drive one request through the planner, yielding events as they happen."""
+        max_rounds: int | None = None, now: datetime | None = None,
+        ctx: RequestContext | None = None) -> Iterator[dict[str, Any]]:
+    """Drive one request through the planner, yielding events as they happen.
+
+    `ctx` carries the per-request Resy budget and, when the guest is signed in,
+    their Supabase token; a fresh one is made when none is given.
+    """
     model = model or config.PLANNER_MODEL
     max_rounds = max_rounds or config.MAX_TOOL_ROUNDS
+    ctx = ctx or RequestContext(city=city)
     system = system_prompt(city, now)
     messages: list[dict[str, Any]] = [{"role": "user", "content": message}]
     cli = client()
@@ -96,16 +106,20 @@ def run(message: str, city: str = "nyc", model: str | None = None,
                 yield {"type": "error", "text": "max_tokens hit before any answer; raise MUSE_MAX_TOKENS"}
                 return
             yield {"type": "final", "text": text, "rounds": rnd,
-                   "input_tokens": total_in, "output_tokens": total_out}
+                   "input_tokens": total_in, "output_tokens": total_out,
+                   **ctx.resy_budget.as_dict()}
             return
 
         results: list[dict[str, Any]] = []
         for tu in tool_uses:
             yield {"type": "tool_call", "id": tu.id, "name": tu.name, "input": tu.input}
-            out = call_tool(tu.name, tu.input or {})
+            out = call_tool(tu.name, tu.input or {}, ctx)
             payload = json.dumps(out, ensure_ascii=False, default=str)
-            yield {"type": "tool_result", "id": tu.id, "name": tu.name, "ok": "error" not in out,
-                   "preview": payload[:_RESULT_PREVIEW], "bytes": len(payload)}
+            ev = {"type": "tool_result", "id": tu.id, "name": tu.name, "ok": "error" not in out,
+                  "preview": payload[:_RESULT_PREVIEW], "bytes": len(payload)}
+            if len(payload) <= _RESULT_INLINE_MAX:
+                ev["result"] = out
+            yield ev
             results.append({"type": "tool_result", "tool_use_id": tu.id, "content": payload})
         messages.append({"role": "user", "content": results})
 
