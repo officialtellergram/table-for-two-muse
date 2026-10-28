@@ -13,7 +13,7 @@ from typing import Any, Callable
 
 from ..context import RequestContext
 from ..data import UnknownCity, UnknownSpot, city_keys
-from . import booking, drops, live, spots
+from . import booking, drops, live, similar, spots
 
 ToolFn = Callable[..., dict[str, Any]]
 
@@ -112,6 +112,29 @@ TOOLS: list[dict[str, Any]] = [
             "required": ["city", "spot_id", "date", "party"],
         },
     },
+    {
+        "name": "similar_spots",
+        "description": (
+            "Up to 3 alternates to a spot, ranked by shared vibe, occasion, cuisine, neighborhood, "
+            "price and easier difficulty, with each one's drop for the date and a live Resy check "
+            "(same 4-call budget; read each alternate's live.status). One call replaces search_spots "
+            "+ next_drop + check_live_availability + booking_link for the alternates."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "city": _CITY_PROP,
+                "spot_id": dict(_SPOT_PROP, description="The guest's first choice; alternates are ranked against it."),
+                "party": {"type": "integer", "minimum": 1, "maximum": 20, "description": "Party size."},
+                "date": {"type": "string", "description": "YYYY-MM-DD the guest wants to dine."},
+                "n": {"type": "integer", "minimum": 1, "maximum": 3, "description": "How many alternates, max 3."},
+                "time_from": {"type": "string", "description": "Optional HH:MM (24h) start of the guest's window."},
+                "time_to": {"type": "string", "description": "Optional HH:MM (24h) end of the guest's window."},
+                "live_check": {"type": "boolean", "description": "Default true. False skips the Resy calls."},
+            },
+            "required": ["city", "spot_id", "party", "date"],
+        },
+    },
 ]
 
 REGISTRY: dict[str, ToolFn] = {
@@ -120,10 +143,11 @@ REGISTRY: dict[str, ToolFn] = {
     "next_drop": drops.next_drop,
     "booking_link": booking.booking_link,
     "check_live_availability": live.check_live_availability,
+    "similar_spots": similar.similar_spots,
 }
 
 # Tools that take the per-request context (Resy budget, guest token) as `_ctx`.
-CTX_TOOLS = {"check_live_availability"}
+CTX_TOOLS = {"check_live_availability", "similar_spots"}
 
 
 def call(name: str, args: dict[str, Any], ctx: RequestContext | None = None) -> dict[str, Any]:
