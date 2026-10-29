@@ -1,0 +1,111 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>tablefortwo. — hero background options (uncommitted)</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0a0b'/%3E%3Cpath d='M24.6 44.6 A26 26 0 0 1 75.4 44.6' fill='none' stroke='%23c9a86a' stroke-width='7'/%3E%3Cpath d='M75.4 55.4 A26 26 0 0 1 24.6 55.4' fill='none' stroke='%23c9a86a' stroke-width='7'/%3E%3C/svg%3E">
+<style>
+  :root{--bg:#0a0a0b;--panel:#101011;--line:#212124;--line2:#34343a;--txt:#f4f3f1;--muted:#8a8a90;--faint:#56565c;--gold:#c9a86a;--gold2:#dcc28c;--cream:#f4f3ef;--font:'Inter',-apple-system,'Segoe UI',sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;background:#111113;color:var(--txt);font:15px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:44px 20px 90px}
+  .kicker{letter-spacing:3px;text-transform:uppercase;font-size:11px;color:var(--gold);font-weight:600}
+  h1{font-size:clamp(27px,4vw,40px);font-weight:550;letter-spacing:-.03em;margin:10px 0 6px}
+  h2{font-size:19px;letter-spacing:-.01em;margin:0}
+  p{color:var(--muted);max-width:70ch}
+  p b{color:var(--txt)}
+  .option-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin:46px 0 6px}
+  .option-head .rank{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink,#0a0a0b);background:var(--gold2);padding:3px 9px;border-radius:99px;font-weight:700;color:#0a0a0b}
+  .option-head .alt{background:transparent;border:1px solid var(--line2);color:var(--muted)}
+  .verdict{font-size:13.5px;color:var(--muted);max-width:78ch;margin:4px 0 12px}
+  .verdict b{color:var(--gold2)}
+  /* ---- shared hero frame (content identical in every option) ---- */
+  .hero{position:relative;border:1px solid var(--line2);border-radius:22px;overflow:hidden;background:#0a0a0b;min-height:560px}
+  .h-brand{position:absolute;top:22px;left:26px;z-index:5;display:flex;flex-direction:column;gap:5px}
+  .h-wm{font-size:27px;font-weight:650;letter-spacing:-.045em;color:#fffaf0}
+  .h-wm i{font-style:normal;color:var(--gold)}
+  .h-tag{font-size:10.5px;letter-spacing:2.6px;text-transform:uppercase;color:var(--gold2)}
+  .h-stage{position:relative;z-index:5;max-width:640px;margin:0 auto;padding:96px 22px 54px;text-align:center}
+  .h-ey{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);font-weight:600}
+  .h-purpose{font-size:clamp(29px,4.6vw,47px);line-height:1.04;font-weight:650;letter-spacing:-.035em;margin:12px 0 10px;text-wrap:balance}
+  .h-purpose em{font-style:normal;color:var(--gold2)}
+  .h-cities{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:#b9b3a4}
+  .h-ask{margin:22px auto 0;max-width:520px;font-size:15.5px;color:#f0ead9;border:1px solid rgba(244,243,241,.13);background:rgba(13,13,14,.78);backdrop-filter:blur(7px);border-radius:12px;padding:11px 15px}
+  .h-tiers{max-width:520px;margin:10px auto 0;text-align:left;display:flex;flex-direction:column;gap:7px}
+  .h-tier{border:1px solid rgba(244,243,241,.12);background:rgba(13,13,14,.78);border-radius:11px;padding:9px 13px;font-size:13px;display:flex;gap:12px}
+  .h-tier b{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--gold2);padding-top:3px;flex:none;width:44px}
+  .h-cta{display:flex;gap:9px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+  .btn{border-radius:10px;padding:11px 19px;font-size:13.5px;font-weight:600;border:1px solid var(--line2);background:rgba(10,10,11,.55);color:var(--txt)}
+  .btn.go{background:var(--gold2);color:#1a1410;border-color:transparent}
+  .bg{position:absolute;inset:0;pointer-events:none}
+  /* A: glyph monument */
+  .bg-a{display:flex;align-items:center;justify-content:center}
+  .bg-a svg{width:min(880px,130%);opacity:.5}
+  .bg-a::after{content:"";position:absolute;inset:0;background:radial-gradient(52% 44% at 50% 46%,rgba(201,168,106,.09),transparent 70%)}
+  /* B: candle glow void */
+  .bg-b{background:
+    radial-gradient(38% 30% at 50% 40%,rgba(220,194,140,.17),transparent 70%),
+    radial-gradient(75% 62% at 50% 46%,rgba(201,168,106,.055),transparent 75%),
+    radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%),#0a0a0b}
+  /* C: drop-clock rings */
+  .bg-c{display:flex;align-items:center;justify-content:center}
+  .bg-c svg{width:min(980px,145%);opacity:.42}
+  .bg-c::after{content:"";position:absolute;inset:0;background:radial-gradient(46% 40% at 50% 46%,rgba(10,10,11,.25),transparent 70%)}
+  /* D: city dot-grid map */
+  .bg-d{background:
+    radial-gradient(circle at 22% 68%,rgba(220,194,140,.20) 0 2px,transparent 3px),
+    radial-gradient(circle at 68% 30%,rgba(220,194,140,.16) 0 2px,transparent 3px),
+    radial-gradient(circle at 82% 72%,rgba(220,194,140,.13) 0 2px,transparent 3px),
+    radial-gradient(48% 42% at 50% 45%,rgba(201,168,106,.07),transparent 70%),#0a0a0b}
+  .bg-d::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(244,243,241,.13) 1px,transparent 1.4px);background-size:26px 26px;
+    -webkit-mask-image:radial-gradient(72% 64% at 50% 46%,#000 30%,transparent 78%);mask-image:radial-gradient(72% 64% at 50% 46%,#000 30%,transparent 78%)}
+  .bg-d::after{content:"NYC 40.71°N · DC 38.90°N · BOS 42.36°N · HOU 29.76°N · RVA 37.54°N";position:absolute;left:26px;bottom:20px;font-size:10px;letter-spacing:2.2px;color:rgba(185,179,164,.5)}
+  /* E: gold arc system */
+  .bg-e{background:radial-gradient(55% 45% at 50% 42%,rgba(201,168,106,.075),transparent 70%),#0a0a0b}
+  .bg-e svg{position:absolute;inset:0;width:100%;height:100%;opacity:.5}
+  /* F: doorway arch, line only */
+  .bg-f{display:flex;align-items:flex-end;justify-content:center}
+  .bg-f svg{height:96%;opacity:.55}
+  .bg-f::after{content:"";position:absolute;inset:0;background:radial-gradient(50% 38% at 50% 44%,rgba(201,168,106,.08),transparent 70%)}
+  @media(max-width:640px){.hero{min-height:520px}.h-stage{padding-top:88px}.h-tiers{display:none}}
+</style>
+
+<div class="wrap">
+  <div class="kicker">Uncommitted · backgrounds only · content frozen</div>
+  <h1>Same hero. Six backgrounds.</h1>
+  <p>Every frame below carries the <b>exact live content</b> — Option A wordmark, “We get you tables at the <b>best restaurants</b> in <b>any city.</b>”, the typed Carbone ask, NOW/DROP/WATCH, both ways in. Only the backdrop changes. The halftone (<b>art/hero.webp</b>) is retired from this slot in all six: flat vector, one gold, lots of air. Judge them on one question — <b>does the background shut up?</b></p>
+
+  <!-- A -->
+  <div class="option-head"><span class="rank">A · Recommended</span><h2>Glyph Monument</h2></div>
+  <p class="verdict">The notched glyph, blown up until it’s architecture: one fine gold arc-pair centred behind the stage, cropped by the frame. The brand mark <i>is</i> the scenery — favicon, nav and hero become the same gesture at three scales. <b>Quietest of the six, most ownable.</b> In production the two arcs can breathe (scale 1 → 1.04 over 12s) without any “spin.”</p>
+  <div class="hero"><div class="bg bg-a"><svg viewBox="0 0 100 100" fill="none"><path d="M24.6 44.6 A26 26 0 0 1 75.4 44.6" stroke="#c9a86a" stroke-width=".85"/><path d="M75.4 55.4 A26 26 0 0 1 24.6 55.4" stroke="#c9a86a" stroke-width=".85"/></svg></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <!-- B -->
+  <div class="option-head"><span class="rank">B · Chosen → hero-ember.html</span><h2>Candle-Glow Void</h2></div>
+  <p class="verdict">Almost nothing: ink black, one warm radial glow where a candle would be, vignette at the edges. The Linear/Apple school of confidence — the content floats in lit air. <b>Chosen 2026-10-28</b> and taken live with ember particles + the content page’s liquid gold haze in <b>hero-ember.html</b>; the static version below is its reduced-motion state.</p>
+  <div class="hero"><div class="bg bg-b"></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <!-- C -->
+  <div class="option-head"><span class="rank alt">C</span><h2>Drop-Clock Rings</h2></div>
+  <p class="verdict">Concentric clock rings with minute ticks, centred behind the headline — the product’s timing engine drawn as scenery. More “system” than A, a touch more tech. Works beautifully with the DROP tier, but the rings compete with the glyph in the nav; <b>pick A <i>or</i> C, never both languages at once.</b></p>
+  <div class="hero"><div class="bg bg-c"><svg viewBox="0 0 200 200" fill="none" stroke="#c9a86a"><circle cx="100" cy="100" r="97" stroke-width=".5" opacity=".5"/><circle cx="100" cy="100" r="78" stroke-width=".6" opacity=".7"/><circle cx="100" cy="100" r="59" stroke-width=".5" opacity=".45"/><g id="ticksC" stroke-width="1"></g><circle cx="100" cy="100" r="2.2" fill="#c9a86a" stroke="none"/></svg></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <!-- D -->
+  <div class="option-head"><span class="rank alt">D</span><h2>City Dot-Grid</h2></div>
+  <p class="verdict">A faint dot-matrix map with five lit city pins and coordinates in the corner — the “any city” claim made geographic. Most startup-SaaS of the set (Vercel/Linear energy). <b>Best at selling scale, weakest at selling luxury;</b> the pins would need to grow with every city launch, which is a nice problem to design for later.</p>
+  <div class="hero"><div class="bg bg-d"></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <!-- E -->
+  <div class="option-head"><span class="rank alt">E</span><h2>Arc System</h2></div>
+  <p class="verdict">The notch, repeated: three oversized arc-pairs drifting off-frame at different scales, like tables seen from a balcony. More decorative than A — a true pattern language you could extend to cards and the concierge panel. <b>Risk: busiest of the vector set;</b> this is the one that could re-introduce the clutter you’re escaping.</p>
+  <div class="hero"><div class="bg bg-e"><svg viewBox="0 0 800 560" fill="none" stroke="#c9a86a"><g stroke-width="1.1" opacity=".55"><path d="M60 150 A90 90 0 0 1 240 150"/><path d="M240 205 A90 90 0 0 1 60 205"/></g><g stroke-width="1.4" opacity=".8"><path d="M520 400 A130 130 0 0 1 780 400"/><path d="M780 480 A130 130 0 0 1 520 480"/></g><g stroke-width=".8" opacity=".4"><path d="M600 60 A55 55 0 0 1 710 60"/><path d="M710 95 A55 55 0 0 1 600 95"/></g></svg></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <!-- F -->
+  <div class="option-head"><span class="rank alt">F</span><h2>Doorway, in Line</h2></div>
+  <p class="verdict">Your current hero’s idea — through the restaurant door — redrawn as three nested gold arch outlines instead of a halftone photograph. Keeps the “you’re about to be let in” theatre, loses every dot of print texture. <b>Most emotional of the six;</b> the arch has to stay hairline-thin or it turns into a logo for a hotel chain.</p>
+  <div class="hero"><div class="bg bg-f"><svg viewBox="0 0 300 560" fill="none" stroke="#c9a86a"><path d="M30 560 V180 A120 150 0 0 1 270 180 V560" stroke-width="1"/><path d="M62 560 V200 A88 118 0 0 1 238 200 V560" stroke-width="1.2" opacity=".75"/><path d="M94 560 V222 A56 86 0 0 1 206 222 V560" stroke-width="1.5" opacity=".95"/><line x1="0" y1="559" x2="300" y2="559" stroke-width="1" opacity=".6"/></svg></div><div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div><div class="h-stage"><div class="h-ey">The concierge, in one ask</div><div class="h-purpose">We get you tables at the <em>best restaurants</em> in <em>any city.</em></div><div class="h-cities">New York · DC · Boston · Houston · Richmond</div><div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div><div class="h-tiers"><div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div><div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div><div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div></div><div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div></div></div>
+
+  <p style="margin-top:44px;color:var(--faint);font-size:12.5px">All six: zero image assets, one inline SVG or CSS gradient each, halftone survives only on venue plates/share art. Production swap (any winner): replace <span style="color:var(--gold2)">.lz-img / .lz-veil</span> in index.html with the backdrop layer, keep every content/animation rule untouched, sw bump, redeploy. Exploration only — 2026-10-28, uncommitted, design/tablefortwo-vibe/hero-backgrounds.html.</p>
+</div>
+<script>
+(function(){var g=document.getElementById('ticksC'),s='';for(var i=0;i<60;i++){var a=i*6*Math.PI/180,l=i%5===0,r1=l?88:92,r2=95.5;s+='<line x1="'+(100+r1*Math.sin(a)).toFixed(1)+'" y1="'+(100-r1*Math.cos(a)).toFixed(1)+'" x2="'+(100+r2*Math.sin(a)).toFixed(1)+'" y2="'+(100-r2*Math.cos(a)).toFixed(1)+'" opacity="'+(l?.9:.45)+'"/>';}g.innerHTML=s;})();
+</script>

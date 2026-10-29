@@ -220,13 +220,26 @@
     transition:opacity .6s ease}
   #landing[hidden]{display:none}
   #landing.leaving{opacity:0;pointer-events:none}
-  .lz-img{position:absolute;inset:-4%;background:url(art/hero.webp) 62% 45%/cover no-repeat;
-    filter:brightness(.58) saturate(.9);transform:scale(1)}
+  /* Candle-Glow Void: warm radial glow, a whisper of liquid gold haze (the
+     content page's Vanta palette as blurred blobs) and canvas embers rising.
+     No image asset; the halftone hero lives on share images only. */
+  .lz-glow{position:absolute;inset:0;opacity:.39;background:
+    radial-gradient(38% 30% at 50% 40%,rgba(220,194,140,.16),transparent 70%),
+    radial-gradient(75% 62% at 50% 46%,rgba(201,168,106,.055),transparent 75%),
+    radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
+  .lz-liquid{position:absolute;inset:0;overflow:hidden;opacity:.11}
+  .lz-blob{position:absolute;border-radius:50%;filter:blur(64px);mix-blend-mode:screen}
+  .lz-blob.b1{width:52%;height:44%;left:6%;top:8%;background:radial-gradient(circle,#3a2810 0%,transparent 70%);animation:lzDrift1 19s ease-in-out infinite alternate}
+  .lz-blob.b2{width:46%;height:40%;right:2%;top:34%;background:radial-gradient(circle,#8a6636 0%,transparent 70%);opacity:.55;animation:lzDrift2 23s ease-in-out infinite alternate}
+  .lz-blob.b3{width:40%;height:36%;left:30%;bottom:-8%;background:radial-gradient(circle,#5a3d16 0%,transparent 70%);opacity:.65;animation:lzDrift3 26s ease-in-out infinite alternate}
+  @keyframes lzDrift1{from{transform:translate(0,0) scale(1)}to{transform:translate(9%,6%) scale(1.14)}}
+  @keyframes lzDrift2{from{transform:translate(0,0) scale(1.08)}to{transform:translate(-8%,-5%) scale(.94)}}
+  @keyframes lzDrift3{from{transform:translate(0,0)}to{transform:translate(-6%,-9%) scale(1.1)}}
+  #lzEmbers{position:absolute;inset:0;width:100%;height:100%}
   .lz-veil{position:absolute;inset:0;
-    background:radial-gradient(60vmax 60vmax at 62% 42%,transparent 0,rgba(10,10,11,0) 30%,rgba(10,10,11,.92) 100%)}
+    background:radial-gradient(70vmax 70vmax at 50% 44%,transparent 40%,rgba(10,10,11,.5) 100%)}
   .lz-cover{position:absolute;inset:0;background:#0a0a0b}
   #landing.playing .lz-cover{animation:lzFade0 1.6s ease .2s forwards}
-  #landing.playing .lz-img{animation:lzPush 10s cubic-bezier(.2,.6,.2,1) .2s forwards}
   #landing.playing .lz-veil{animation:lzOpen 2.4s ease .6s forwards}
   /* Brand, top-left above the desk */
   .lz-brand{position:absolute;left:clamp(18px,5vw,72px);top:clamp(18px,6vh,64px);display:flex;flex-direction:column;align-items:flex-start;gap:8px;
@@ -241,9 +254,7 @@
     max-width:15.5em;text-wrap:balance;color:#f4f3f1;text-shadow:0 2px 14px rgba(0,0,0,.75);
     opacity:0;transform:translateY(12px)}
   .lz-purpose em{font-style:normal;color:var(--accent2)}
-  .lz-purpose .any{color:var(--accent2);white-space:nowrap}
-  .lz-cities{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#b9b3a4;font-weight:600;
-    text-shadow:0 1px 5px rgba(0,0,0,.7);opacity:0;transform:translateY(8px)}
+  .lz-purpose .booked{color:var(--accent2)}
   .lz-tagline{display:flex;align-items:center;gap:13px;color:var(--accent2);font-size:clamp(11px,2vw,13.5px);letter-spacing:2.8px;
     text-transform:uppercase;font-weight:500;white-space:nowrap;text-shadow:0 1px 6px rgba(0,0,0,.6)}
   .lz-tagline::before,.lz-tagline::after{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
@@ -281,15 +292,12 @@
   .lz-msg{font-size:12.5px;color:#a8a39a;min-height:1em}
   #landing.playing .lz-ey{animation:lzRise .7s ease 1.2s forwards}
   #landing.playing .lz-purpose{animation:lzRise .9s cubic-bezier(.2,.7,.2,1) 1.35s forwards}
-  #landing.playing .lz-cities{animation:lzRise .8s ease 1.55s forwards}
-  #landing.playing .lz-ask{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.75s forwards}
+  #landing.playing .lz-ask{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.6s forwards}
   @keyframes lzFade0{to{opacity:0}}
-  @keyframes lzPush{from{transform:scale(1)}to{transform:scale(1.09) translate(-1.5%,-1%)}}
-  @keyframes lzOpen{to{background:radial-gradient(95vmax 95vmax at 62% 42%,transparent 0,rgba(10,10,11,.1) 45%,rgba(10,10,11,.86) 100%)}}
+  @keyframes lzOpen{to{background:radial-gradient(95vmax 95vmax at 50% 44%,transparent 45%,rgba(10,10,11,.42) 100%)}}
   @keyframes lzRise{to{opacity:1;transform:none}}
   @keyframes lzBlink{50%{opacity:0}}
   @media (max-width:640px){
-    .lz-img{background-position:66% 40%}
     .lz-brand{top:max(14px,env(safe-area-inset-top,0px))}
     .lz-stage{top:54%;gap:10px;max-height:calc(100vh - 150px);overflow:auto;padding:4px 0}
     .lz-ask{font-size:17px}
@@ -300,9 +308,10 @@
   }
   @media (prefers-reduced-motion: reduce){
     #landing .lz-cover{opacity:0}
-    #landing :is(.lz-brand,.lz-ey,.lz-purpose,.lz-cities,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
-    #landing .lz-img,#landing .lz-veil{animation:none}
-    #landing .lz-veil{background:radial-gradient(95vmax 95vmax at 62% 42%,transparent 0,rgba(10,10,11,.1) 45%,rgba(10,10,11,.86) 100%)}
+    #landing :is(.lz-brand,.lz-ey,.lz-purpose,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
+    #landing .lz-veil,#landing .lz-blob{animation:none}
+    #landing #lzEmbers{display:none}
+    #landing .lz-veil{background:radial-gradient(95vmax 95vmax at 50% 44%,transparent 45%,rgba(10,10,11,.42) 100%)}
   }
 
   /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
@@ -567,12 +576,14 @@
 </style>
 </head>
 <body>
-<!-- First-visit landing: "through the door" on the Muse Image hero. The brand sits
-     above the hostess desk; in the middle the demo ask types itself, a real answer
-     lands in three tiers, then the ways in. Shown once (t42-entered), starts when
-     .playing is added, .typed once the sentence is complete, removed after entering. -->
+<!-- First-visit landing: Candle-Glow Void (glow, liquid gold haze, ember
+     canvas) behind the brand; in the middle the demo ask types itself, a real
+     answer lands in three tiers, then the ways in. Shown once (t42-entered),
+     starts when .playing is added, .typed once the sentence completes. -->
 <div id="landing" hidden aria-label="Welcome to Table for Two">
-  <div class="lz-img" aria-hidden="true"></div>
+  <div class="lz-glow" aria-hidden="true"></div>
+  <div class="lz-liquid" aria-hidden="true"><div class="lz-blob b1"></div><div class="lz-blob b2"></div><div class="lz-blob b3"></div></div>
+  <canvas id="lzEmbers" aria-hidden="true"></canvas>
   <div class="lz-veil" aria-hidden="true"></div>
   <div class="lz-cover" aria-hidden="true"></div>
   <div class="lz-brand">
@@ -580,9 +591,8 @@
     <div class="lz-tagline">The hardest tables. Handled.</div>
   </div>
   <div class="lz-stage">
-    <div class="lz-ey">The concierge, in one ask</div>
-    <h1 class="lz-purpose">We get you tables at the <em>best restaurants</em> in <span class="any">any city.</span></h1>
-    <div class="lz-cities">New York · DC · Boston · Houston · Richmond</div>
+    <div class="lz-ey">The restaurant booking agent</div>
+    <h1 class="lz-purpose">The <em>best reservations</em> in your city, <span class="booked">booked for you</span></h1>
     <div class="lz-ask"><span id="lzAsk"></span></div>
     <div class="lz-tiers" aria-label="Example answer">
       <div class="lz-tier"><b>Now</b><div>Carbone: nothing open live. Marea has a table for four that night.<div class="sl"><i>19:30</i><i>20:15</i><i>20:30</i><i>20:45</i><i>21:00</i></div></div></div>
@@ -1790,6 +1800,50 @@ async function submitCityRequest(payload){
 /* First-visit landing: the table sets itself, the tagline reads out, then the
    user chooses to share location or browse. Resolves to a cityKey (from
    geolocation) or null (browse all). Shown once; returning visitors skip it. */
+/* Landing embers: 110 candle-spark dots rising over the Candle-Glow Void.
+   Canvas 2D, no library; returns a stop function. Reduced motion never starts
+   it (runLanding gates on the same flag that flattens the CSS). */
+function startLandingEmbers(el,cv){
+  const ctx=cv.getContext('2d'); if(!ctx) return ()=>{};
+  const COUNT=110, COLORS=['201,168,106','220,194,140','244,243,241'];
+  let W=0,H=0,parts=[],stopped=false,t=0,last=performance.now();
+  function size(){
+    const r=el.getBoundingClientRect(), dpr=Math.min(window.devicePixelRatio||1,1.5);
+    W=r.width; H=r.height;
+    cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  function spawn(p){
+    p=p||{};
+    p.x=Math.random()*W; p.y=H*(0.55+Math.random()*0.5);
+    p.r=0.6+Math.random()*1.5; p.vy=6+Math.random()*13;
+    p.ph=Math.random()*Math.PI*2; p.sw=4+Math.random()*10;
+    p.c=COLORS[Math.random()<0.82?0:(Math.random()<0.85?1:2)];
+    p.a=0.15+Math.random()*0.5;
+    return p;
+  }
+  size(); for(let i=0;i<COUNT;i++) parts.push(spawn({}));
+  addEventListener('resize',size);
+  (function frame(now){
+    if(stopped) return;
+    const dt=Math.min(0.05,(now-last)/1000); last=now; t+=dt;
+    if(!document.hidden){
+      ctx.clearRect(0,0,W,H);
+      for(const p of parts){
+        p.y-=p.vy*dt;
+        const x=p.x+Math.sin(t*0.7+p.ph)*p.sw;
+        const flick=0.72+0.28*Math.sin(t*2.2+p.ph*3.1);
+        const fade=Math.min(1,(p.y/H)*1.6);
+        ctx.beginPath(); ctx.arc(x,p.y,p.r,0,Math.PI*2);
+        ctx.fillStyle=`rgba(${p.c},${(p.a*flick*fade).toFixed(3)})`;
+        ctx.shadowColor='rgba(220,194,140,.8)'; ctx.shadowBlur=6; ctx.fill(); ctx.shadowBlur=0;
+        if(p.y<-6) spawn(p);
+      }
+    }
+    requestAnimationFrame(frame);
+  })(last);
+  return ()=>{ stopped=true; removeEventListener('resize',size); };
+}
+
 function runLanding(){
   return new Promise(res=>{
     const el=$('landing'); if(!el){ res(null); return; }
@@ -1800,6 +1854,7 @@ function runLanding(){
     const SENT="Get four of us into Carbone this Saturday around eight, or something similar in the West Village.";
     const ask=$('lzAsk');
     const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const stopEmbers=(!reduce && $('lzEmbers')) ? startLandingEmbers(el,$('lzEmbers')) : null;
     if(ask){
       if(reduce){ ask.textContent=SENT; el.classList.add('typed'); }
       else{
@@ -1817,6 +1872,7 @@ function runLanding(){
     let done=false;
     const leave=(city,then)=>{
       if(done) return; done=true;
+      if(stopEmbers) stopEmbers();
       el.classList.add('leaving');
       try{ window.__lenis && window.__lenis.start(); }catch(e){}   // release scroll lock
       setTimeout(()=>{ el.hidden=true; el.remove(); if(then) then(); }, 650);

@@ -1,0 +1,199 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>tablefortwo. — candle-glow void: embers × liquid (uncommitted)</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0a0b'/%3E%3Cpath d='M24.6 44.6 A26 26 0 0 1 75.4 44.6' fill='none' stroke='%23c9a86a' stroke-width='7'/%3E%3Cpath d='M75.4 55.4 A26 26 0 0 1 24.6 55.4' fill='none' stroke='%23c9a86a' stroke-width='7'/%3E%3C/svg%3E">
+<style>
+  :root{--bg:#0a0a0b;--panel:#101011;--line:#212124;--line2:#34343a;--txt:#f4f3f1;--muted:#8a8a90;--gold:#c9a86a;--gold2:#dcc28c;--font:'Inter',-apple-system,'Segoe UI',sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;background:#111113;color:var(--txt);font:15px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:44px 20px 90px}
+  .kicker{letter-spacing:3px;text-transform:uppercase;font-size:11px;color:var(--gold);font-weight:600}
+  h1{font-size:clamp(27px,4vw,40px);font-weight:550;letter-spacing:-.03em;margin:10px 0 6px}
+  h2{font-size:13px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold2);margin:46px 0 8px}
+  p{color:var(--muted);max-width:72ch}
+  p b,li b{color:var(--txt)}
+  ul{color:var(--muted);font-size:14px;padding-left:18px}
+  /* hero */
+  .hero{position:relative;border:1px solid var(--line2);border-radius:22px;overflow:hidden;background:#0a0a0b;min-height:600px;margin-top:18px}
+  .layer{position:absolute;inset:0;pointer-events:none}
+  /* base candle glow (Option B) */
+  .glow{background:
+    radial-gradient(38% 30% at 50% 40%,rgba(220,194,140,.16),transparent 70%),
+    radial-gradient(75% 62% at 50% 46%,rgba(201,168,106,.055),transparent 75%),
+    radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
+  /* liquid haze: Vanta FOG palette as blurred drifting blobs */
+  .blob{position:absolute;border-radius:50%;filter:blur(64px);mix-blend-mode:screen;opacity:.5}
+  .b1{width:52%;height:44%;left:6%;top:8%;background:radial-gradient(circle,#3a2810 0%,transparent 70%);animation:drift1 19s ease-in-out infinite alternate}
+  .b2{width:46%;height:40%;right:2%;top:34%;background:radial-gradient(circle,#8a6636 0%,transparent 70%);opacity:.30;animation:drift2 23s ease-in-out infinite alternate}
+  .b3{width:40%;height:36%;left:30%;bottom:-8%;background:radial-gradient(circle,#5a3d16 0%,transparent 70%);opacity:.36;animation:drift3 26s ease-in-out infinite alternate}
+  @keyframes drift1{from{transform:translate(0,0) scale(1)}to{transform:translate(9%,6%) scale(1.14)}}
+  @keyframes drift2{from{transform:translate(0,0) scale(1.08)}to{transform:translate(-8%,-5%) scale(.94)}}
+  @keyframes drift3{from{transform:translate(0,0)}to{transform:translate(-6%,-9%) scale(1.1)}}
+  body.no-liquid .liquid{display:none}
+  body.no-embers #embers{display:none}
+  #embers{position:absolute;inset:0;pointer-events:none}
+  /* content (frozen, identical to live) */
+  .h-brand{position:absolute;top:22px;left:26px;z-index:5}
+  .h-wm{font-size:27px;font-weight:650;letter-spacing:-.045em;color:#fffaf0}
+  .h-wm i{font-style:normal;color:var(--gold)}
+  .h-tag{font-size:10.5px;letter-spacing:2.6px;text-transform:uppercase;color:var(--gold2);margin-top:5px}
+  .h-stage{position:relative;z-index:5;max-width:640px;margin:0 auto;padding:100px 22px 54px;text-align:center}
+  .h-ey{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);font-weight:600}
+  .h-purpose{font-size:clamp(29px,4.6vw,47px);line-height:1.04;font-weight:650;letter-spacing:-.035em;margin:12px 0 10px;text-wrap:balance}
+  .h-purpose em{font-style:normal;color:var(--gold2)}
+  .h-cities{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:#b9b3a4}
+  .h-ask{margin:22px auto 0;max-width:520px;font-size:15.5px;color:#f0ead9;border:1px solid rgba(244,243,241,.13);background:rgba(13,13,14,.72);backdrop-filter:blur(7px);border-radius:12px;padding:11px 15px}
+  .h-tiers{max-width:520px;margin:10px auto 0;text-align:left;display:flex;flex-direction:column;gap:7px}
+  .h-tier{border:1px solid rgba(244,243,241,.12);background:rgba(13,13,14,.72);border-radius:11px;padding:9px 13px;font-size:13px;display:flex;gap:12px}
+  .h-tier b{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--gold2);padding-top:3px;flex:none;width:44px}
+  .h-cta{display:flex;gap:9px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+  .btn{border-radius:10px;padding:11px 19px;font-size:13.5px;font-weight:600;border:1px solid var(--line2);background:rgba(10,10,11,.55);color:var(--txt);cursor:pointer}
+  .btn.go{background:var(--gold2);color:#1a1410;border-color:transparent}
+  /* controls */
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:13px;color:var(--muted)}
+  .chip{border:1px solid var(--line2);background:transparent;color:var(--txt);border-radius:99px;padding:6px 13px;font-size:12.5px;cursor:pointer;font-weight:600}
+  .chip.on{background:var(--gold2);color:#0a0a0b;border-color:transparent}
+  .controls input{accent-color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+  .card.reco{border-color:rgba(201,168,106,.55)}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--faint,#56565c);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+  td:first-child{color:var(--muted);white-space:nowrap}
+  @media(max-width:640px){.h-tiers{display:none}.hero{min-height:540px}}
+  @media (prefers-reduced-motion: reduce){.blob{animation:none}}
+</style>
+
+<div class="wrap">
+  <div class="kicker">Uncommitted · Candle-Glow Void (Option B) × two kinds of life</div>
+  <h1>Embers, liquid — or both.</h1>
+  <p>You picked <b>B, Candle-Glow Void</b>. This board animates it for real: <b>ember dots</b> rising on a canvas (subtle candle sparks, gold, flickering as they climb), and the <b>liquid haze</b> your content page already runs — I rebuilt the Vanta FOG palette (<b>#3a2810 → #8a6636</b> over ink) as three blurred, slow-drifting blobs instead of pulling in three.js for a landing that lives for seconds. The hero content is frozen, identical to live. Watch it for ten seconds, then flip the modes.</p>
+
+  <div class="hero" id="hero">
+    <div class="layer glow"></div>
+    <div class="layer liquid"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+    <canvas id="embers"></canvas>
+    <div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div>
+    <div class="h-stage">
+      <div class="h-ey">The restaurant booking agent</div>
+      <div class="h-purpose">The <em>best reservations</em> in your city, <em>booked for you</em></div>
+      <div class="h-ask">“Get four of us into Carbone this Saturday around eight, or something similar in the West Village…”</div>
+      <div class="h-tiers">
+        <div class="h-tier"><b>Now</b><span>Marea has a table for four that night — 19:30, 20:15, 20:30…</span></div>
+        <div class="h-tier"><b>Drop</b><span>Carbone releases daily at 10:00 AM ET, 30 days out.</span></div>
+        <div class="h-tier"><b>Watch</b><span>Alert armed for Carbone, Saturday 7–9 pm, party of four.</span></div>
+      </div>
+      <div class="h-cta"><button class="btn go">Get me in →</button><button class="btn">Find tables near me</button></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="chip on" data-mode="both">Both · recommended</button>
+    <button class="chip" data-mode="embers">Embers only</button>
+    <button class="chip" data-mode="liquid">Liquid only</button>
+    <button class="chip" data-mode="still">Still (B as-was)</button>
+    <label>Embers <input type="range" id="density" min="0" max="110" value="110" step="2"> <b id="densityVal" style="color:var(--txt)">110 · chosen</b></label>
+    <label>Glow <input type="range" id="glowAmt" min="0" max="100" value="6" step="5"> <b id="glowVal" style="color:var(--txt)">6% · chosen</b></label>
+    <button class="chip" id="pauseBtn">Pause</button>
+  </div>
+  <p style="font-size:13px">Reading it: <b>embers give the candle a source</b> (something is burning, just below frame — the hostess desk’s candle, abstracted to sparks), while <b>the liquid keeps the air moving</b> so the glow never feels like a static gradient. Together they’re the content page’s atmosphere, distilled. If the embers read as “dust/fireflies” at your density, drop the slider before judging — above ~70 it turns into a snow globe, and that’s the failure mode.</p>
+
+  <h2>Production translation</h2>
+  <table>
+    <tr><th>Piece</th><th>Spec</th></tr>
+    <tr><td>Layers in #landing</td><td>Replace <b>.lz-img</b> (halftone) with: glow gradient → liquid blobs → <b>&lt;canvas id="lzEmbers"&gt;</b> → existing .lz-veil vignette. All content/animation rules untouched.</td></tr>
+    <tr><td>Embers</td><td>~40 particles at hero size (scaled by area), 0.6–2px, gold shades #c9a86a/#dcc28c, rise 6–18px/s with sine sway, alpha flicker 0.15–0.7, spawn along the bottom third. This page’s script <i>is</i> the implementation, minus the controls.</td></tr>
+    <tr><td>Liquid</td><td>Three blurred radial blobs in the Vanta palette (#3a2810/#5a3d16/#8a6636), 19–26s alternate drifts, blend screen, ≤0.5 opacity — or reuse the real VANTA.FOG later if the overlay ever becomes permanent.</td></tr>
+    <tr><td>Discipline</td><td>Pause when the landing dismisses / tab hides (IntersectionObserver + visibilitychange); cap DPR at 1.5; <b>prefers-reduced-motion → static glow only</b>, no embers, no drift.</td></tr>
+    <tr><td>Cost</td><td>Zero assets, zero requests: one canvas + CSS. Halftone hero.webp leaves the landing (stays on share images); sw bump + redeploy.</td></tr>
+  </table>
+
+  <div class="grid">
+    <div class="card reco"><h3 style="margin-top:0">Chosen: Both, 110 embers, 6% glow</h3><ul style="margin-bottom:0"><li>It’s the only option a judge will <i>remember</i> (“the one with the candle embers”) while still reading as restraint.</li><li>It unifies landing and app: same gold air behind the hero as behind the frosted cards — one atmosphere, two rooms.</li></ul></div>
+    <div class="card"><h3 style="margin-top:0">If it feels busy</h3><ul style="margin-bottom:0"><li>Drop liquid first (embers over the plain void is still clearly yours).</li><li>Never raise both density and glow together — one leads, one follows.</li></ul></div>
+  </div>
+
+  <p style="margin-top:40px;color:var(--faint,#56565c);font-size:12.5px">Exploration only — 2026-10-28, uncommitted, design/tablefortwo-vibe/hero-ember.html. Parent board: hero-backgrounds.html (Option B chosen from six).</p>
+</div>
+
+<script>
+(function(){
+  var hero = document.getElementById('hero'), cv = document.getElementById('embers'), ctx = cv.getContext('2d');
+  var W, H, parts = [], COUNT = 110, running = true, t = 0;
+  var COLORS = ['201,168,106','220,194,140','244,243,241'];
+  function size(){
+    var r = hero.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+    W = r.width; H = r.height;
+    cv.width = W * dpr; cv.height = H * dpr;
+    cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  function spawn(p){
+    p = p || {};
+    p.x = Math.random() * W;
+    p.y = H * (0.55 + Math.random() * 0.5);           // birth in the bottom half — rising off the "desk"
+    p.r = 0.6 + Math.random() * 1.5;
+    p.vy = 6 + Math.random() * 13;                    // px per second, candle-slow
+    p.ph = Math.random() * Math.PI * 2;               // sway phase
+    p.sw = 4 + Math.random() * 10;                    // sway amplitude px
+    p.c = COLORS[Math.random() < 0.82 ? 0 : (Math.random() < 0.85 ? 1 : 2)];
+    p.a = 0.15 + Math.random() * 0.5;
+    return p;
+  }
+  function sync(){
+    while (parts.length < COUNT) parts.push(spawn({}));
+    parts.length = COUNT;
+  }
+  var last = performance.now();
+  function frame(now){
+    if (!running) return;
+    var dt = Math.min(0.05, (now - last) / 1000); last = now; t += dt;
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < parts.length; i++){
+      var p = parts[i];
+      p.y -= p.vy * dt;
+      var x = p.x + Math.sin(t * 0.7 + p.ph) * p.sw;
+      var flick = 0.72 + 0.28 * Math.sin(t * 2.2 + p.ph * 3.1);
+      var fade = Math.min(1, (p.y / H) * 1.6);         // dim as they reach the top
+      ctx.beginPath();
+      ctx.arc(x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(' + p.c + ',' + (p.a * flick * fade).toFixed(3) + ')';
+      ctx.shadowColor = 'rgba(220,194,140,.8)'; ctx.shadowBlur = 6;
+      ctx.fill(); ctx.shadowBlur = 0;
+      if (p.y < -6) spawn(p);
+    }
+    requestAnimationFrame(frame);
+  }
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  size(); sync();
+  hero.querySelector('.liquid').style.opacity = '0.11';
+  hero.querySelector('.glow').style.opacity = '0.39';
+  if (!reduced) requestAnimationFrame(frame); else { running = false; document.getElementById('pauseBtn').textContent = 'Static (reduced motion)'; }
+  addEventListener('resize', function(){ size(); });
+  // controls
+  document.querySelectorAll('[data-mode]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('[data-mode]').forEach(function(b){ b.classList.remove('on'); });
+      btn.classList.add('on');
+      var m = btn.dataset.mode;
+      document.body.classList.toggle('no-liquid', m === 'embers' || m === 'still');
+      document.body.classList.toggle('no-embers', m === 'liquid' || m === 'still');
+    });
+  });
+  document.getElementById('density').addEventListener('input', function(){
+    COUNT = +this.value; document.getElementById('densityVal').textContent = this.value; sync();
+  });
+  document.getElementById('glowAmt').addEventListener('input', function(){
+    var v = +this.value;
+    document.getElementById('glowVal').textContent = v + '%';
+    hero.querySelector('.liquid').style.opacity = (v / 55).toFixed(2);
+    hero.querySelector('.glow').style.opacity = (0.35 + v / 100 * 0.65).toFixed(2);
+  });
+  document.getElementById('pauseBtn').addEventListener('click', function(){
+    if (!running && !reduced){ running = true; last = performance.now(); requestAnimationFrame(frame); this.textContent = 'Pause'; }
+    else { running = false; this.textContent = 'Resume'; }
+  });
+})();
+</script>
