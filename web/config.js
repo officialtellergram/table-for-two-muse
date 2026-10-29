@@ -11,7 +11,7 @@ export const SUPABASE_ANON_KEY =
 // `modal deploy agent/modal_app.py`; until then only local runs work. A visitor
 // can point the page elsewhere with ?concierge=<url> (remembered in localStorage),
 // which is how the demo talks to a `modal serve` dev URL.
-export const CONCIERGE_URL_PROD = "";
+export const CONCIERGE_URL_PROD = "https://officialtellergram--table-for-two-concierge-web.us-east.modal.run";
 export const CONCIERGE_URL = (() => {
   try {
     const q = new URLSearchParams(location.search).get("concierge");

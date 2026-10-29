@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(os.environ.get("T42_ROOT") or Path(__file__).resolve().parents[1])
 CITIES_DIR = ROOT / "cities"
 SCRAPER_DIR = ROOT / "scraper"
-PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
+PROMPTS_DIR = Path(os.environ.get("T42_PROMPTS_DIR") or Path(__file__).resolve().parent / "prompts")
 
 META_BASE_URL = os.environ.get("META_BASE_URL", "https://api.meta.ai")
 PLANNER_MODEL = os.environ.get("MUSE_MODEL", "muse-wonder-1.0")

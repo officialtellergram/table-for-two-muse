@@ -25,12 +25,19 @@ image = (
     modal.Image.debian_slim(python_version="3.12")
     .pip_install("anthropic>=0.40,<3", "fastapi[standard]>=0.115", "python-multipart>=0.0.9",
                  "requests>=2.28", "tzdata")
+    .env({"T42_PROMPTS_DIR": "/root/t42-prompts"})
     .add_local_dir(ROOT / "cities", remote_path="/root/cities")
     .add_local_dir(ROOT / "web", remote_path="/root/web")
     .add_local_dir(ROOT / "scraper", remote_path="/root/scraper",
                    ignore=["**/.ot_profile/**", "**/__pycache__/**", "**/*.lock", "**/*.log",
                            "**/.geocache.json", "**/.notify.json*"])
     .add_local_python_source("agent")
+    # add_local_python_source ships .py only, and its /root/agent mount shadows
+    # any file added into the same tree (missing system.md = 500 on /ask), so the
+    # prompt template lives outside the package mount and config finds it via
+    # T42_PROMPTS_DIR (agent.config; unset locally, where prompts/ sits beside
+    # the code as before).
+    .add_local_dir(ROOT / "agent" / "prompts", remote_path="/root/t42-prompts")
 )
 
 app = modal.App("table-for-two-concierge")
