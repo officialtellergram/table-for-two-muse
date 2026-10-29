@@ -1,0 +1,203 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>tablefortwo. — spinning glyph hero (uncommitted)</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0a0b'/%3E%3Ccircle cx='50' cy='50' r='24' fill='none' stroke='%23c9a86a' stroke-width='7'/%3E%3Ccircle cx='14' cy='50' r='8' fill='%23c9a86a'/%3E%3Ccircle cx='86' cy='50' r='8' fill='%23c9a86a'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#0a0a0b; --panel:#101011; --line:#212124; --line2:#34343a;
+    --txt:#f4f3f1; --muted:#8a8a90; --faint:#56565c;
+    --gold:#c9a86a; --gold2:#dcc28c; --cream:#f4f3ef; --ink:#0a0a0b;
+    --font:'Inter',-apple-system,'Segoe UI',sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:40px 20px 96px}
+  .kicker{letter-spacing:3px;text-transform:uppercase;font-size:11px;color:var(--gold);font-weight:600}
+  h2{font-size:13px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold2);margin:52px 0 8px;font-weight:600}
+  h3{font-size:16px;margin:0 0 4px}
+  p{color:var(--muted);max-width:68ch;margin:6px 0}
+  p b,li b{color:var(--txt)}
+  ul{color:var(--muted);font-size:14px;padding-left:18px}
+  .note{border:1px solid #3a2f1a;background:rgba(201,168,106,.07);border-radius:12px;padding:14px 16px;color:#e8d9b8;font-size:13.5px}
+
+  /* ================= HERO ================= */
+  .hero{position:relative;margin-top:18px;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:#070708;min-height:620px;display:flex;align-items:center;justify-content:center}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(52% 46% at 50% 46%,rgba(201,168,106,.10),transparent 68%)}
+  /* spinning glyph stage */
+  .stage{position:absolute;left:50%;top:46%;width:min(620px,92vw);aspect-ratio:1;transform:translate(-50%,-50%);pointer-events:none}
+  .spin-slow{position:absolute;inset:0;animation:spin var(--dur,56s) linear infinite;transform-origin:50% 50%}
+  .spin-rev{position:absolute;inset:6%;animation:spinrev 110s linear infinite;transform-origin:50% 50%}
+  .spin-fast{position:absolute;inset:0;animation:spin calc(var(--dur,56s)*.5) linear infinite;transform-origin:50% 50%}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes spinrev{to{transform:rotate(-360deg)}}
+  .hero-copy{position:relative;z-index:2;text-align:center;padding:80px 20px 64px}
+  .wm{font-size:clamp(40px,8vw,84px);font-weight:650;letter-spacing:-.055em;line-height:1;white-space:nowrap;text-shadow:0 2px 34px rgba(0,0,0,.85)}
+  .wm i{font-style:normal;color:var(--gold);animation:pulse 2.6s ease-in-out infinite;display:inline-block}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .tagline{font-size:clamp(17px,2.6vw,23px);color:#ece7da;margin-top:14px;font-weight:450}
+  .sub{color:var(--muted);font-size:14px;margin:10px auto 0;max-width:54ch}
+  .ask{max-width:560px;margin:26px auto 0;background:rgba(10,10,11,.86);backdrop-filter:blur(6px);border:1px solid var(--line2);border-radius:14px;padding:14px 16px;text-align:left;font-size:14px;color:#ddd8cc}
+  .ask span{color:var(--faint)}
+  .cta{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+  .btn{border-radius:11px;padding:11px 20px;font-size:14px;font-weight:600;border:1px solid var(--line2);background:rgba(10,10,11,.6);color:var(--txt);cursor:pointer}
+  .btn.go{background:var(--gold2);color:#1a1410;border-color:transparent}
+  .cityrow{margin-top:22px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--faint)}
+  /* controls */
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:13px;color:var(--muted)}
+  .controls label{display:flex;gap:8px;align-items:center}
+  .controls input[type=range]{accent-color:var(--gold)}
+  .chip{border:1px solid var(--line2);background:transparent;color:var(--txt);border-radius:99px;padding:6px 13px;font-size:12.5px;cursor:pointer;font-weight:600}
+  .chip.on{background:var(--gold2);color:var(--ink);border-color:transparent}
+  body.paused .spin-slow,body.paused .spin-rev,body.paused .spin-fast,body.paused .wm i{animation-play-state:paused}
+  body.no-ticks .ticks{display:none}
+  body.no-orbit .orbit{display:none}
+
+  /* favicon lab */
+  .favrow{display:flex;gap:22px;flex-wrap:wrap;align-items:flex-end;margin-top:16px}
+  .fav{text-align:center}
+  .fav .tile{margin:0 auto;border-radius:22%;background:#0a0a0b;border:1px solid var(--line2);display:flex;align-items:center;justify-content:center}
+  .fav figcaption{font-size:11px;color:var(--muted);margin-top:7px}
+  .browserbar{max-width:520px;margin-top:18px;background:#17171a;border:1px solid var(--line2);border-radius:12px 12px 0 0;padding:9px 12px;display:flex;gap:9px;align-items:center;font-size:12.5px;color:var(--muted)}
+  .tab{background:#232326;border-radius:8px 8px 0 0;padding:6px 12px;display:flex;gap:8px;align-items:center;color:var(--txt)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--faint);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+  td:first-child{color:var(--muted);white-space:nowrap}
+  @media (prefers-reduced-motion: reduce){
+    .spin-slow,.spin-rev,.spin-fast,.wm i{animation:none !important}
+  }
+</style>
+
+<div class="wrap">
+  <div class="kicker">Uncommitted motion exploration · Option A + glyph, gold on black</div>
+  <p style="margin-top:10px">Direction locked from the last board: <b>tablefortwo.</b> (lowercase, one word, gold period) with the <b>table glyph as favicon — signature gold on black</b>. This page drops the halftone from the hero entirely: pure ink, the glyph <b>spinning slowly behind the wordmark</b> like a table being set in orbit. Your browser tab right now is already wearing the proposed favicon — look up.</p>
+
+  <!-- HERO PROTOTYPE -->
+  <div class="hero" id="hero">
+    <div class="stage" aria-hidden="true">
+      <!-- outer tick ring: the drop clock, counter-rotating -->
+      <svg class="spin-rev ticks" viewBox="0 0 200 200" fill="none">
+        <g stroke="#c9a86a" stroke-width="1.4" opacity=".38">
+          <!-- 60 minute ticks, longer at the hours -->
+          <g id="tickring"></g>
+        </g>
+        <circle cx="100" cy="100" r="96" stroke="#c9a86a" stroke-width=".6" opacity=".22"/>
+      </svg>
+      <!-- main glyph: table + two chairs, spinning -->
+      <svg class="spin-slow" viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="62" stroke="#c9a86a" stroke-width="3.2"/>
+        <circle cx="100" cy="100" r="62" stroke="#dcc28c" stroke-width="3.2" stroke-dasharray="10 380" stroke-linecap="round"/>
+        <circle cx="26" cy="100" r="9" fill="#c9a86a"/>
+        <circle cx="174" cy="100" r="9" fill="#f4f3ef"/>
+        <circle cx="100" cy="100" r="4" fill="#c9a86a" opacity=".9"/>
+      </svg>
+      <!-- orbit dot: the cancellation that just opened -->
+      <svg class="spin-fast orbit" viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="14" r="3.4" fill="#dcc28c"/>
+        <circle cx="100" cy="14" r="8" stroke="#dcc28c" stroke-width=".8" opacity=".5"/>
+      </svg>
+    </div>
+    <div class="hero-copy">
+      <div class="wm">tablefortwo<i>.</i></div>
+      <div class="tagline">The hardest tables. Handled.</div>
+      <div class="sub">Tell us where. The concierge checks live tables, times the next drop to the minute, and watches until you’re in — for a party of any size.</div>
+      <div class="ask">Get four of us into Carbone this Saturday around eight, or something similar in the West Village… <span>— spoken, transcribed, planned live by Muse</span></div>
+      <div class="cta"><button class="btn go">Get me in →</button><button class="btn">See the drops ↓</button></div>
+      <div class="cityrow">New York · DC · Boston · Houston · Richmond</div>
+    </div>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button class="chip" id="pauseBtn">Pause motion</button>
+    <label>Spin speed <input type="range" id="speed" min="14" max="120" value="56" step="2"> <span id="speedVal">56s / turn</span></label>
+    <button class="chip on" id="ticksBtn">Drop-clock ticks</button>
+    <button class="chip on" id="orbitBtn">Orbit dot</button>
+    <span style="margin-left:auto">Try it: slower = luxury, faster = energy. 45–70s feels like a maître d’, 15s feels like a ticker.</span>
+  </div>
+
+  <h2>Reading the motion</h2>
+  <div class="grid">
+    <div class="card"><h3>The spin = a table, from above, being watched</h3><ul>
+      <li>Main ring is the table-top; the two dots are <b>the two chairs</b> — as it turns, the “for two” orbits the wordmark instead of sitting in the tagline (where it wrongly capped the party size).</li>
+      <li>The cream chair vs gold chair: <i>you</i> and <i>the restaurant</i>, meeting on the ring.</li>
+      <li>A short bright arc rides the ring — the next drop, coming around.</li>
+    </ul></div>
+    <div class="card"><h3>The counter-spin = the drop clock</h3><ul>
+      <li>60 faint ticks, longer on the hour, rotating the other way — reservations release on a clock, and the brand literally keeps time behind the logo.</li>
+      <li>The lone orbit dot is the cancellation that just opened up. It’s the radar, in one dot.</li>
+      <li>Nothing here needs halftone: flat gold line on ink is cheaper to animate, sharper at every size, and unmistakably yours.</li>
+    </ul></div>
+    <div class="card"><h3>Entrance (the “spin-in” you referenced)</h3><ul>
+      <li>On load in production: glyph starts at <b>0.82 scale, −70° rotation, 0 opacity</b> and settles into the idle spin over ~1.4s ease-out — it should feel like a plate being set down, not a loading spinner.</li>
+      <li>Wordmark letters then rise 8px, staggered 30ms; the gold period pulses last. Total intro ≤1.8s, skippable on tap, never replayed within a session.</li>
+      <li><b>prefers-reduced-motion</b>: static glyph, no pulse. Respected in this prototype too.</li>
+    </ul></div>
+  </div>
+
+  <h2>Favicon — signature gold on black, at real sizes</h2>
+  <p>Thick strokes survive 16px where the current candle icon turns to mush. This page’s own tab icon is this exact SVG.</p>
+  <div class="favrow" id="favrow"></div>
+  <div class="browserbar"><div class="tab"><span id="tabicon"></span> tablefortwo. — the hardest tables</div><span>tablefortwo.city</span></div>
+
+  <h2>Tagline fix (from your last note)</h2>
+  <div class="note">“The hardest tables, for two.” is <b>out</b> — it was redundant next to the name and capped a product that books any party size. Replacement bank, ranked:</div>
+  <table>
+    <tr><th>#</th><th>Line</th><th>Why</th></tr>
+    <tr><td>1</td><td><b>The hardest tables. Handled.</b></td><td>Echoes the gold period; party-size neutral; maître d’ confidence. (Live in the hero above.)</td></tr>
+    <tr><td>2</td><td><b>Tell us where. We’ll get you in.</b></td><td>The concierge promise in first person; pairs with “Get me in.”</td></tr>
+    <tr><td>3</td><td><b>Impossible tables. One ask away.</b></td><td>Voice/ask-forward, shows off the Muse flow.</td></tr>
+    <tr><td>4</td><td><b>Every impossible table has a minute. We know it.</b></td><td>Drop-timing flex — most ownable, a touch long for a hero.</td></tr>
+  </table>
+
+  <h2>If this wins — production translation</h2>
+  <table>
+    <tr><th>Piece</th><th>Spec</th></tr>
+    <tr><td>Hero</td><td>Replace halftone <b>art/hero.webp</b> backdrop in the landing (index.html .lz-img) with this inline SVG stage; keep halftone for venue plates/share images only</td></tr>
+    <tr><td>Idle motion</td><td>56s linear spin, ticks 110s reverse, period pulse 2.6s; pause when tab hidden or hero off-screen (IntersectionObserver)</td></tr>
+    <tr><td>Favicon set</td><td>SVG master above → PNGs via the existing <b>scripts/muse_art.py build-icons</b> flow (or direct SVG→PNG), gold #c9a86a on #0a0a0b</td></tr>
+    <tr><td>Concierge panel</td><td>Glyph sits static at small size; spins only while the agent is thinking — motion = “we’re watching”</td></tr>
+    <tr><td>Cost</td><td>Zero assets, zero requests: one inline SVG + CSS. Service-worker bump + wrangler redeploy</td></tr>
+  </table>
+
+  <p style="margin-top:40px;color:var(--faint);font-size:12.5px">Exploration only — 2026-10-28, uncommitted, design/tablefortwo-vibe/hero-spin.html. Instagram references couldn’t be fetched in this session (classifier hiccup); if the motion in those posts is something specific — kinetic type, a rotating plate, a logo draw-on — describe or screenshot it and I’ll match the easing to it.</p>
+</div>
+
+<script>
+  // build the 60-tick drop-clock ring
+  (function(){
+    var g=document.getElementById('tickring'), s='';
+    for(var i=0;i<60;i++){
+      var a=i*6*Math.PI/180, long=i%5===0, r1=long?86:90, r2=94;
+      s+='<line x1="'+(100+r1*Math.sin(a)).toFixed(1)+'" y1="'+(100-r1*Math.cos(a)).toFixed(1)+
+         '" x2="'+(100+r2*Math.sin(a)).toFixed(1)+'" y2="'+(100-r2*Math.cos(a)).toFixed(1)+
+         '"'+(long?' stroke-width="2.2" opacity=".9"':'')+'/>';
+    }
+    g.innerHTML=s;
+  })();
+  // favicon at real sizes
+  (function(){
+    var svg='<svg viewBox="0 0 100 100" width="100%" height="100%"><rect width="100" height="100" rx="22" fill="#0a0a0b"/><circle cx="50" cy="50" r="24" fill="none" stroke="#c9a86a" stroke-width="7"/><circle cx="14" cy="50" r="8" fill="#c9a86a"/><circle cx="86" cy="50" r="8" fill="#c9a86a"/></svg>';
+    var sizes=[112,64,48,32,16];
+    document.getElementById('favrow').innerHTML=sizes.map(function(px){
+      return '<figure class="fav"><div class="tile" style="width:'+px+'px;height:'+px+'px">'+svg+'</div><figcaption>'+px+'px</figcaption></figure>';
+    }).join('');
+    document.getElementById('tabicon').innerHTML='<span style="display:inline-block;width:14px;height:14px;vertical-align:-2px">'+svg+'</span>';
+  })();
+  // controls
+  var hero=document.getElementById('hero');
+  document.getElementById('pauseBtn').addEventListener('click',function(){
+    document.body.classList.toggle('paused');
+    this.textContent=document.body.classList.contains('paused')?'Resume motion':'Pause motion';
+    this.classList.toggle('on');
+  });
+  document.getElementById('speed').addEventListener('input',function(){
+    hero.style.setProperty('--dur',this.value+'s');
+    document.getElementById('speedVal').textContent=this.value+'s / turn';
+  });
+  document.getElementById('ticksBtn').addEventListener('click',function(){document.body.classList.toggle('no-ticks');this.classList.toggle('on');});
+  document.getElementById('orbitBtn').addEventListener('click',function(){document.body.classList.toggle('no-orbit');this.classList.toggle('on');});
+</script>
