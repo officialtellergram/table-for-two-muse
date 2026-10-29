@@ -23,6 +23,7 @@
 <meta name="twitter:title" content="Table for Two" />
 <meta name="twitter:image" content="https://tablefortwo.city/icons/og-square.png" />
 <link rel="canonical" href="https://tablefortwo.city/" />
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
 <link rel="icon" type="image/png" href="icons/favicon.png" />
 <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 <!-- PWA: installable to home screen (iOS on-ramp) -->
@@ -104,11 +105,12 @@
   /* City picker / List-Map / refresh — scroll away with the page, not pinned */
   .subbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-top:16px}
   .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);
-    font-weight:500;font-size:17px;letter-spacing:3.5px;text-transform:uppercase}
-  .brand .mark{width:24px;height:24px;object-fit:contain;align-self:center;
+    font-weight:650;font-size:18px;letter-spacing:-.03em;text-transform:none}
+  .brand .mark{width:26px;height:26px;object-fit:contain;align-self:center;border-radius:6px;
     filter:drop-shadow(0 1px 5px rgba(201,168,106,.45))}
   .brand .nm{background:var(--nm);
     -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .brand .nm .dot{-webkit-text-fill-color:var(--accent);color:var(--accent)}
   .brand small{font-family:'Inter',sans-serif;font-weight:400;letter-spacing:.2px;text-transform:none;
     color:var(--muted);font-size:11px;-webkit-text-fill-color:var(--muted)}
   .spacer{flex:1}
@@ -231,9 +233,17 @@
     opacity:0;transform:translateY(-10px)}
   .lz-brand::before{content:"";position:absolute;inset:-30% -18% -34% -16%;z-index:-1;pointer-events:none;
     background:radial-gradient(closest-side,rgba(10,10,11,.8),rgba(10,10,11,.5) 55%,transparent);filter:blur(12px)}
-  .lz-wordmark{font-family:var(--serif);font-size:clamp(24px,4.6vw,40px);font-weight:500;letter-spacing:3.5px;text-transform:uppercase;
+  .lz-wordmark{font-family:var(--serif);font-size:clamp(26px,4.6vw,42px);font-weight:650;letter-spacing:-.045em;text-transform:none;
     background:linear-gradient(94deg,#fffaf0,#f3e5c0 55%,#e8d19c);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
     filter:drop-shadow(0 2px 10px rgba(0,0,0,.6))}
+  .lz-wordmark .dot{-webkit-text-fill-color:var(--accent);color:var(--accent)}
+  .lz-purpose{font-size:clamp(30px,5.4vw,54px);line-height:1.03;font-weight:650;letter-spacing:-.038em;
+    max-width:15.5em;text-wrap:balance;color:#f4f3f1;text-shadow:0 2px 14px rgba(0,0,0,.75);
+    opacity:0;transform:translateY(12px)}
+  .lz-purpose em{font-style:normal;color:var(--accent2)}
+  .lz-purpose .any{color:var(--accent2);white-space:nowrap}
+  .lz-cities{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#b9b3a4;font-weight:600;
+    text-shadow:0 1px 5px rgba(0,0,0,.7);opacity:0;transform:translateY(8px)}
   .lz-tagline{display:flex;align-items:center;gap:13px;color:var(--accent2);font-size:clamp(11px,2vw,13.5px);letter-spacing:2.8px;
     text-transform:uppercase;font-weight:500;white-space:nowrap;text-shadow:0 1px 6px rgba(0,0,0,.6)}
   .lz-tagline::before,.lz-tagline::after{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
@@ -269,8 +279,10 @@
   .lz-hint{font-size:12.5px;color:#a8a39a;max-width:48ch;line-height:1.45;text-shadow:0 1px 4px rgba(0,0,0,.6);opacity:0}
   #landing.typed .lz-hint{animation:lzRise .8s ease 1.9s forwards}
   .lz-msg{font-size:12.5px;color:#a8a39a;min-height:1em}
-  #landing.playing .lz-ey{animation:lzRise .7s ease 1.3s forwards}
-  #landing.playing .lz-ask{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.4s forwards}
+  #landing.playing .lz-ey{animation:lzRise .7s ease 1.2s forwards}
+  #landing.playing .lz-purpose{animation:lzRise .9s cubic-bezier(.2,.7,.2,1) 1.35s forwards}
+  #landing.playing .lz-cities{animation:lzRise .8s ease 1.55s forwards}
+  #landing.playing .lz-ask{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.75s forwards}
   @keyframes lzFade0{to{opacity:0}}
   @keyframes lzPush{from{transform:scale(1)}to{transform:scale(1.09) translate(-1.5%,-1%)}}
   @keyframes lzOpen{to{background:radial-gradient(95vmax 95vmax at 62% 42%,transparent 0,rgba(10,10,11,.1) 45%,rgba(10,10,11,.86) 100%)}}
@@ -288,7 +300,7 @@
   }
   @media (prefers-reduced-motion: reduce){
     #landing .lz-cover{opacity:0}
-    #landing :is(.lz-brand,.lz-ey,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
+    #landing :is(.lz-brand,.lz-ey,.lz-purpose,.lz-cities,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
     #landing .lz-img,#landing .lz-veil{animation:none}
     #landing .lz-veil{background:radial-gradient(95vmax 95vmax at 62% 42%,transparent 0,rgba(10,10,11,.1) 45%,rgba(10,10,11,.86) 100%)}
   }
@@ -564,11 +576,13 @@
   <div class="lz-veil" aria-hidden="true"></div>
   <div class="lz-cover" aria-hidden="true"></div>
   <div class="lz-brand">
-    <div class="lz-wordmark">Table for Two</div>
-    <div class="lz-tagline">Any city. Any craving.</div>
+    <div class="lz-wordmark">tablefortwo<span class="dot">.</span></div>
+    <div class="lz-tagline">The hardest tables. Handled.</div>
   </div>
   <div class="lz-stage">
     <div class="lz-ey">The concierge, in one ask</div>
+    <h1 class="lz-purpose">We get you tables at the <em>best restaurants</em> in <span class="any">any city.</span></h1>
+    <div class="lz-cities">New York · DC · Boston · Houston · Richmond</div>
     <div class="lz-ask"><span id="lzAsk"></span></div>
     <div class="lz-tiers" aria-label="Example answer">
       <div class="lz-tier"><b>Now</b><div>Carbone: nothing open live. Marea has a table for four that night.<div class="sl"><i>19:30</i><i>20:15</i><i>20:30</i><i>20:45</i><i>21:00</i></div></div></div>
@@ -591,8 +605,8 @@
 <div class="topbar-bar" id="topbarBar">
   <div class="wrap topbar">
     <div class="brand">
-      <img class="mark" src="icons/mark.png" alt="" width="22" height="22" />
-      <span class="nm">Table for Two</span>
+      <img class="mark" src="icons/favicon.svg" alt="" width="26" height="26" />
+      <span class="nm">tablefortwo<span class="dot">.</span></span>
       <small id="srcMeta"></small>
     </div>
     <div class="spacer"></div>
