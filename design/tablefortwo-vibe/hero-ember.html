@@ -75,7 +75,7 @@
     <div class="layer glow"></div>
     <div class="layer liquid"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
     <canvas id="embers"></canvas>
-    <div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div><div class="h-tag">The hardest tables. Handled.</div></div>
+    <div class="h-brand"><div class="h-wm">tablefortwo<i>.</i></div></div>
     <div class="h-stage">
       <div class="h-ey">The restaurant booking agent</div>
       <div class="h-purpose">The <em>best reservations</em> in your city, <em>booked for you</em></div>
@@ -95,7 +95,7 @@
     <button class="chip" data-mode="liquid">Liquid only</button>
     <button class="chip" data-mode="still">Still (B as-was)</button>
     <label>Embers <input type="range" id="density" min="0" max="110" value="110" step="2"> <b id="densityVal" style="color:var(--txt)">110 · chosen</b></label>
-    <label>Glow <input type="range" id="glowAmt" min="0" max="100" value="6" step="5"> <b id="glowVal" style="color:var(--txt)">6% · chosen</b></label>
+    <label>Glow <input type="range" id="glowAmt" min="0" max="100" value="3" step="1"> <b id="glowVal" style="color:var(--txt)">3% · chosen</b></label>
     <button class="chip" id="pauseBtn">Pause</button>
   </div>
   <p style="font-size:13px">Reading it: <b>embers give the candle a source</b> (something is burning, just below frame — the hostess desk’s candle, abstracted to sparks), while <b>the liquid keeps the air moving</b> so the glow never feels like a static gradient. Together they’re the content page’s atmosphere, distilled. If the embers read as “dust/fireflies” at your density, drop the slider before judging — above ~70 it turns into a snow globe, and that’s the failure mode.</p>
@@ -111,7 +111,7 @@
   </table>
 
   <div class="grid">
-    <div class="card reco"><h3 style="margin-top:0">Chosen: Both, 110 embers, 6% glow</h3><ul style="margin-bottom:0"><li>It’s the only option a judge will <i>remember</i> (“the one with the candle embers”) while still reading as restraint.</li><li>It unifies landing and app: same gold air behind the hero as behind the frosted cards — one atmosphere, two rooms.</li></ul></div>
+    <div class="card reco"><h3 style="margin-top:0">Chosen: Both, 110 embers, 3% glow</h3><ul style="margin-bottom:0"><li>It’s the only option a judge will <i>remember</i> (“the one with the candle embers”) while still reading as restraint.</li><li>It unifies landing and app: same gold air behind the hero as behind the frosted cards — one atmosphere, two rooms.</li></ul></div>
     <div class="card"><h3 style="margin-top:0">If it feels busy</h3><ul style="margin-bottom:0"><li>Drop liquid first (embers over the plain void is still clearly yours).</li><li>Never raise both density and glow together — one leads, one follows.</li></ul></div>
   </div>
 
@@ -168,8 +168,8 @@
   }
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   size(); sync();
-  hero.querySelector('.liquid').style.opacity = '0.11';
-  hero.querySelector('.glow').style.opacity = '0.39';
+  hero.querySelector('.liquid').style.opacity = '0.05';
+  hero.querySelector('.glow').style.opacity = '0.37';
   if (!reduced) requestAnimationFrame(frame); else { running = false; document.getElementById('pauseBtn').textContent = 'Static (reduced motion)'; }
   addEventListener('resize', function(){ size(); });
   // controls

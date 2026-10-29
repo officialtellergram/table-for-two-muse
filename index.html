@@ -8,6 +8,13 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 <script>(function(){try{var t=localStorage.getItem('t42-theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<!-- Landing pre-paint: a first visit (never entered, no saved city, no ?city=
+     deep link, not file://) will show the landing, so hold the app shell back
+     from frame one — otherwise the topbar + "Starting…" state flash before
+     boot() reaches runLanding(). boot() drops .lz-first on every non-landing
+     path and leave() drops it as the landing fades; the 7s timer is the
+     self-heal if anything goes wrong before either runs. -->
+<script>(function(){try{if(location.protocol!=='file:'&&!localStorage.getItem('t42-entered')&&!localStorage.getItem('t42-city')&&!new URLSearchParams(location.search).get('city')){document.documentElement.classList.add('lz-first');setTimeout(function(){document.documentElement.classList.remove('lz-first')},7000);}}catch(e){}})();</script>
 <title>Table for Two</title>
 <meta name="description" content="Any city. Any craving. — vetted restaurants and real-time tables in your city." />
 <!-- Link-preview cards: minimal — just the logo mark + "Table for Two" + domain.
@@ -220,14 +227,18 @@
     transition:opacity .6s ease}
   #landing[hidden]{display:none}
   #landing.leaving{opacity:0;pointer-events:none}
+  /* Pre-paint hold (see the .lz-first script in <head>): ink from frame one,
+     shell invisible underneath until the landing fades or boot opts out. */
+  html.lz-first,html.lz-first body{background:#0a0a0b}
+  html.lz-first body>:not(#landing){visibility:hidden}
   /* Candle-Glow Void: warm radial glow, a whisper of liquid gold haze (the
      content page's Vanta palette as blurred blobs) and canvas embers rising.
      No image asset; the halftone hero lives on share images only. */
-  .lz-glow{position:absolute;inset:0;opacity:.39;background:
+  .lz-glow{position:absolute;inset:0;opacity:.37;background:
     radial-gradient(38% 30% at 50% 40%,rgba(220,194,140,.16),transparent 70%),
     radial-gradient(75% 62% at 50% 46%,rgba(201,168,106,.055),transparent 75%),
     radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
-  .lz-liquid{position:absolute;inset:0;overflow:hidden;opacity:.11}
+  .lz-liquid{position:absolute;inset:0;overflow:hidden;opacity:.05}
   .lz-blob{position:absolute;border-radius:50%;filter:blur(64px);mix-blend-mode:screen}
   .lz-blob.b1{width:52%;height:44%;left:6%;top:8%;background:radial-gradient(circle,#3a2810 0%,transparent 70%);animation:lzDrift1 19s ease-in-out infinite alternate}
   .lz-blob.b2{width:46%;height:40%;right:2%;top:34%;background:radial-gradient(circle,#8a6636 0%,transparent 70%);opacity:.55;animation:lzDrift2 23s ease-in-out infinite alternate}
@@ -255,9 +266,6 @@
     opacity:0;transform:translateY(12px)}
   .lz-purpose em{font-style:normal;color:var(--accent2)}
   .lz-purpose .booked{color:var(--accent2)}
-  .lz-tagline{display:flex;align-items:center;gap:13px;color:var(--accent2);font-size:clamp(11px,2vw,13.5px);letter-spacing:2.8px;
-    text-transform:uppercase;font-weight:500;white-space:nowrap;text-shadow:0 1px 6px rgba(0,0,0,.6)}
-  .lz-tagline::before,.lz-tagline::after{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
   #landing.playing .lz-brand{animation:lzRise .9s cubic-bezier(.2,.7,.2,1) 1.1s forwards}
   /* The stage, centred: the ask, the answer, the ways in */
   .lz-stage{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(680px,calc(100vw - 36px));
@@ -588,7 +596,6 @@
   <div class="lz-cover" aria-hidden="true"></div>
   <div class="lz-brand">
     <div class="lz-wordmark">tablefortwo<span class="dot">.</span></div>
-    <div class="lz-tagline">The hardest tables. Handled.</div>
   </div>
   <div class="lz-stage">
     <div class="lz-ey">The restaurant booking agent</div>
@@ -1873,6 +1880,7 @@ function runLanding(){
     const leave=(city,then)=>{
       if(done) return; done=true;
       if(stopEmbers) stopEmbers();
+      document.documentElement.classList.remove('lz-first');   // shell fades in under the leaving landing
       el.classList.add('leaving');
       try{ window.__lenis && window.__lenis.start(); }catch(e){}   // release scroll lock
       setTimeout(()=>{ el.hidden=true; el.remove(); if(then) then(); }, 650);
@@ -1905,6 +1913,7 @@ function runLanding(){
 (async function boot(){
   initTheme();
   if(location.protocol==='file:'){
+    document.documentElement.classList.remove('lz-first');
     showState('<h2>⚠ Open via the local server, not a file</h2>'+
       '<p style="max-width:520px;margin:0 auto;line-height:1.6">You\'re viewing this as a <b>file://</b> path, so the browser blocks loading the city data '+
       '(and it silently falls back to NYC only, with no availability).<br><br>'+
@@ -1912,13 +1921,25 @@ function runLanding(){
     return;
   }
   showState('<div class="spin"></div><h2>Starting…</h2>');
-  await loadManifest();
   let saved=null, entered=null;
   try{ saved=localStorage.getItem('t42-city'); entered=localStorage.getItem('t42-entered'); }catch(e){}
   // Deep link from an SEO city page (/?city=<key>) wins over everything: someone
   // arriving on "hardest tables in Chicago" must land in Chicago, entered or not.
   let param=null;
   try{ param=new URLSearchParams(location.search).get('city'); }catch(e){}
+  // Pure first visit: the landing needs nothing from the manifest, so start it
+  // NOW (the shell is already held by .lz-first) and let the manifest load
+  // while the ask types itself — awaiting the fetch first was the flicker.
+  if(!entered && !saved && !param){
+    const landingP=runLanding();                 // first visit: the welcome portal
+    await loadManifest();
+    const chosen=await landingP;
+    if(chosen && DATA_SOURCES[chosen]) cityKey=chosen;
+    try{ localStorage.setItem('t42-entered','1'); if(chosen) localStorage.setItem('t42-city',chosen); }catch(e){}
+    document.documentElement.classList.remove('lz-first');
+  }else{
+  await loadManifest();
+  document.documentElement.classList.remove('lz-first');
   if(param && DATA_SOURCES[param] && DATA_SOURCES[param].available){
     cityKey=param;
     try{ localStorage.setItem('t42-entered','1'); localStorage.setItem('t42-city',param); }catch(e){}
@@ -1945,6 +1966,7 @@ function runLanding(){
         }
       }
     }
+  }
   }
   initCitySelect();
   initPartySelect();
