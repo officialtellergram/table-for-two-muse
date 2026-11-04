@@ -67,7 +67,7 @@ Model API, so each one carries `Co-Authored-By: Muse Wonder 1.0 <muse@noreply.me
 `CLAUDE.md` instructs the agent to add it, and `.githooks/prepare-commit-msg` adds it to any
 commit that has no co-author yet; enable the hook once per clone with
 `git config core.hooksPath .githooks`). The address is an attribution label, not a mailbox.
-The baseline and setup commits were made with Claude and say so.
+The baseline snapshot was made with Claude and says so. The 26 Oct setup and phase-1 commits and the 4 Nov docs commits were made with Claude Code on Anthropic's model and carry no co-author trailer.
 
 ## Working on it with Muse
 Open Claude Code in this folder. `.claude/settings.local.json` (git-ignored, holds the
