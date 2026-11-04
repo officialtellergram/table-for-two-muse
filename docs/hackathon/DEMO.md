@@ -4,7 +4,7 @@ For the submission video. One flow, per SPEC section 1: a spoken/typewritten ask
 Muse plans over our data and live Resy → a three-tier plan (Now / Drop / Watch).
 Everything shown is live on the sandbox as of recording — no mocks.
 
-- **URL on camera:** https://table-for-two-muse.officialtellergram.workers.dev
+- **URL on camera:** https://tablefortwo.city
 - **Total VO:** ~370 words at a natural pace = ~2:55. Hard cap 3:00.
 - **The ask (use verbatim, it's the panel's example):** "Get four of us into Carbone
   this Saturday around eight, or something similar in the West Village if that's
@@ -16,7 +16,7 @@ Everything shown is live on the sandbox as of recording — no mocks.
    don't have on camera. Hit `/health`, then run one full ask (any model) 2–3
    minutes before recording so the container and the 10-min Resy cache are warm.
 2. **Browser:** fresh profile or clear `t42-entered` / `t42-city` for
-   table-for-two-muse.officialtellergram.workers.dev so the landing plays.
+   tablefortwo.city so the landing plays.
    Bookmarks bar off, notifications off, 100% zoom, dark theme.
 3. **Check the live facts an hour before.** The voiceover never promises a
    specific alternate's times — slots change. Screen shows what's real; VO says
@@ -106,7 +106,7 @@ the city grid scrolling — venue cards, drop countdowns, the cancellation radar
 ```
 tablefortwo.
 The best reservations in your city, booked for you.
-Live: table-for-two-muse.officialtellergram.workers.dev
+Live: tablefortwo.city
 Code: github.com/officialtellergram/table-for-two-muse
 Built with Muse Wonder · Muse Voice Transcribe · Muse Spark Open (Baseten) · Muse Image
 Prior work (baseline 2efd01a) declared in HACKATHON.md
